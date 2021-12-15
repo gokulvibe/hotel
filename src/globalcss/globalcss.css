@@ -1,0 +1,25 @@
+@import "../css/reset.css";
+@import "../css/wordpress.css";
+@import "../css/style.css";
+@import "../css/modulobox.css";
+@import "../css/left-align-menu.css";
+@import "../css/font-awesome.min.css";
+@import "../css/themify-icons.css";
+@import "../css/tooltipster.css";
+@import "../css/demo.css";
+@import "../js/plugins/loftloader/assets/css/loftloader.min.css";
+@import "../js/plugins/elementor/assets/lib/animations/animations.min.css";
+@import "../js/plugins/elementor/assets/css/frontend-legacy.min.css";
+@import "../js/plugins/elementor/assets/css/frontend.min.css";
+@import "../js/plugins/craftcoffee-elementor/assets/css/swiper.css";
+@import "../js/plugins/craftcoffee-elementor/assets/css/justifiedGallery.css";
+@import "../js/plugins/craftcoffee-elementor/assets/css/flickity.css";
+/* @import "../js/plugins/craftcoffee-elementor/assets/css/owl.theme.default.min.css"; */
+@import "../js/plugins/craftcoffee-elementor/assets/css/switchery.css";
+/* @import "../js/plugins/craftcoffee-elementor/assets/css/craftcoffee-elementor.css"; */
+@import "../js/plugins/craftcoffee-elementor/assets/css/craftcoffee-elementor-responsive.css";
+@import "../css/responsive.css";
+@import "../js/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css";
+@import "../js/plugins/elementor/assets/lib/font-awesome/css/brands.min.css";
+@import "../js/plugins/elementor/assets/lib/font-awesome/css/solid.min.css";
+@import "../css/custom-css.min.css";
