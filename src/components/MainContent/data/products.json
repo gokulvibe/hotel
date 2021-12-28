@@ -1,0 +1,43 @@
+[{
+    "id": 1,
+    "title": "Brazilian Coffe",
+    "price1": 109.95,
+    "price2":119.95,
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Spare Thermal Carafe",
+    "price1": 79,
+    "price2":95,
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Brew Coffee pot",
+    "price1": 39,
+    "price2":95,
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 4,
+    "title": "El Salvador Finca",
+    "price1": 12,
+    "price2":40,
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Milk Chocolate Blend",
+    "price1": 12,
+    "price2":40,
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Coffe Strip Jersey",
+    "price1": 69,
+    "price2":40,
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+  }
+]  
