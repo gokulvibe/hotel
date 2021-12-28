@@ -19,7 +19,7 @@ function Contact(){
                                                             <div className="elementor-button-wrapper">
                                                                 <a href="tel:234.567.3455" className="elementor-button-link elementor-button elementor-size-sm" role="button">
                                                                     <span className="elementor-button-content-wrapper">
-                                                                        <span className="elementor-button-text">234.567.3455</span>
+                                                                        <span className="elementor-button-text"><span style={{fontWeight:"12px"}}>&#128222;</span>23456755</span>
                                                                     </span>
                                                                 </a>
                                                             </div>
