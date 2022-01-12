@@ -27,7 +27,7 @@ function Section5() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div className="elementor-widget-container">
-                                                                        <h2 className="elementor-heading-title elementor-size-default">New Event</h2>
+                                                                        <h2 className="elementor-heading-title elementor-size-default">Fast And Free Delivery</h2>
                                                                     </div>
                                                                 </div>
                                                                 <div
@@ -38,7 +38,7 @@ function Section5() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div className="elementor-widget-container">
-                                                                        <h2 className="elementor-heading-title elementor-size-default">TURN UP THE HEAT ON YOUR NEXT EVENT.</h2>
+                                                                        <h2 className="elementor-heading-title elementor-size-default">Do not let your hunger overwhelm you</h2>
                                                                     </div>
                                                                 </div>
                                                                 <div
@@ -51,8 +51,7 @@ function Section5() {
                                                                     <div className="elementor-widget-container">
                                                                         <div className="elementor-text-editor elementor-clearfix">
                                                                             <p>
-                                                                                Exercitation photo booth stumptown tote bag Banksy, elit small batch freegan sed. Craft beer elit seitan exercitation, photo booth et 8-bit kale chips proident chillwave
-                                                                                deep v laborum.
+                                                                                Lots of varieties of North Indian, South Indian, North East Indian and many more delicious food at your door step
                                                                             </p>
                                                                         </div>
                                                                     </div>
@@ -70,7 +69,7 @@ function Section5() {
                                                                                 <img
                                                                                     width="135"
                                                                                     height="72"
-                                                                                    src="upload/noun_point_659678.png"
+                                                                                    src="customImages/ordernow.png"
                                                                                     className="attachment-large size-large"
                                                                                     alt=""
                                                                                     loading="lazy"
@@ -87,7 +86,7 @@ function Section5() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div className="elementor-widget-container">
-                                                                        <h2 className="elementor-heading-title elementor-size-default"><a href="#">Make a Reservation</a></h2>
+                                                                        <h2 className="elementor-heading-title elementor-size-default"><a href="#">Feast to yourself</a></h2>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -113,7 +112,7 @@ function Section5() {
                                                                             <img
                                                                                 width="1440"
                                                                                 height="1440"
-                                                                                src="upload/barista-brewing-aeropress-coffee-S3L2X4U.jpg"
+                                                                                src="customImages/variety-indian-food.jpeg"
                                                                                 className="attachment-full size-full"
                                                                                 alt=""
                                                                                 loading="lazy"

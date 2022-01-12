@@ -1,4 +1,6 @@
 import React from 'react'
+import './CustomCSS/title.css'
+import './CustomCSS/hover.css'
 
 function Section1() {
     return (
@@ -31,7 +33,7 @@ function Section1() {
                                                 <img
                                                     width="960"
                                                     height="1440"
-                                                    src="upload/cup-of-espresso-coffee-TZJ9ESV.jpg"
+                                                    src="customImages/prawnbiryaniPIN1-683x1024.png"
                                                     className="attachment-full size-full"
                                                     alt=""
                                                     loading="lazy"
@@ -58,7 +60,7 @@ function Section1() {
                                         data-widget_type="heading.default"
                                     >
                                         <div className="elementor-widget-container">
-                                            <h1 className="elementor-heading-title elementor-size-default">Clayton Chettinad</h1>
+                                            <h1 className="elementor-heading-title elementor-size-default">Delicious Indian Food</h1>
                                         </div>
                                     </div>
                                     <div
@@ -69,7 +71,7 @@ function Section1() {
                                         data-widget_type="heading.default"
                                     >
                                         <div className="elementor-widget-container">
-                                            <h2 className="elementor-heading-title elementor-size-default">Delicious Indian Food For You</h2>
+                                            <h2 className="elementor-heading-title elementor-size-default">Classic Indian Wide Variety Delicious Feast</h2>
                                         </div>
                                     </div>
                                     <div

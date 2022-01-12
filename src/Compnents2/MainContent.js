@@ -7,6 +7,7 @@ import Section5 from './MainContent/Section5';
 import Section6 from './MainContent/Section6';
 import Section7 from './MainContent/Section7';
 import Section8 from './MainContent/Section8';
+import './MainContent/CustomCSS/title.css'
 
 function MainContent() {
     return (

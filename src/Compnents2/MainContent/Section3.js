@@ -28,7 +28,10 @@ function Section3() {
                                                                 >
                                                                     <div className="elementor-widget-container">
                                                                         <div className="elementor-image">
-                                                                            <a ><img src="upload/icon-coffee-red.png" title="" alt="" /> </a>
+                                                                            <a ><img 
+                                                                                    width="240"
+                                                                                    height="600"
+                                                                                    src="customImages/biriyani.png" title="" alt="" style={{width: "200px", height: "175px"}} /> </a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -40,7 +43,7 @@ function Section3() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div className="elementor-widget-container">
-                                                                        <h2 className="elementor-heading-title elementor-size-default"><a href="menu.html">Coffee</a></h2>
+                                                                        <h2 className="elementor-heading-title elementor-size-default"><a href="menu.html">Biriyani</a></h2>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -65,12 +68,13 @@ function Section3() {
                                                                         <div className="elementor-image">
                                                                             <a href="menu.html">
                                                                                 <img
-                                                                                    width="280"
-                                                                                    height="202"
-                                                                                    src="upload/icon-bakery-red.png"
+                                                                                    width="240"
+                                                                                    height="342"
+                                                                                    src="customImages/butter-naan.png"
                                                                                     className="attachment-large size-large"
                                                                                     alt=""
                                                                                     loading="lazy"
+                                                                                    style={{width: "200px", height: "100px"}}
                                                                                 />
                                                                             </a>
                                                                         </div>
@@ -84,7 +88,7 @@ function Section3() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div className="elementor-widget-container">
-                                                                        <h2 className="elementor-heading-title elementor-size-default"><a href="menu.html">Bakery</a></h2>
+                                                                        <h2 className="elementor-heading-title elementor-size-default"><a href="menu.html">Indian Rotis</a></h2>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -111,10 +115,11 @@ function Section3() {
                                                                                 <img
                                                                                     width="240"
                                                                                     height="342"
-                                                                                    src="upload/icon-breakfast-red.png"
+                                                                                    src="customImages\butter-chicken.png"
                                                                                     className="attachment-large size-large"
                                                                                     alt=""
                                                                                     loading="lazy"
+                                                                                    style={{width: "200px", height: "175px"}}
                                                                                 />
                                                                             </a>
                                                                         </div>
@@ -128,7 +133,7 @@ function Section3() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div className="elementor-widget-container">
-                                                                        <h2 className="elementor-heading-title elementor-size-default"><a href="menu.html">Breakfast</a></h2>
+                                                                        <h2 className="elementor-heading-title elementor-size-default"><a href="menu.html">Indian Gravies</a></h2>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -153,12 +158,13 @@ function Section3() {
                                                                         <div className="elementor-image">
                                                                             <a href="#">
                                                                                 <img
-                                                                                    width="360"
-                                                                                    height="248"
-                                                                                    src="upload/icon-delivery-red.png"
+                                                                                    width="240"
+                                                                                    height="342"
+                                                                                    src="customImages\juices.png"
                                                                                     className="attachment-large size-large"
                                                                                     alt=""
                                                                                     loading="lazy"
+                                                                                    style={{width: "150px", height: "125px"}}
                                                                                 />
                                                                             </a>
                                                                         </div>
@@ -172,7 +178,7 @@ function Section3() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div className="elementor-widget-container">
-                                                                        <h2 className="elementor-heading-title elementor-size-default"><a href="#">Delivery</a></h2>
+                                                                        <h2 className="elementor-heading-title elementor-size-default"><a href="#">Juices</a></h2>
                                                                     </div>
                                                                 </div>
                                                             </div>
