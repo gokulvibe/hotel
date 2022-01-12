@@ -76,7 +76,7 @@ function Section9() {
                 "description": "Signature Espresso Roast with rich flavor",
                 "image": null,
                 "category": "COLD COFFEES",
-                "tags": ["wow"],
+                "tags": [],
                 "nutritionInfo": {
                     "calories": 480,
                     "totalFat": "20g",

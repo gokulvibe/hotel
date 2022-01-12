@@ -1,6 +1,7 @@
-import Footer from "./components/Footer";
-import Header from "./components/header";
-import MainContent from "./components/MainContent";
+import Footer from "./Compnents2/Footer";
+import Header from "./Compnents2/Header";
+import MainContent from "./Compnents2/MainContent";
+import MobileMenu from "./Compnents2/MobileMenu";
 import "./scrollbarContainer.css";
 
 function App() {
@@ -8,11 +9,10 @@ function App() {
    
      <div className="App" >
        <div className="body">
-      
-          {/* <h1>Hiiiiiiiiii</h1> */}
-          <Header/>
-          <MainContent/>
-          <Footer/>
+       <MobileMenu/>
+       <Header/>
+       <MainContent/>
+       <Footer/>
       </div>
      </div>
    
