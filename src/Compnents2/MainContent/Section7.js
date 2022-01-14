@@ -45,7 +45,7 @@ function Section7() {
                                                     src="customImages/chefs.jpg"
                                                     className="attachment-full size-full"
                                                     alt="Barista Making Calita Drip"
-                                                    loading="lazy"
+                                                    loading="lazy" style={{borderRadius:"1.5em"}}
                                                 />
                                             </div>
                                         </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../scrollbarContainer.css'
 
 function Section6() {
     return (
@@ -27,7 +28,7 @@ function Section6() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div className="elementor-widget-container">
-                                                                        <h2 className="elementor-heading-title elementor-size-default">Gallery</h2>
+                                                                        <h2 className="elementor-heading-title elementor-size-default myDiv">Gallery</h2>
                                                                     </div>
                                                                 </div>
                                                                 <div
@@ -39,15 +40,15 @@ function Section6() {
                                                                 >
                                                                     <div className="elementor-widget-container">
                                                                         <div className="horizontal-gallery-wrapper" data-autoplay="0" data-loop="0" data-navigation="1" data-pagination="1" data-parallax="1" data-fullscreen="0">
-                                                                            <div className="horizontal-gallery-cell" style={{marginRight: "40px"}}>
+                                                                            <div className="horizontal-gallery-cell" style={{marginRight: "40px",borderRadius:"1.5em"}}>
                                                                                 <img
                                                                                     className="horizontal-gallery-cell-img"
-                                                                                    data-flickity-lazyload="upload/barista-making-coffee-F2GU6L8-768x512.jpg"
+                                                                                    data-flickity-lazyload="../../../public/upload/barista-making-coffee-F2GU6L8-768x512.jpg"
                                                                                     alt=""
-                                                                                    style={{height: "500px"}}
+                                                                                    style={{height: "500px"}} 
                                                                                 />
                                                                             </div>
-                                                                            <div className="horizontal-gallery-cell" style={{marginRight: "40px"}}>
+                                                                            <div className="horizontal-gallery-cell" style={{marginRight: "40px",borderRadius:"1.5em"}}>
                                                                                 <img
                                                                                     className="horizontal-gallery-cell-img"
                                                                                     data-flickity-lazyload="upload/barista-prepare-coffee-working-order-concept-PBZ6VQ6-768x343.jpg"
@@ -55,7 +56,7 @@ function Section6() {
                                                                                     style={{height: "500px"}}
                                                                                 />
                                                                             </div>
-                                                                            <div className="horizontal-gallery-cell" style={{marginRight: "40px"}}>
+                                                                            <div className="horizontal-gallery-cell" style={{marginRight: "40px",borderRadius:"1.5em"}}>
                                                                                 <img
                                                                                     className="horizontal-gallery-cell-img"
                                                                                     data-flickity-lazyload="upload/close-up-of-coffee-machine-in-cafe-PUW782D-768x1152.jpg"
@@ -63,7 +64,7 @@ function Section6() {
                                                                                     style={{height: "500px"}}
                                                                                 />
                                                                             </div>
-                                                                            <div className="horizontal-gallery-cell" style={{marginRight: "40px"}}>
+                                                                            <div className="horizontal-gallery-cell" style={{marginRight: "40px",borderRadius:"1.5em"}}>
                                                                                 <img
                                                                                     className="horizontal-gallery-cell-img"
                                                                                     data-flickity-lazyload="upload/fresh-coffee-with-croissant-DC7H79J-768x512.jpg"

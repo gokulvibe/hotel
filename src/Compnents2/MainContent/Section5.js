@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../scrollbarContainer.css'
 
 function Section5() {
     return (
@@ -27,7 +28,7 @@ function Section5() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div className="elementor-widget-container">
-                                                                        <h2 className="elementor-heading-title elementor-size-default">Fast And Free Delivery</h2>
+                                                                        <h2 className="elementor-heading-title elementor-size-default myDiv">Fast And Free Delivery</h2>
                                                                     </div>
                                                                 </div>
                                                                 <div
@@ -115,7 +116,7 @@ function Section5() {
                                                                                 src="customImages/variety-indian-food.jpeg"
                                                                                 className="attachment-full size-full"
                                                                                 alt=""
-                                                                                loading="lazy"
+                                                                                loading="lazy" style={{borderRadius:"1.5em"}}
                                                                             />
                                                                         </div>
                                                                     </div>

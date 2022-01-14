@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../scrollbarContainer.css'
 
 function Section4() {
     return (
@@ -40,21 +41,24 @@ function Section4() {
                                         </div> */}
                                     </div>
                                     <div
+                                        
                                         className="elementor-element elementor-element-659d2ef animation elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-image"
                                         data-id="659d2ef"
                                         data-element_type="widget"
                                         data-settings='{"_position":"absolute","craftcoffee_ext_is_scrollme":"true","craftcoffee_ext_scrollme_smoothness":{"unit":"px","size":20,"sizes":[]},"craftcoffee_ext_scrollme_translatey":{"unit":"px","size":40,"sizes":[]},"craftcoffee_ext_scrollme_disable":"mobile","craftcoffee_ext_scrollme_scalex":{"unit":"px","size":1,"sizes":[]},"craftcoffee_ext_scrollme_scaley":{"unit":"px","size":1,"sizes":[]},"craftcoffee_ext_scrollme_scalez":{"unit":"px","size":1,"sizes":[]},"craftcoffee_ext_scrollme_rotatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_scrollme_rotatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_scrollme_rotatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_scrollme_translatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_scrollme_translatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'
                                         data-widget_type="image.default"
-                                    >
+                                    >   
+                                       
                                         <div className="elementor-widget-container">
                                             <div className="elementor-image">
+                                                
                                                 <img
                                                     width="1440"
                                                     height="960"
                                                     src="customImages\butter-naan.jpg"
                                                     className="attachment-full size-full"
                                                     alt="Brewing Stunning Coffee"
-                                                    loading="lazy"
+                                                    loading="lazy" style={{borderRadius:"1.5em"}}
                                                 />
                                             </div>
                                         </div>
@@ -78,7 +82,7 @@ function Section4() {
                                         data-widget_type="heading.default"
                                     >
                                         <div className="elementor-widget-container">
-                                            <h2 className="elementor-heading-title elementor-size-default">Fast and Free Delivery</h2>
+                                            <h2 className="elementor-heading-title elementor-size-default myDiv">Fast and Free Delivery</h2>
                                         </div>
                                     </div>
                                     <div
