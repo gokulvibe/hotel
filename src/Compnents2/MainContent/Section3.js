@@ -1,8 +1,10 @@
 import React from 'react'
+import '../../scrollbarContainer.css'
 
 function Section3() {
     return (
         <div id='section3'>
+            <h2 className="elementor-heading-title myDiv flexHead"  style={{color:"orange",fontFamily: "arkipelagoregular,Sans-serif",fontSize: "3em",textTransform: "none"}}>Our Signature Dishes</h2>
             <section
                                             className="elementor-section elementor-top-section elementor-element elementor-element-8abea90 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                             data-id="8abea90"
@@ -18,7 +20,7 @@ function Section3() {
                                                         data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'
                                                     >
                                                         <div className="elementor-column-wrap elementor-element-populated">
-                                                            <div className="elementor-widget-wrap">
+                                                            <div className="elementor-widget-wrap boxed">
                                                                 <div
                                                                     className="elementor-element elementor-element-bdfe7ac elementor-widget elementor-widget-image"
                                                                     data-id="bdfe7ac"
@@ -31,7 +33,7 @@ function Section3() {
                                                                             <a ><img 
                                                                                     width="240"
                                                                                     height="600"
-                                                                                    src="customImages/biriyani.png" title="" alt="" style={{width: "200px", height: "175px"}} /> </a>
+                                                                                    src="customImages/biriyani2.jpeg" title="" alt="" style={{width: "200px", height: "175px"}} /> </a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -56,7 +58,7 @@ function Section3() {
                                                         data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'
                                                     >
                                                         <div className="elementor-column-wrap elementor-element-populated">
-                                                            <div className="elementor-widget-wrap">
+                                                            <div className="elementor-widget-wrap boxed">
                                                                 <div
                                                                     className="elementor-element elementor-element-e32de83 elementor-widget elementor-widget-image"
                                                                     data-id="e32de83"
@@ -88,7 +90,7 @@ function Section3() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div className="elementor-widget-container">
-                                                                        <h2 className="elementor-heading-title elementor-size-default"><a href="menu.html">Indian Rotis</a></h2>
+                                                                        <h2 className="elementor-heading-title elementor-size-default"><a href="menu.html">Indian Breads</a></h2>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -101,7 +103,7 @@ function Section3() {
                                                         data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'
                                                     >
                                                         <div className="elementor-column-wrap elementor-element-populated">
-                                                            <div className="elementor-widget-wrap">
+                                                            <div className="elementor-widget-wrap boxed">
                                                                 <div
                                                                     className="elementor-element elementor-element-3d3bb06 elementor-widget elementor-widget-image"
                                                                     data-id="3d3bb06"
@@ -115,7 +117,7 @@ function Section3() {
                                                                                 <img
                                                                                     width="240"
                                                                                     height="342"
-                                                                                    src="customImages\butter-chicken.png"
+                                                                                    src="customImages\gravy.jpg"
                                                                                     className="attachment-large size-large"
                                                                                     alt=""
                                                                                     loading="lazy"
@@ -146,7 +148,7 @@ function Section3() {
                                                         data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'
                                                     >
                                                         <div className="elementor-column-wrap elementor-element-populated">
-                                                            <div className="elementor-widget-wrap">
+                                                            <div className="elementor-widget-wrap boxed">
                                                                 <div
                                                                     className="elementor-element elementor-element-f7718ab elementor-widget elementor-widget-image"
                                                                     data-id="f7718ab"

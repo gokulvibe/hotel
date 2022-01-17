@@ -11,6 +11,185 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #c7a17a;
+  background: orange;
   border-radius: 10px;
 }
+
+@font-face {
+ font-family: "saman";
+ src: local("./fonts/saman.ttf"),
+ url("./fonts/saman.ttf") format("truetype");
+ font-weight: bold;
+}
+
+.font-saman {
+ font-family: "saman";
+}
+
+.myDiv {
+  border-style: solid;
+  border-width: 0 0 2px 0;
+  padding-bottom:5px;
+  margin-bottom:20px;
+  width:fit-content;
+  border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;text-align:center;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(0.25turn, rgba(255,249,34), rgba(255,0,128), rgba(56,2,155,0));
+  border-image-slice: 1;
+  width:100%; position: relative;
+  box-sizing: border-box;
+  margin: auto;
+  
+  color:black;
+  padding-bottom:4px;
+}
+
+
+  
+
+@media screen and (max-width:1349px) {
+  .flexHead{
+    margin-left: -7%;
+  }
+  
+}
+
+@media screen and (min-width:1350px) {
+  .flexHead{
+    margin-left: -15%;
+  }
+  
+}
+
+@media screen and (min-width:1350px) {
+  .flexHead{ 
+    margin-left: -20%;
+  }  
+}
+
+
+
+#background-video{
+  width:60%;
+  height: 40%;
+  position: fixed;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  opacity: 0.6;
+  border: 1px solid black;
+  border-radius: 1.5em;
+}
+
+
+@media screen and (max-width:767px) {
+  #background-video{
+    width:92%;
+    height: 20%;
+  }
+}
+
+@media screen and (min-width:767px) {
+  #background-video{
+    width:92%;
+    height: 40%;
+  }
+}
+
+@media screen and (min-width:1025px) {
+  #background-video{
+    margin-left: 5%;
+    width:88%;
+    height: 40%;
+  }
+}
+
+@media screen and (min-width:1196px) {
+  #background-video{
+    margin-left: 3%;
+    width:88%;
+    height: 40%;
+  }
+}
+
+@media screen and (min-width:1246px) {
+  #background-video{
+    width:82%;
+    height: 40%;
+  }
+}
+
+@media screen and (min-width:1345px) {
+  #background-video{
+    width:79%;
+    height: 40%;
+  }
+}
+
+@media screen and (min-width:1390px) {
+  #background-video{
+    width:77%;
+    height: 40%;
+  }
+}
+
+@media screen and (min-width:1427px) {
+  #background-video{
+    width:76%;
+    height: 40%;
+  }
+}
+
+@media screen and (min-width:1480px) {
+  #background-video{
+    width:75%;
+    height: 40%;
+  }
+}
+
+@media screen and (min-width:1629px) {
+  #background-video{
+    width:65%;
+    height: 40%;
+  }
+}
+
+@media screen and (min-width:1695px) {
+  #background-video{
+    width:63%;
+    height: 40%;
+  }
+}
+
+
+@media screen and (min-width:1786px) {
+  #background-video{
+    margin-left: 0.5%;
+    width:60%;
+    height: 40%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .fix{
+    padding-right: 20%;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .boxed{
+    border: 1px solid white;
+    border-radius: 0.8em;
+  }
+
+ .boxed:hover{
+  transform: scale(1.05);
+}
+}
+
+
+
+
+

@@ -8,7 +8,7 @@ function App() {
   return (
    
      <div className="App" >
-       <div className="body">
+       <div className="body" style={{scrollBehavior: 'smooth'}}>
        <MobileMenu/>
        <Header/>
        <MainContent/>

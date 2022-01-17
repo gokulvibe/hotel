@@ -3,6 +3,7 @@ import React from 'react'
 function Section8() {
     return (
         <div id='section8'>
+            
             <section
                 className="elementor-section elementor-top-section elementor-element elementor-element-42deab5 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="42deab5"
@@ -27,6 +28,12 @@ function Section8() {
                                         data-widget_type="heading.default"
                                     >
                                         <div className="elementor-widget-container">
+                                            <br/>
+                                            <br/>
+                                            <br/>
+                                            <br/>
+                                            <br/>
+                                            <br/>
                                             <h2 className="elementor-heading-title elementor-size-default">Events</h2>
                                         </div>
                                     </div>
@@ -52,15 +59,15 @@ function Section8() {
                                                         </div>
                                                     </div>
 
-                                                    <div className="horizontal-slider-bg" style={{padding: "40px", width: "65%"}}>
+                                                    <div className="horizontal-slider-bg" style={{padding: "40px", width: "65%",overflowY:"hidden"}}>
                                                         <div
                                                             className="horizontal-slider-bg-two-cols"
-                                                            style={{backgroundImage: "url(customImages/event1.jpg)"}}
+                                                            style={{backgroundImage: "url(customImages/event1.jpg)",borderRadius:"1.5em"}}
                                                         ></div>
 
                                                         <div
                                                             className="horizontal-slider-bg-two-cols last"
-                                                            style={{backgroundImage: "url(customImages/event2.webp)"}}
+                                                            style={{backgroundImage: "url(customImages/event2.webp)",borderRadius:"1.5em"}}
                                                         ></div>
                                                     </div>
                                                 </div>
