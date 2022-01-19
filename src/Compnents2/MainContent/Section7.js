@@ -40,12 +40,10 @@ function Section7() {
                                         <div className="elementor-widget-container">
                                             <div className="elementor-image">
                                                 <img
-                                                    width="1440"
-                                                    height="960"
                                                     src="customImages/chefs.jpg"
-                                                    className="attachment-full size-full"
+                                                    className="attachment-full size-full promo1"
                                                     alt="Barista Making Calita Drip"
-                                                    loading="lazy" style={{borderRadius:"1.5em"}}
+                                                    loading="lazy" style={{borderRadius:"1.5em",marginLeft:"15%",height:"80vh",overflow:"hidden"}}
                                                 />
                                             </div>
                                         </div>
@@ -69,7 +67,7 @@ function Section7() {
                                         data-widget_type="heading.default"
                                     >
                                         <div className="elementor-widget-container">
-                                            <h2 className="elementor-heading-title elementor-size-default">Food at its best</h2>
+                                            <h2 className="elementor-heading-title elementor-size-default" style={{fontSize:"3em"}}>Food at its best</h2>
                                         </div>
                                     </div>
                                     <div
@@ -80,7 +78,7 @@ function Section7() {
                                         data-widget_type="heading.default"
                                     >
                                         <div className="elementor-widget-container">
-                                            <h2 className="elementor-heading-title elementor-size-default">Master Indian Chefs cooking you the best</h2>
+                                            <h2 className="elementor-heading-title elementor-size-default" style={{fontSize:"3em"}}>Master Indian Chefs cooking you the best</h2>
                                         </div>
                                     </div>
                                     <div
