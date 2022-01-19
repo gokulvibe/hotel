@@ -58,7 +58,7 @@ function Section4() {
                                                     src="customImages\butter-naan.jpg"
                                                     className="attachment-full size-full"
                                                     alt="Brewing Stunning Coffee"
-                                                    loading="lazy" style={{borderRadius:"1.5em"}}
+                                                    loading="lazy" style={{borderRadius:"1.5em",overflow:"hidden"}}
                                                 />
                                             </div>
                                         </div>

@@ -4,7 +4,7 @@ import '../../scrollbarContainer.css'
 function Section3() {
     return (
         <div id='section3'>
-            <h2 className="elementor-heading-title myDiv flexHead"  style={{color:"orange",fontFamily: "arkipelagoregular,Sans-serif",fontSize: "3em",textTransform: "none"}}>Our Signature Dishes</h2>
+            <h2 className="elementor-heading-title myDiv flexHead"  style={{color:"orange",fontFamily: "arkipelagoregular,Sans-serif",fontSize: "3em",textTransform: "none",textAlign:"center",paddingRight:"15%"}}>Our Signature Dishes</h2>
             <section
                                             className="elementor-section elementor-top-section elementor-element elementor-element-8abea90 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                             data-id="8abea90"
@@ -28,7 +28,7 @@ function Section3() {
                                                                     data-settings='{"craftcoffee_ext_is_smoove":"true","craftcoffee_ext_smoove_disable":"769","craftcoffee_ext_smoove_duration":500,"craftcoffee_ext_smoove_scalex":{"unit":"px","size":0.6999999999999999555910790149937383830547332763671875,"sizes":[]},"craftcoffee_ext_smoove_scaley":{"unit":"px","size":0.6999999999999999555910790149937383830547332763671875,"sizes":[]},"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_smoove_rotatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewx":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewy":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_perspective":{"unit":"px","size":1000,"sizes":[]},"craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'
                                                                     data-widget_type="image.default"
                                                                 >
-                                                                    <div className="elementor-widget-container">
+                                                                    <div >
                                                                         <div className="elementor-image">
                                                                             <a ><img 
                                                                                     width="240"
@@ -44,7 +44,7 @@ function Section3() {
                                                                     data-settings='{"craftcoffee_ext_is_smoove":"true","craftcoffee_ext_smoove_disable":"769","craftcoffee_ext_smoove_duration":600,"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_smoove_scalex":{"unit":"px","size":1,"sizes":[]},"craftcoffee_ext_smoove_scaley":{"unit":"px","size":1,"sizes":[]},"craftcoffee_ext_smoove_rotatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewx":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewy":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_perspective":{"unit":"px","size":1000,"sizes":[]},"craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false"}'
                                                                     data-widget_type="heading.default"
                                                                 >
-                                                                    <div className="elementor-widget-container">
+                                                                    <div>
                                                                         <h2 className="elementor-heading-title elementor-size-default"><a href="menu.html">Biriyani</a></h2>
                                                                     </div>
                                                                 </div>
@@ -66,7 +66,7 @@ function Section3() {
                                                                     data-settings='{"craftcoffee_ext_is_smoove":"true","craftcoffee_ext_smoove_disable":"769","craftcoffee_ext_smoove_duration":500,"craftcoffee_ext_smoove_scalex":{"unit":"px","size":0.6999999999999999555910790149937383830547332763671875,"sizes":[]},"craftcoffee_ext_smoove_scaley":{"unit":"px","size":0.6999999999999999555910790149937383830547332763671875,"sizes":[]},"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_smoove_rotatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewx":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewy":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_perspective":{"unit":"px","size":1000,"sizes":[]},"craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'
                                                                     data-widget_type="image.default"
                                                                 >
-                                                                    <div className="elementor-widget-container">
+                                                                    <div>
                                                                         <div className="elementor-image">
                                                                             <a href="menu.html">
                                                                                 <img
@@ -76,7 +76,7 @@ function Section3() {
                                                                                     className="attachment-large size-large"
                                                                                     alt=""
                                                                                     loading="lazy"
-                                                                                    style={{width: "200px", height: "100px"}}
+                                                                                    style={{width: "200px", height: "100px",paddingTop:"60px"}}
                                                                                 />
                                                                             </a>
                                                                         </div>
@@ -89,8 +89,8 @@ function Section3() {
                                                                     data-settings='{"craftcoffee_ext_is_smoove":"true","craftcoffee_ext_smoove_disable":"769","craftcoffee_ext_smoove_duration":600,"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_smoove_scalex":{"unit":"px","size":1,"sizes":[]},"craftcoffee_ext_smoove_scaley":{"unit":"px","size":1,"sizes":[]},"craftcoffee_ext_smoove_rotatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewx":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewy":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_perspective":{"unit":"px","size":1000,"sizes":[]},"craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false"}'
                                                                     data-widget_type="heading.default"
                                                                 >
-                                                                    <div className="elementor-widget-container">
-                                                                        <h2 className="elementor-heading-title elementor-size-default"><a href="menu.html">Indian Breads</a></h2>
+                                                                    <div>
+                                                                        <h2 className="elementor-heading-title elementor-size-default" style={{paddingTop:"70px"}}><a href="menu.html">Indian Breads</a></h2>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -111,7 +111,7 @@ function Section3() {
                                                                     data-settings='{"craftcoffee_ext_is_smoove":"true","craftcoffee_ext_smoove_disable":"769","craftcoffee_ext_smoove_duration":500,"craftcoffee_ext_smoove_scalex":{"unit":"px","size":0.6999999999999999555910790149937383830547332763671875,"sizes":[]},"craftcoffee_ext_smoove_scaley":{"unit":"px","size":0.6999999999999999555910790149937383830547332763671875,"sizes":[]},"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_smoove_rotatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewx":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewy":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_perspective":{"unit":"px","size":1000,"sizes":[]},"craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'
                                                                     data-widget_type="image.default"
                                                                 >
-                                                                    <div className="elementor-widget-container">
+                                                                    <div>
                                                                         <div className="elementor-image">
                                                                             <a href="menu.html">
                                                                                 <img
@@ -134,7 +134,7 @@ function Section3() {
                                                                     data-settings='{"craftcoffee_ext_is_smoove":"true","craftcoffee_ext_smoove_disable":"769","craftcoffee_ext_smoove_duration":600,"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_smoove_scalex":{"unit":"px","size":1,"sizes":[]},"craftcoffee_ext_smoove_scaley":{"unit":"px","size":1,"sizes":[]},"craftcoffee_ext_smoove_rotatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewx":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewy":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_perspective":{"unit":"px","size":1000,"sizes":[]},"craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false"}'
                                                                     data-widget_type="heading.default"
                                                                 >
-                                                                    <div className="elementor-widget-container">
+                                                                    <div>
                                                                         <h2 className="elementor-heading-title elementor-size-default"><a href="menu.html">Indian Gravies</a></h2>
                                                                     </div>
                                                                 </div>
@@ -156,7 +156,7 @@ function Section3() {
                                                                     data-settings='{"craftcoffee_ext_is_smoove":"true","craftcoffee_ext_smoove_disable":"769","craftcoffee_ext_smoove_duration":500,"craftcoffee_ext_smoove_scalex":{"unit":"px","size":0.6999999999999999555910790149937383830547332763671875,"sizes":[]},"craftcoffee_ext_smoove_scaley":{"unit":"px","size":0.6999999999999999555910790149937383830547332763671875,"sizes":[]},"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_smoove_rotatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewx":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewy":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_perspective":{"unit":"px","size":1000,"sizes":[]},"craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'
                                                                     data-widget_type="image.default"
                                                                 >
-                                                                    <div className="elementor-widget-container">
+                                                                    <div>
                                                                         <div className="elementor-image">
                                                                             <a href="#">
                                                                                 <img
@@ -166,7 +166,7 @@ function Section3() {
                                                                                     className="attachment-large size-large"
                                                                                     alt=""
                                                                                     loading="lazy"
-                                                                                    style={{width: "150px", height: "125px"}}
+                                                                                    style={{width: "150px", height: "125px",paddingTop:"50px"}}
                                                                                 />
                                                                             </a>
                                                                         </div>
@@ -179,8 +179,8 @@ function Section3() {
                                                                     data-settings='{"craftcoffee_ext_is_smoove":"true","craftcoffee_ext_smoove_disable":"769","craftcoffee_ext_smoove_duration":600,"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_smoove_scalex":{"unit":"px","size":1,"sizes":[]},"craftcoffee_ext_smoove_scaley":{"unit":"px","size":1,"sizes":[]},"craftcoffee_ext_smoove_rotatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewx":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewy":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_perspective":{"unit":"px","size":1000,"sizes":[]},"craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false"}'
                                                                     data-widget_type="heading.default"
                                                                 >
-                                                                    <div className="elementor-widget-container">
-                                                                        <h2 className="elementor-heading-title elementor-size-default"><a href="#">Juices</a></h2>
+                                                                    <div>
+                                                                        <h2 className="elementor-heading-title elementor-size-default"  style={{paddingTop:"50px"}}><a href="#">Juices</a></h2>
                                                                     </div>
                                                                 </div>
                                                             </div>

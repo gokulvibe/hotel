@@ -47,31 +47,13 @@
 
   
 
-@media screen and (max-width:1349px) {
-  .flexHead{
-    margin-left: -7%;
-  }
-  
-}
 
-@media screen and (min-width:1350px) {
-  .flexHead{
-    margin-left: -15%;
-  }
-  
-}
-
-@media screen and (min-width:1350px) {
-  .flexHead{ 
-    margin-left: -20%;
-  }  
-}
 
 
 
 #background-video{
-  width:60%;
-  height: 40%;
+  width:80%;
+  height: 100%;
   position: fixed;
   object-fit: cover;
   left: 0;
@@ -172,9 +154,9 @@
   }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:1800px) {
   .fix{
-    padding-right: 20%;
+    padding-right: 15%;
   }
 }
 

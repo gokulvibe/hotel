@@ -39,7 +39,9 @@ function Section1() {
                                         data-widget_type="heading.default"
                                     >
                                         <div className="elementor-widget-container">
-                                            <h1 className="vhead fix" style={{fontFamily:'saman',color:'orange',background: '-webkit-linear-gradient(orange,white,green)',WebkitBackgroundClip: 'text','-webkit-text-fill-color': 'transparent',fontSize:'4em',whiteSpace: "nowrap",display: "block",textAlign:"center",paddingRight:"40%"}} >Clayton Chettinad</h1>
+                                            <br />
+                                            <br />
+                                            <h1 className="vhead fix" style={{fontFamily:'saman',color:'orange',background: '-webkit-linear-gradient(orange,white,green)',WebkitBackgroundClip: 'text','-webkit-text-fill-color': 'transparent',fontSize:'4em',whiteSpace: "nowrap",display: "block",textAlign:"center",paddingRight:"15%"}} >Clayton Chettinad</h1>
                                         </div>
                                     </div>
                                     <div
@@ -50,7 +52,7 @@ function Section1() {
                                         data-widget_type="heading.default"
                                     >
                                         <div className="elementor-widget-container">
-                                            <h2 className="elementor-heading-title elementor-size-default" style={{fontSize:'3em',marginLeft:"16%"}}>Authenthic South Indian Cuisine</h2>
+                                            <h2 className="elementor-heading-title elementor-size-default" style={{fontSize:'3em',textAlign:"center",paddingRight:"15%"}}>Authenthic South Indian Cuisine</h2>
                                         </div>
                                     </div>
                                     <div
@@ -70,6 +72,8 @@ function Section1() {
                                         data-widget_type="heading.default"
                                        
                                     >
+                                    <br/>
+                                    <br/>
                                     <br/>
                                     <br/>
                                     <br/>
