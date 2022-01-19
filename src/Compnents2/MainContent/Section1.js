@@ -26,7 +26,7 @@ function Section1() {
                         >
                             <div className=" elementor-element-populated">
                                 <div >
-                                    <div className='video' >
+                                    <div className='video' style={{marginTop:"-5%"}}>
                                         <video  id="background-video" autoPlay loop muted >
                                            <source src={vid} type="video/mp4"></source>
                                         </video> 
@@ -41,7 +41,7 @@ function Section1() {
                                         <div className="elementor-widget-container">
                                             <br />
                                             <br />
-                                            <h1 className="vhead fix" style={{fontFamily:'saman',color:'orange',background: '-webkit-linear-gradient(orange,white,green)',WebkitBackgroundClip: 'text','-webkit-text-fill-color': 'transparent',fontSize:'4em',whiteSpace: "nowrap",display: "block",textAlign:"center",paddingRight:"15%"}} >Clayton Chettinad</h1>
+                                            <h1 className="vhead fix" style={{fontFamily:'saman',color:'orange',background: '-webkit-linear-gradient(orange,white,green)',WebkitBackgroundClip: 'text','-webkit-text-fill-color': 'transparent',fontSize:'4em',whiteSpace: "nowrap",display: "block",textAlign:"center",marginTop:"7%"}} >Clayton Chettinad</h1>
                                         </div>
                                     </div>
                                     <div
@@ -51,8 +51,8 @@ function Section1() {
                                         data-settings='{"craftcoffee_ext_is_smoove":"true","craftcoffee_ext_smoove_disable":"769","craftcoffee_ext_smoove_duration":600,"craftcoffee_ext_is_fadeout_animation":"true","craftcoffee_ext_is_fadeout_animation_velocity":{"unit":"px","size":0.200000000000000011102230246251565404236316680908203125,"sizes":[]},"craftcoffee_ext_smoove_translatey":{"unit":"px","size":40,"sizes":[]},"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_smoove_scalex":{"unit":"px","size":1,"sizes":[]},"craftcoffee_ext_smoove_scaley":{"unit":"px","size":1,"sizes":[]},"craftcoffee_ext_smoove_rotatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewx":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewy":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_perspective":{"unit":"px","size":1000,"sizes":[]},"craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation_direction":"up"}'
                                         data-widget_type="heading.default"
                                     >
-                                        <div className="elementor-widget-container">
-                                            <h2 className="elementor-heading-title elementor-size-default" style={{fontSize:'3em',textAlign:"center",paddingRight:"15%"}}>Authenthic South Indian Cuisine</h2>
+                                        <div style={{width:"100vw"}}>
+                                            <h2 style={{fontSize:'2.25em',textAlign:"center",marginRight:"14%",color:"white"}}>Authenthic South Indian Cuisine</h2>
                                         </div>
                                     </div>
                                     <div

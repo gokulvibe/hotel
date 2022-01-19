@@ -49,16 +49,14 @@ function Section4() {
                                         data-widget_type="image.default"
                                     >   
                                        
-                                        <div className="elementor-widget-container">
+                                        <div >
                                             <div className="elementor-image">
                                                 
                                                 <img
-                                                    width="1440"
-                                                    height="960"
                                                     src="customImages\butter-naan.jpg"
-                                                    className="attachment-full size-full"
+                                                    className="attachment-full size-full promo1"
                                                     alt="Brewing Stunning Coffee"
-                                                    loading="lazy" style={{borderRadius:"1.5em",overflow:"hidden"}}
+                                                    loading="lazy" style={{borderRadius:"1.5em",marginLeft:"15%",marginBottom:"10vh",maxHeight:"80vh",overflow:"hidden"}}
                                                 />
                                             </div>
                                         </div>
@@ -81,8 +79,8 @@ function Section4() {
                                         data-settings='{"craftcoffee_ext_is_scrollme":"true","craftcoffee_ext_scrollme_translatey":{"unit":"px","size":-80,"sizes":[]},"craftcoffee_ext_scrollme_disable":"mobile","craftcoffee_ext_scrollme_smoothness":{"unit":"px","size":30,"sizes":[]},"craftcoffee_ext_scrollme_scalex":{"unit":"px","size":1,"sizes":[]},"craftcoffee_ext_scrollme_scaley":{"unit":"px","size":1,"sizes":[]},"craftcoffee_ext_scrollme_scalez":{"unit":"px","size":1,"sizes":[]},"craftcoffee_ext_scrollme_rotatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_scrollme_rotatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_scrollme_rotatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_scrollme_translatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_scrollme_translatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false"}'
                                         data-widget_type="heading.default"
                                     >
-                                        <div className="elementor-widget-container">
-                                            <h2 className="elementor-heading-title elementor-size-default myDiv">Fast and Free Delivery</h2>
+                                        <div>
+                                            <h2 className="elementor-heading-title elementor-size-default myDiv" style={{fontSize:"3em"}}>Fast and Free Delivery</h2>
                                         </div>
                                     </div>
                                     <div
@@ -93,7 +91,7 @@ function Section4() {
                                         data-widget_type="heading.default"
                                     >
                                         <div className="elementor-widget-container">
-                                            <h2 className="elementor-heading-title elementor-size-default">I orchestrate my mornings to the tune of coffee.</h2>
+                                            <h2 className="elementor-heading-title elementor-size-default" style={{fontSize:"3em"}}>I orchestrate my mornings to the tune of coffee.</h2>
                                         </div>
                                     </div>
                                 </div>

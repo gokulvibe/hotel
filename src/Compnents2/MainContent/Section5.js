@@ -27,8 +27,8 @@ function Section5() {
                                                                     data-settings='{"craftcoffee_ext_is_scrollme":"true","craftcoffee_ext_scrollme_translatey":{"unit":"px","size":-80,"sizes":[]},"craftcoffee_ext_scrollme_disable":"mobile","craftcoffee_ext_scrollme_smoothness":{"unit":"px","size":30,"sizes":[]},"craftcoffee_ext_scrollme_scalex":{"unit":"px","size":1,"sizes":[]},"craftcoffee_ext_scrollme_scaley":{"unit":"px","size":1,"sizes":[]},"craftcoffee_ext_scrollme_scalez":{"unit":"px","size":1,"sizes":[]},"craftcoffee_ext_scrollme_rotatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_scrollme_rotatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_scrollme_rotatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_scrollme_translatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_scrollme_translatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false"}'
                                                                     data-widget_type="heading.default"
                                                                 >
-                                                                    <div className="elementor-widget-container">
-                                                                        <h2 className="elementor-heading-title elementor-size-default myDiv">Fast And Free Delivery</h2>
+                                                                    <div>
+                                                                        <h2 className=" elementor-size-default myDiv promo1" style={{color:"orange",fontFamily: "arkipelagoregular,Sans-serif",fontSize: "3em",textTransform: "none"}}>Fast And Free Delivery</h2>
                                                                     </div>
                                                                 </div>
                                                                 <div
@@ -39,7 +39,7 @@ function Section5() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div className="elementor-widget-container">
-                                                                        <h2 className="elementor-heading-title elementor-size-default">Do not let your hunger overwhelm you</h2>
+                                                                        <h2 className="elementor-heading-title elementor-size-default" style={{fontSize:"3em"}}>Do not let your hunger overwhelm you</h2>
                                                                     </div>
                                                                 </div>
                                                                 <div
@@ -111,12 +111,10 @@ function Section5() {
                                                                     <div className="elementor-widget-container">
                                                                         <div className="elementor-image">
                                                                             <img
-                                                                                width="1440"
-                                                                                height="1440"
                                                                                 src="customImages/variety-indian-food.jpeg"
-                                                                                className="attachment-full size-full"
+                                                                                className="attachment-full size-full promo1"
                                                                                 alt=""
-                                                                                loading="lazy" style={{borderRadius:"1.5em"}}
+                                                                                loading="lazy" style={{borderRadius:"1.5em",maxHeight:"80vh",maxWidth:"40vw",margin:"auto",overflow:"hidden"}}
                                                                             />
                                                                         </div>
                                                                     </div>
