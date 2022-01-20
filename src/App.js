@@ -1,7 +1,6 @@
-import Footer from "./Compnents2/Footer";
-import Header from "./Compnents2/Header";
-import MainContent from "./Compnents2/MainContent";
-import MobileMenu from "./Compnents2/MobileMenu";
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Home from "./Pages/Home";
+import Menu from './Pages/Menu';
 import "./scrollbarContainer.css";
 
 function App() {
@@ -9,10 +8,20 @@ function App() {
    
      <div className="App" >
        <div className="body" style={{scrollBehavior: 'smooth'}}>
-       <MobileMenu/>
-       <Header/>
-       <MainContent/>
-       <Footer/>
+
+       <Router basename="/">
+            <Routes>
+              
+                <Route path='/' element={<Home/>} /> 
+                <Route path='/menu' element={<Menu/>} /> 
+              
+                  
+            </Routes>
+
+          
+       </Router>
+
+       
       </div>
      </div>
    
