@@ -1,0 +1,21 @@
+.quantity-manage{
+    display: flex;
+    justify-content: space-around;
+}
+
+.minus_button{
+    color: white;
+    border-top: white;
+}
+
+.quantity{
+    color: white;
+    max-width: 5px;
+    max-height: 5px;
+    background-color: black;
+    padding-top: .2em;
+}
+
+/* .add_to_cart{
+    margin-left: 10px;
+} */

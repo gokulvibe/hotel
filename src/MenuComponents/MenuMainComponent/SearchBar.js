@@ -1,5 +1,6 @@
 import React from "react";
 import './CustomCSS/searchbar.css';
+import FloatingImage from "./FloatingImage";
 function SearchBar(){
     return(
         <div className="search-bar">
@@ -11,6 +12,8 @@ function SearchBar(){
                 </button>
             </div>
             </div>
+
+            <FloatingImage src="customImages/cherry_and_leaf.png"/>
         </div>
     );
 }

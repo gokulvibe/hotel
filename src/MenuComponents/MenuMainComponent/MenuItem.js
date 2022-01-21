@@ -1,7 +1,8 @@
+import { ButtonGroup, Button } from '@mui/material';
 import React from 'react'
+import './CustomCSS/menuitem.css';
 
 function MenuItem(props) {
-    console.log(props.item.nutritionInfo.calories)
 
     if (props.item.tags.length>0){
         return (
@@ -131,9 +132,19 @@ function MenuItem(props) {
                                 }
                                 
                             </div>
+                            
                         </div>
 
                         <div className="food-menu-desc">{props.item.description}</div>
+
+                        <div className='add'>
+                            <div className='quantity-manage'>
+                            <Button variant="outlined" color="error">-</Button>
+                                <p className='quantity' style={{padding: ".2em"}}>5</p>
+                                <Button variant="outlined" color="success">+</Button>
+                                <Button variant="contained" color="success" size="small">Add to cart</Button>
+                            </div>
+                        </div>
                     </div>
     
                     
