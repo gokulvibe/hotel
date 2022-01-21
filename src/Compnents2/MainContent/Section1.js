@@ -41,7 +41,9 @@ function Section1() {
                                         <div className="elementor-widget-container">
                                             <br />
                                             <br />
-                                            <h1 className="vhead fix" style={{fontFamily:'saman',color:'orange',background: '-webkit-linear-gradient(orange,white,green)',WebkitBackgroundClip: 'text','-webkit-text-fill-color': 'transparent',fontSize:'4em',whiteSpace: "nowrap",display: "block",textAlign:"center",marginTop:"7%"}} >Clayton Chettinad</h1>
+                                            <h1 className="vhead fix" style={{fontFamily:'saman',color:'orange',background: '-webkit-linear-gradient(orange,white,green)',WebkitBackgroundClip: 'text','-webkit-text-fill-color': 'transparent',fontSize:'4em',whiteSpace: "nowrap",display: "block",textAlign:"center",marginTop:"7%"}} >
+                                            Clayton Chettinad
+                                            </h1>
                                         </div>
                                     </div>
                                     <div

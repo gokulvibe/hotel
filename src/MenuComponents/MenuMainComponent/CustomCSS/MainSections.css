@@ -1,0 +1,58 @@
+.custom-css-style .elementor-element.elementor-element-1ef6e22>.elementor-background-overlay {
+    background-color: black;
+    opacity: 1;
+    transition: background .3s,border-radius .3s,opacity .3s;
+}
+
+/* Section 3 background */
+/* .custom-css-style .elementor-element.elementor-element-e0a7a2e>.elementor-element-populated {
+    padding: 0;
+    background-color: black;
+} */
+
+/* Section 3 h3 */
+.elementor-heading-title.quote {
+    padding: 0;
+    margin: 50px;
+    line-height: 1;
+    color: #ec8649  ;
+}
+
+
+/* Full main content */
+#wrapper.hasbg.transparent {
+    padding-top: 0 !important;
+    background-color: black !important;
+}
+
+/* Section 2 */
+
+.custom-css-style .elementor-element.elementor-element-979fb6c:not(.elementor-motion-effects-element-type-background), .custom-css-style .elementor-element.elementor-element-979fb6c>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: none;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Title 1 */
+.custom-css-style .elementor-element.elementor-element-dcb02db .elementor-heading-title {
+    color: white ;
+    font-size: 30px;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+/* Title 2 */
+.custom-css-style .elementor-element.elementor-element-6a605a3 .elementor-heading-title {
+    color: #ec8649   ;
+    font-family: arkipelagoregular,Sans-serif;
+    font-size: 50px;
+    text-transform: none;
+}
+
+
+/* Section 1 */
+.custom-css-style .elementor-element.elementor-element-1ef6e22>.elementor-container {
+    min-height: 400px;
+}

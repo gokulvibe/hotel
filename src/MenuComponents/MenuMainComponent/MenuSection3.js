@@ -31,7 +31,7 @@ function MenuSection3() {
                                                 <img
                                                     width="350"
                                                     height="340"
-                                                    src="upload/coffee-bg-1-e1592388441790.png"
+                                                    src="customImages/spoonandknife.png"
                                                     className="attachment-full size-full"
                                                     alt=""
                                                     loading="lazy"
@@ -47,7 +47,7 @@ function MenuSection3() {
                                         data-widget_type="heading.default"
                                     >
                                         <div className="elementor-widget-container">
-                                            <h2 className="elementor-heading-title elementor-size-default">"The first cup is for the guest, the second for enjoyment, the third for the sword"</h2>
+                                            <h2 className="elementor-heading-title quote elementor-size-default">Explore a wide variety of delicious Indian Food</h2>
                                         </div>
                                     </div>
                                 </div>

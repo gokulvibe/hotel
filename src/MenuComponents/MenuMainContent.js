@@ -3,11 +3,13 @@ import MenuSection1 from './MenuMainComponent/MenuSection1';
 import MenuSection2 from './MenuMainComponent/MenuSection2';
 import MenuSection3 from './MenuMainComponent/MenuSection3';
 import MenuSection4 from './MenuMainComponent/MenuSection4';
+import './MenuMainComponent/CustomCSS/MainSections.css'
+import SearchBar from './MenuMainComponent/SearchBar';
 
 function MenuMainContent() {
   return (
       <div id="menu_main_content">
-          <div id="wrapper" className="hasbg transparent">
+          <div id="wrapper" className="hasbg transparent" style={{bacgroundColor: "black"}}>
             <div id="page-content-wrapper" className="no-title">
                 <div className="inner">
                     <div className="inner-wrapper">
@@ -17,8 +19,7 @@ function MenuMainContent() {
                                     <div className="elementor-section-wrap">
 
                                         <MenuSection1/>
-                                        <MenuSection2/>
-                                        <MenuSection3/>
+                                        <SearchBar/>
                                         <MenuSection4/>
                                         
                                         

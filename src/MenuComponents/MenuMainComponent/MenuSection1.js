@@ -1,4 +1,15 @@
 import React from 'react';
+import './CustomCSS/MainSections.css'
+import './CustomCSS/title.css'
+import './CustomCSS/hover.css'
+import SearchIcon from '@mui/icons-material/Search';
+import Section1 from '../../Compnents2/MainContent/Section1';
+import {MDBFormInline, MDBBtn} from 'react-bootstrap';
+
+// Imports for searchbar
+import SearchBar from './SearchBar';
+
+// import '../../scrollbarContainer.css'
 
 function MenuSection1() {
   return (
@@ -20,6 +31,18 @@ function MenuSection1() {
                         >
                             <div className="elementor-column-wrap elementor-element-populated">
                                 <div className="elementor-widget-wrap">
+                                <div
+                                        className="elementor-element elementor-element-dcb02db elementor-widget elementor-widget-heading"
+                                        data-id="dcb02db"
+                                        data-element_type="widget"
+                                        data-settings='{"craftcoffee_ext_is_smoove":"true","craftcoffee_ext_smoove_disable":"769","craftcoffee_ext_smoove_duration":1000,"craftcoffee_ext_smoove_scalex":{"unit":"px","size":2,"sizes":[]},"craftcoffee_ext_smoove_scaley":{"unit":"px","size":2,"sizes":[]},"craftcoffee_ext_is_fadeout_animation":"true","craftcoffee_ext_is_fadeout_animation_direction":"down","craftcoffee_ext_is_fadeout_animation_velocity":{"unit":"px","size":0.5,"sizes":[]},"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_smoove_rotatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewx":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewy":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_perspective":{"unit":"px","size":1000,"sizes":[]},"craftcoffee_ext_is_infinite":"false"}'
+                                        data-widget_type="heading.default"
+                                    >
+                                        <div className="elementor-widget-container">
+                                            <h1 className="elementor-heading-title elementor-size-default">Check out our Menus</h1>
+                                        </div>
+                                    </div>
+                                    
                                     <div
                                         className="elementor-element elementor-element-6a605a3 elementor-widget elementor-widget-heading"
                                         data-id="6a605a3"
@@ -28,26 +51,30 @@ function MenuSection1() {
                                         data-widget_type="heading.default"
                                     >
                                         <div className="elementor-widget-container">
-                                            <h3 className="elementor-heading-title elementor-size-default">Check out</h3>
+                                            <h3 className="elementor-heading-title elementor-size-default">Explore a wide variety of delicious Indian Food  </h3>
                                         </div>
                                     </div>
-                                    <div
-                                        className="elementor-element elementor-element-dcb02db elementor-widget elementor-widget-heading"
-                                        data-id="dcb02db"
-                                        data-element_type="widget"
-                                        data-settings='{"craftcoffee_ext_is_smoove":"true","craftcoffee_ext_smoove_disable":"769","craftcoffee_ext_smoove_duration":1000,"craftcoffee_ext_smoove_scalex":{"unit":"px","size":2,"sizes":[]},"craftcoffee_ext_smoove_scaley":{"unit":"px","size":2,"sizes":[]},"craftcoffee_ext_is_fadeout_animation":"true","craftcoffee_ext_is_fadeout_animation_direction":"down","craftcoffee_ext_is_fadeout_animation_velocity":{"unit":"px","size":0.5,"sizes":[]},"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_smoove_rotatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewx":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewy":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_perspective":{"unit":"px","size":1000,"sizes":[]},"craftcoffee_ext_is_infinite":"false"}'
-                                        data-widget_type="heading.default"
-                                    >
-                                        <div className="elementor-widget-container">
-                                            <h1 className="elementor-heading-title elementor-size-default">Our Menus</h1>
-                                        </div>
-                                    </div>
+                                    
+                                   
                                 </div>
                             </div>
+
+                            
                         </div>
+
+                        
                     </div>
+
                 </div>
+
+                
             </section>
+
+            
+
+            
+
+            {/* <Section1/> */}
         </div>
   );
 }
