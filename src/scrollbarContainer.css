@@ -52,7 +52,7 @@
 
 
 #background-video{
-  width:80%;
+  width:80VW;
   height: 40%;
   position: fixed;
   object-fit: cover;
@@ -66,9 +66,66 @@
 }
 
 
+
 @media screen and (max-width:767px) {
   #background-video{
-    width:92%;
+    width:92vw;
+    height: 20%;
+  }
+}
+
+@media screen and (max-width:405px) {
+  #background-video{
+    width:89vw;
+    height: 20%;
+  }
+}
+
+@media screen and (max-width:388px) {
+  #background-video{
+    width:86vw;
+    height: 20%;
+  }
+}
+
+@media screen and (max-width:370px) {
+  #background-video{
+    width:84vw;
+    height: 20%;
+  }
+}
+
+@media screen and (max-width:365px) {
+  #background-video{
+    width:82%;
+    height: 20%;
+  }
+}
+
+@media screen and (max-width:360px) {
+  #background-video{
+    width:80%;
+    height: 20%;
+  }
+}
+
+@media screen and (max-width:347px) {
+  #background-video{
+    width:76%;
+    height: 20%;
+  }
+}
+
+@media screen and (max-width:332px) {
+  #background-video{
+    width:70%;
+    height: 20%;
+  }
+}
+
+@media screen and (max-width:310px) {
+  #background-video{
+    width:90vw;
     height: 20%;
   }
 }
@@ -82,31 +139,30 @@
 
 @media screen and (min-width:1025px) {
   #background-video{
-    width:85%;
+    width:83vw;
     height: 48%;
-    right:50% ;
     margin:auto
   }
 }
 
 @media screen and (min-width:1196px) {
   #background-video{
-    margin-left: 3%;
-    width:88%;
-    height: 40%;
+   
+    width:88vw;
+    height: 48%;
   }
 }
 
 @media screen and (min-width:1246px) {
   #background-video{
-    width:82%;
-    height: 40%;
+    width:82vw;
+    height: 48%;
   }
 }
 
 @media screen and (min-width:1345px) {
   #background-video{
-    width:85%;
+    width:85vw;
     height: 48%;
     right:50% ;
     margin:auto
@@ -115,7 +171,7 @@
 
 @media screen and (min-width:1390px) {
   #background-video{
-    width:85%;
+    width:82vw;
     height: 48%;
     right:50% ;
     margin:auto
@@ -124,34 +180,80 @@
 
 @media screen and (min-width:1427px) {
   #background-video{
-    width:85%;
+    width:82vw;
     height: 48%;
     right:50% ;
     margin:auto
   }
 }
 
-@media screen and (min-width:1480px) {
+@media screen and (min-width:1427px) {
   #background-video{
-    width:85%;
+    width:80vw;
     height: 48%;
     right:50% ;
     margin:auto
   }
 }
 
-@media screen and (min-width:1629px) {
+@media screen and (min-width:1473px) {
   #background-video{
-    width:85%;
+    width:78vw;
     height: 48%;
     right:50% ;
     margin:auto
   }
 }
+
+@media screen and (min-width:1524px) {
+  #background-video{
+    width:75vw;
+    height: 48%;
+    right:50% ;
+    margin:auto
+  }
+}
+
+@media screen and (min-width:1582px) {
+  #background-video{
+    width:73vw;
+    height: 48%;
+    right:50% ;
+    margin:auto
+  }
+}
+
+@media screen and (min-width:1624px) {
+  #background-video{
+    width:71vw;
+    height: 48%;
+    right:50% ;
+    margin:auto
+  }
+}
+
+@media screen and (min-width:1673px) {
+  #background-video{
+    width:70vw;
+    height: 48%;
+    right:50% ;
+    margin:auto
+  }
+}
+
 
 @media screen and (min-width:1695px) {
   #background-video{
-    width:85%;
+    width:69vw;
+    height: 48vh;
+    right:50% ;
+    margin:auto
+  }
+}
+
+@media screen and (min-width:1738px) {
+  #background-video{
+    width: 67vw;
     height: 48%;
     right:50% ;
     margin:auto
@@ -161,16 +263,73 @@
 
 @media screen and (min-width:1786px) {
   #background-video{
-    width:85%;
+    width:65vw;
+    height: 60vh;
+    margin:auto;
+  }
+}
+
+@media screen and (min-width:1813px) {
+  #background-video{
+    width:65vw;
     height: 48%;
     right:50% ;
     margin:auto
   }
 }
 
+@media screen and (min-width:1908px) {
+  #background-video{
+    width:61.25vw;
+    height: 65vh;
+    right:50% ;
+    margin:auto;
+    margin-top:7vh;
+  }
+}
+
+@media screen and (min-width:1922px) {
+  #background-video{
+    width:55vw;
+    height: 48%;
+    right:50% ;
+    margin:auto
+  }
+}
+
+@media screen and (min-width:2161px) {
+  #background-video{
+    width:52vw;
+    height: 48%;
+    right:50% ;
+    margin:auto
+  }
+}
+
+@media screen and (min-width:2201px) {
+  #background-video{
+    width:47vw;
+    height: 48%;
+    right:50% ;
+    margin:auto
+  }
+}
+
+@media screen and (min-width:2273px) {
+  #background-video{
+    width:47vw;
+    height: 48%;
+    right:50% ;
+    margin:auto
+  }
+}
+
+
+
 @media screen and (max-width:1800px) {
   .fix{
-    padding-right: 15%;
+     text-align: center;
+     
   }
 }
 
@@ -201,9 +360,3 @@
     height: 140vh;
   }
 }
-
-
-
-
-
-

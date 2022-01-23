@@ -4,7 +4,7 @@ import '../../scrollbarContainer.css'
 function Section3() {
     return (
         <div id='section3'>
-            <h2 className="elementor-heading-title myDiv flexHead"  style={{color:"orange",fontFamily: "arkipelagoregular,Sans-serif",fontSize: "3em",textTransform: "none",textAlign:"center",right:"7%"}}>Our Signature Dishes</h2>
+            <h2 className="elementor-heading-title myDiv flexHead"  style={{color:"orange",fontFamily: "arkipelagoregular,Sans-serif",fontSize: "3em",textTransform: "none",textAlign:"center",right:"18%"}}>Our Signature Dishes</h2>
             <section
                                             className="elementor-section elementor-top-section elementor-element elementor-element-8abea90 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                             data-id="8abea90"
