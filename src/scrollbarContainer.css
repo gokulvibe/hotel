@@ -335,7 +335,7 @@
 
 @media screen and (min-width:1786) {
   .myDiv{
-    left:50vw;
+    right:0%;
   }
 }
 
