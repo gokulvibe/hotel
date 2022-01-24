@@ -139,10 +139,10 @@ function MenuItem(props) {
 
                         <div className='add'>
                             <div className='quantity-manage'>
-                            <Button variant="outlined" color="error">-</Button>
-                                <p className='quantity' style={{padding: ".2em"}}>5</p>
-                                <Button variant="outlined" color="success">+</Button>
-                                <Button variant="contained" color="success" size="small">Add to cart</Button>
+                            <Button variant="outlined" className="minus_button" color="error">-</Button>
+                            <p className='quantity' style={{padding: ".2em"}}>5</p>
+                            <Button variant="outlined" color="success">+</Button>
+                            <Button variant="contained" color="success" size="small">Add to cart</Button>
                             </div>
                         </div>
                     </div>

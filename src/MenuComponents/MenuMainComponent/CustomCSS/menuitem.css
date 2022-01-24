@@ -3,10 +3,7 @@
     justify-content: space-around;
 }
 
-.minus_button{
-    color: white;
-    border-top: white;
-}
+
 
 .quantity{
     color: white;
@@ -19,3 +16,13 @@
 /* .add_to_cart{
     margin-left: 10px;
 } */
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .minus_button{
+        width: 1px;
+    }
+}

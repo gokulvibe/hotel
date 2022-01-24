@@ -5,6 +5,7 @@ import MenuSection3 from './MenuMainComponent/MenuSection3';
 import MenuSection4 from './MenuMainComponent/MenuSection4';
 import './MenuMainComponent/CustomCSS/MainSections.css'
 import SearchBar from './MenuMainComponent/SearchBar';
+import FloatingImage from "./MenuMainComponent/FloatingImage";
 
 function MenuMainContent() {
   return (
@@ -20,6 +21,7 @@ function MenuMainContent() {
 
                                         <MenuSection1/>
                                         <SearchBar/>
+                                        
                                         <MenuSection4/>
                                         
                                         
