@@ -1,3 +1,10 @@
+.menu_highlight h4{
+    background-color: #ec8649;
+    padding-left: 5px;
+    color: black;
+}
+
+
 .quantity-manage{
     display: flex;
     justify-content: space-around;
@@ -7,22 +14,92 @@
 
 .quantity{
     color: white;
-    max-width: 5px;
-    max-height: 5px;
+    width: 10%;
     background-color: black;
-    padding-top: .2em;
+    padding-top: .6em !important;
+    padding-left: .6em !important;
+    justify-content: center;
+    align-items: center;
+
 }
 
 /* .add_to_cart{
     margin-left: 10px;
 } */
 
+.quantity_button{
+    border-radius: 5px 5px 5px 5px;
+    background-color: transparent;
+    opacity: 0.7;
+    padding: 10px 10px 10px 10px;
+    width: 20%;
+    font-size: medium;
+}
 
+.minus{
+    border: 1px solid red;
+    color: red;
+}
+
+.plus{
+    border: 1px solid green;
+    color: green;
+}
+
+.add_to_cart_button{
+    border-radius: 5px 5px 5px 5px;
+    background-color: #2e7d32;
+    padding: 10px 10px 10px 10px;
+    font-size: medium;
+}
+
+
+
+/* IPAD View */
 @media only screen 
-  and (min-device-width: 320px) 
+  and (min-device-width: 480px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .quantity_button{
+        border-radius: 5px 5px 5px 5px;
+        background-color: transparent;
+        opacity: 0.7;
+        padding: 10px 10px 10px 10px;
+        width: 20%;
+        font-size: medium;
+    }
+
+    .add_to_cart_button{
+        border-radius: 5px 5px 5px 5px;
+        background-color: #2e7d32;
+        padding: 10px 10px 10px 10px;
+        font-size: small;
+    }
+}
+
+
+/* Mobile View */
+@media only screen 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    .minus_button{
-        width: 1px;
+    
+    .quantity_button{
+        border-radius: 5px 5px 5px 5px;
+        background-color: transparent;
+        opacity: 0.7;
+        padding: 5px 5px 5px 5px;
+        width: 20%;
+        font-size: medium;
+        
     }
+
+    .add_to_cart_button{
+        border-radius: 5px 5px 5px 5px;
+        background-color: #2e7d32;
+        padding: 5px 5px 5px 5px;
+        font-size: smaller;
+        font-weight: 1px;
+    }
+
 }

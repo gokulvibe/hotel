@@ -26,7 +26,7 @@ function MenuItem(props) {
                         </div>
                     </div>
     
-                    <div className="food-menu-content-highlight-holder">
+                    <div className="food-menu-content-highlight-holder menu_highlight">
                         <h4>{props.item.tags[0]}</h4>
                     </div>
                     <div className="food-menu-img">
@@ -67,6 +67,14 @@ function MenuItem(props) {
                         </div>
 
                         <div className="food-menu-desc">{props.item.description}</div>
+                        <div className='add'>
+                            <div className='quantity-manage'>
+                            <button className="quantity_button minus">-</button>
+                            <p className='quantity' style={{padding: ".2em"}}>5</p>
+                            <button className="quantity_button plus">+</button>
+                            <button className="add_to_cart_button">Add to cart</button>
+                            </div>
+                        </div>
                     </div>
     
                     
@@ -139,10 +147,10 @@ function MenuItem(props) {
 
                         <div className='add'>
                             <div className='quantity-manage'>
-                            <Button variant="outlined" className="minus_button" color="error">-</Button>
+                            <button className="quantity_button minus">-</button>
                             <p className='quantity' style={{padding: ".2em"}}>5</p>
-                            <Button variant="outlined" color="success">+</Button>
-                            <Button variant="contained" color="success" size="small">Add to cart</Button>
+                            <button className="quantity_button plus">+</button>
+                            <button className="add_to_cart_button">Add to cart</button>
                             </div>
                         </div>
                     </div>
