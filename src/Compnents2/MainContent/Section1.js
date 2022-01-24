@@ -5,6 +5,7 @@ import '../../scrollbarContainer.css'
 import Section3 from './Section3';
 import vid from "../../img/video.mp4" 
 
+
 function Section1() {
     return (
         <div id='section1'>
@@ -26,7 +27,7 @@ function Section1() {
                         >
                             <div className=" elementor-element-populated">
                                 <div >
-                                    <div className='video' style={{marginTop:"-5%"}}>
+                                    <div className='vids' style={{marginTop:"-5%"}}>
                                         <video  id="background-video" autoPlay loop muted >
                                            <source src={vid} type="video/mp4"></source>
                                         </video> 
@@ -41,7 +42,7 @@ function Section1() {
                                         <div className="elementor-widget-container">
                                             <br />
                                             <br />
-                                            <h1 className="vhead fix" style={{fontFamily:'saman',color:'orange',background: '-webkit-linear-gradient(orange,white,green)',WebkitBackgroundClip: 'text','-webkit-text-fill-color': 'transparent',fontSize:'4em',whiteSpace: "nowrap",display: "block",textAlign:"center",marginTop:"7%"}} >
+                                            <h1 className="vhead fix" style={{fontFamily:'saman',color:'orange',background: '-webkit-linear-gradient(orange,white,green)',WebkitBackgroundClip: 'text','-webkit-text-fill-color': 'transparent',fontSize:'4em',whiteSpace: "nowrap",display: "block",textAlign:"center",marginTop:"7%",marginRight:"15vw"}} >
                                             Clayton Chettinad
                                             </h1>
                                         </div>
@@ -82,6 +83,14 @@ function Section1() {
                                     <br/>
                                     <br/>
                                     <br/>
+                                    <br/>
+                                    <br/>
+                                    <br />
+                                    <br />
+                                    <br/>
+                                    <br />
+                                    <br />
+                                    <br />
                                     <Section3/>  
                                       
                                        
