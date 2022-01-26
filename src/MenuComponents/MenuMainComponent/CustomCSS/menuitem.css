@@ -41,7 +41,29 @@
     color: red;
 }
 
+.minus:hover{
+    border: 1px solid red;
+    color: red;
+}
+
+.minus_zero{
+    border: 1px solid red;
+    color: red;
+    opacity: .4;
+}
+
+.minus_zero:hover{
+    border: 1px solid red;
+    color: red;
+    opacity: .4;
+}
+
 .plus{
+    border: 1px solid green;
+    color: green;
+}
+
+.plus:hover{
     border: 1px solid green;
     color: green;
 }

@@ -1,8 +1,11 @@
 import { ButtonGroup, Button } from '@mui/material';
 import React from 'react'
+import {useState} from 'react';
 import './CustomCSS/menuitem.css';
 
 function MenuItem(props) {
+
+    const [quantity, setQuantity] = new useState(0);
 
     if (props.item.tags.length>0){
         return (
@@ -69,9 +72,21 @@ function MenuItem(props) {
                         <div className="food-menu-desc">{props.item.description}</div>
                         <div className='add'>
                             <div className='quantity-manage'>
-                            <button className="quantity_button minus">-</button>
-                            <p className='quantity' style={{padding: ".2em"}}>5</p>
-                            <button className="quantity_button plus">+</button>
+                            <button className={quantity > 0 ? "quantity_button minus" : "quantity_button minus_zero"} onClick={()=>{
+                                let current_quantity = quantity;
+                                setQuantity(Math.max(0, current_quantity-1));
+
+                            }}
+                            >-</button>
+
+                            <p className='quantity' style={{padding: ".2em"}}>{quantity}</p>
+
+                            <button className="quantity_button plus" onClick={()=>{
+                                let current_quantity = quantity;
+                                setQuantity(current_quantity+1);
+
+                            }}
+                            >+</button>
                             <button className="add_to_cart_button">Add to cart</button>
                             </div>
                         </div>
@@ -147,9 +162,23 @@ function MenuItem(props) {
 
                         <div className='add'>
                             <div className='quantity-manage'>
-                            <button className="quantity_button minus">-</button>
-                            <p className='quantity' style={{padding: ".2em"}}>5</p>
-                            <button className="quantity_button plus">+</button>
+
+                            <button className={quantity > 0 ? "quantity_button minus" : "quantity_button minus_zero"} onClick={()=>{
+                                let current_quantity = quantity;
+                                setQuantity(Math.max(0, current_quantity-1));
+
+                            }}
+                            >-</button>
+
+                            <p className='quantity' style={{padding: ".2em"}}>{quantity}</p>
+
+                            <button className="quantity_button plus" onClick={()=>{
+                                let current_quantity = quantity;
+                                setQuantity(current_quantity+1);
+
+                            }}
+                            >+</button>
+
                             <button className="add_to_cart_button">Add to cart</button>
                             </div>
                         </div>
