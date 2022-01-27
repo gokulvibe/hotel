@@ -1,7 +1,8 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Home from "./Pages/Home";
-import Menu from './Pages/Menu';
-import "./scrollbarContainer.css";
+import Cart from 'Pages/Cart';
+import Home from "Pages/Home";
+import Menu from 'Pages/Menu';
+import "scrollbarContainer.css";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
               
                 <Route path='/' element={<Home/>} /> 
                 <Route path='/menu' element={<Menu/>} /> 
+                <Route path='/cart' element={<Cart/>} /> 
               
                   
             </Routes>

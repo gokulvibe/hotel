@@ -1,11 +1,8 @@
 import React from 'react';
-import MenuSection1 from './MenuMainComponent/MenuSection1';
-import MenuSection2 from './MenuMainComponent/MenuSection2';
-import MenuSection3 from './MenuMainComponent/MenuSection3';
-import MenuItems from './MenuMainComponent/MenuItems';
-import './MenuMainComponent/CustomCSS/MainSections.css'
-import SearchBar from './MenuMainComponent/SearchBar';
-import FloatingImage from "./MenuMainComponent/FloatingImage";
+import MenuSection1 from 'MenuComponents/MenuMainComponent/MenuSection1';
+import MenuItems from 'MenuComponents/MenuMainComponent/MenuItems';
+import 'MenuComponents/MenuMainComponent/CustomCSS/MainSections.css';
+import SearchBar from 'MenuComponents/MenuMainComponent/SearchBar';
 
 function MenuMainContent() {
   return (
