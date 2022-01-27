@@ -4,3 +4,33 @@
     box-sizing: border-box;
     padding: 10px 20px 10px 100px;
 }
+
+
+
+/* IPAD View */
+@media only screen 
+  and (min-device-width: 480px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .food-menu-content {
+        min-width: 500px;
+        margin-top: -5px;
+        box-sizing: border-box;
+        padding: 10px 20px 10px 100px;
+    }
+
+}
+
+
+/* Mobile View */
+@media only screen 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .food-menu-content {
+        min-width: 400px;
+        margin-top: -5px;
+        box-sizing: border-box;
+        padding: 10px 20px 10px 100px;
+    }
+
+}
