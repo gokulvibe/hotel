@@ -2,7 +2,7 @@ import React from 'react';
 import MenuSection1 from './MenuMainComponent/MenuSection1';
 import MenuSection2 from './MenuMainComponent/MenuSection2';
 import MenuSection3 from './MenuMainComponent/MenuSection3';
-import MenuSection4 from './MenuMainComponent/MenuSection4';
+import MenuItems from './MenuMainComponent/MenuItems';
 import './MenuMainComponent/CustomCSS/MainSections.css'
 import SearchBar from './MenuMainComponent/SearchBar';
 import FloatingImage from "./MenuMainComponent/FloatingImage";
@@ -22,7 +22,7 @@ function MenuMainContent() {
                                         <MenuSection1/>
                                         <SearchBar/>
                                         
-                                        <MenuSection4/>
+                                        <MenuItems/>
                                         
                                         
                                         

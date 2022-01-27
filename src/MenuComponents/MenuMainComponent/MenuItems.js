@@ -3,7 +3,7 @@ import {useState} from 'react';
 import MenuItem from './MenuItem';
 import './CustomCSS/foodmenu.css'
 
-function MenuSection4() {
+function MenuItems() {
     const [menu, setMenu] = useState(
         [
             {
@@ -237,4 +237,4 @@ function MenuSection4() {
     )
 }
 
-export default MenuSection4;
+export default MenuItems;
