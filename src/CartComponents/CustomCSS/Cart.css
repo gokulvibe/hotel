@@ -13,3 +13,16 @@
     margin-bottom: 30px;
     transform: translate(0, 50px);
 }
+
+
+.elementor-row{
+    flex-wrap: nowrap;
+}
+
+@media only screen 
+and (max-device-width: 670px){
+    .elementor-row{
+        flex-wrap: wrap;
+    }
+
+}

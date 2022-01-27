@@ -1,7 +1,6 @@
 import React from 'react';
 import CartSection1 from 'CartComponents/CartSection1';
-import CartItems from 'CartComponents/CartItems';
-import SearchBar from '../MenuComponents/MenuMainComponent/SearchBar';
+import CartSection2 from 'CartComponents/CartSection2';
 
 function CartMain() {
     return (
@@ -18,7 +17,7 @@ function CartMain() {
                                             <CartSection1/>
                                           {/* <SearchBar/> */}
                                           
-                                          <CartItems/>
+                                          <CartSection2/>
                                           
                                           
                                           
