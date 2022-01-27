@@ -1,0 +1,6 @@
+.food-menu-content {
+    min-width: 600px;
+    margin-top: -5px;
+    box-sizing: border-box;
+    padding: 10px 20px 10px 100px;
+}

@@ -75,6 +75,13 @@
     font-size: medium;
 }
 
+.remove_from_cart_button{
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(155, 21, 21);
+    padding: 10px 10px 10px 10px;
+    font-size: medium;
+}
+
 
 
 /* IPAD View */

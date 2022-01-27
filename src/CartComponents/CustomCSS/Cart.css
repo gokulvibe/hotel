@@ -1,0 +1,15 @@
+
+/* CartSection 1 */
+.custom-css-style .elementor-element.elementor-element-1ef6e22>.elementor-container {
+    min-height: 300px;
+}
+
+
+/* Title of CART Page */
+.custom-css-style .elementor-element.elementor-element-dcb02db .elementor-heading-title.cart{
+    color: white ;
+    font-size: 50px;
+    opacity: 0.7;
+    margin-bottom: 30px;
+    transform: translate(0, 50px);
+}
