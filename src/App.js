@@ -1,7 +1,10 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from "./Pages/Home";
 import Menu from './Pages/Menu';
+import LoginSignup from './Pages/LoginSignup';
 import "./scrollbarContainer.css";
+
+
 
 function App() {
   return (
@@ -14,8 +17,8 @@ function App() {
               
                 <Route path='/' element={<Home/>} /> 
                 <Route path='/menu' element={<Menu/>} /> 
-              
-                  
+                <Route path='/auth' element={<LoginSignup/>} />              
+ 
             </Routes>
 
           

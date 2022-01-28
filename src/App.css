@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.LoginSignup {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
+
+/* Tab Container */
+.Tabs {
+  width: auto;
+  height: auto;
+  min-height: 400px;
+  background:black;
+  margin: 0 auto 1.5rem;
+  padding: 11rem 1rem 3rem 1rem;
+  color: #E8F0F2;
+  border-radius: 2rem;
+  @media (max-width: 769px) {
+    padding: 2rem 0;
+  }
+ 
+}
+
+
+@media only screen and (min-width:940px){
+  .Tabs{
+    padding: 20rem 13rem 0rem 13rem;
+  }
+}
+
+@media only screen and (min-width:1151px){
+  .Tabs{
+    padding: 20rem 20rem 0rem 20rem;
+  }
+}
+
+@media only screen and (min-width:1355px){
+  .Tabs{
+    padding: 20rem 24rem 0rem 24rem;
+  }
+}
+
+@media only screen and (min-width:1587px){
+  .Tabs{
+    padding: 15rem 29rem 0rem 29rem;
+  }
+}
+
+@media only screen and (min-width:1704px){
+  .Tabs{
+    padding: 15rem 32rem 0rem 32rem;
+  }
+}
+
+@media only screen and (min-width:1820px){
+  .Tabs{
+    padding: 13rem 40rem 9rem 40rem;
+  }
+}
+
+/* Tab Navigation */
+ul.nav2 {
+  width: 60%;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid whitesmoke;
+  border-radius: 2rem;
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+ul.nav2 li {
+  width: 50%;
+  padding: 1rem;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.7s;
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+ul.nav2 li:nth-child(2) {
+  border-radius: 0;
+  border-bottom-right-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+ul.nav2 li:hover {
+  background: rgba(50, 224, 196, 0.15);
+}
+ul.nav2 li.active {
+  background: orange;
+}
+
+/* First and Second Tab Styles */
+.FirstTab p,
+.SecondTab p {
+  font-size: 2rem;
+  text-align: center;
+}.tab-list {  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active {
+  background-color: white;
+  border: solid #ccc;
+  border-width: 1px 1px 0 1px;
+}
+
+input[type=email]{
+    padding: 10px;
+    border: 4px solid #eee;
+    border-radius:10px;
+    width:100%;
+    white-space: nowrap;
+}
+
+input[type=password]{
+    padding: 10px;
+    border: 4px solid #eee;
+    border-radius:10px;
+    width:100%;
+    margin-bottom: 0.2em;
+}
+
+input[type=tel]{
+    padding: 10px;
+    border: 4px solid #eee;
+    border-radius:10px;
+    width:100%;
+    margin-bottom: 0.2em;
+}
+
+input[type=text]{
+    padding: 10px;
+    background-color: white;
+    border: 4px solid #eee;
+    border-radius:10px;
+    width:100%;
+    margin-bottom: 0.2em;
+}
+
+
+input:focus {
+  background-color: #ffd969;
+  border-color: #000;
+ 
+}
+
+label{
+  font-weight: bold;
+}
+
+.forgot{
+  text-align:left;
+}
+
+.forgot:hover{
+   text-decoration: underline;
+}
+
