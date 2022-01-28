@@ -24,7 +24,7 @@
   min-height: 400px;
   background:black;
   margin: 0 auto 1.5rem;
-  padding: 11rem 1rem 3rem 1rem;
+  padding: 9rem 1rem 10rem 1rem;
   color: #E8F0F2;
   border-radius: 2rem;
   @media (max-width: 769px) {
@@ -36,37 +36,37 @@
 
 @media only screen and (min-width:940px){
   .Tabs{
-    padding: 20rem 13rem 0rem 13rem;
+    padding: 8rem 13rem 10rem 13rem;
   }
 }
 
 @media only screen and (min-width:1151px){
   .Tabs{
-    padding: 20rem 20rem 0rem 20rem;
+    padding:9rem 20rem 10rem 20rem;
   }
 }
 
 @media only screen and (min-width:1355px){
   .Tabs{
-    padding: 20rem 24rem 0rem 24rem;
+    padding: 13rem 24rem 10rem 24rem;
   }
 }
 
 @media only screen and (min-width:1587px){
   .Tabs{
-    padding: 15rem 29rem 0rem 29rem;
+    padding: 10rem 29rem 10rem 29rem;
   }
 }
 
 @media only screen and (min-width:1704px){
   .Tabs{
-    padding: 15rem 32rem 0rem 32rem;
+    padding: 13rem 32rem 0rem 32rem;
   }
 }
 
 @media only screen and (min-width:1820px){
   .Tabs{
-    padding: 13rem 40rem 15rem 40rem;
+    padding: 13rem 40rem 10rem 40rem;
   }
 }
 

@@ -39,7 +39,7 @@ const FirstTab = () => {
                                                                                                             <br/>  
                                                                                                              <label for="Password" style={{fontFamily:"Roboto condensed,sans-serif",color:"white",fontSize:"2em",textTransform: "none"}}>PASSWORD:</label>
                                                                                                              <input type="password" name="Password" id="Password" />
-                                                                                                             <a href="#" ><p class="forgot" style={{color:"white",fontSize:"1.25em"}}>Forgot Password?</p></a>                                                                                                           
+                                                                                                             <a href="#" ><p class="forgot" style={{fontFamily:"Roboto condensed,sans-serif",color:"white",fontSize:"1.25em"}}>FORGOT PASSWORD?</p></a>                                                                                                           
                                                                                                             <input type="submit" name="submit" value="Login" class="submit-button" />
                                                                                                         </form>
         
