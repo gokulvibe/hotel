@@ -445,8 +445,23 @@ and (-webkit-min-device-pixel-ratio: 1){
 }
 
 
+/* Mobile View */
 @media only screen 
 and (max-device-width: 670px)
+and (-webkit-min-device-pixel-ratio: 2){
+    .summary_container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        height: fit-content;
+    }
+}
+
+
+/* Mobile View */
+@media only screen 
+and (max-device-width: 300px)
 and (-webkit-min-device-pixel-ratio: 2){
     .summary_container{
         width: 100%;
