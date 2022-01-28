@@ -19,19 +19,19 @@ export default function Login() {
    
                                                                                
 
-                                                                                                        <form method="post" action="contactform/contactengine.php" class="forms-input">
-                                                                                                                                         
-                                                                                                
-                                                                                                            <label for="Email">Email:</label>
-                                                                                                            <input type="text" name="Email" id="Email" />
+          <form method="post" action="contactform/contactengine.php" class="forms-input">
+                                            
+  
+              <label for="Email">Email:</label>
+              <input type="text" name="Email" id="Email" />
 
-                                                                                                             <label for="City">Password:</label>
-                                                                                                            <input type="text" name="Password" id="Password" />
-                                                                                                            
-                                                                                                           
+                <label for="City">Password:</label>
+              <input type="text" name="Password" id="Password" />
+              
+              
 
-                                                                                                            <input type="submit" name="submit" value="LOGIN" class="submit-button" />
-                                                                                                        </form>
+              <input type="submit" name="submit" value="LOGIN" class="submit-button" />
+          </form>
         
                                                                                                    
    

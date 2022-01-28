@@ -19,6 +19,8 @@
 
 /* Tab Container */
 .Tabs {
+  /* z-index: 1;
+  background-color: black; */
   width: auto;
   height: auto;
   min-height: 400px;

@@ -1,8 +1,11 @@
 import React from 'react';
 import CartSection1 from 'CartComponents/CartSection1';
 import CartSection2 from 'CartComponents/CartSection2';
+import Modal from 'CommonComponents/Modal';
+import {useState} from 'react'
 
-function CartMain() {
+function CartMain(props) {
+    const [showModal, setshowModal] = useState(false);
     return (
         <div id="menu_main_content">
             <div id="wrapper" className="hasbg transparent" style={{bacgroundColor: "black"}}>
@@ -14,10 +17,14 @@ function CartMain() {
                                   <div className="elementor-inner">
                                       <div className="elementor-section-wrap">
 
+                                      {
+                                          showModal ? <Modal setshowModal={setshowModal}/> : null
+                                      }
+
                                             <CartSection1/>
                                           {/* <SearchBar/> */}
                                           
-                                          <CartSection2/>
+                                          <CartSection2  setshowModal={setshowModal}/>
                                           
                                           
                                           
