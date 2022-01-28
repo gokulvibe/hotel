@@ -1,8 +1,8 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Cart from 'Pages/Cart';
+import Cart from "Pages/Cart";
 import Home from "Pages/Home";
-import Menu from 'Pages/Menu';
-import LoginSignup from './Pages/LoginSignup';
+import Menu from "Pages/Menu";
+import LoginSignup from "Pages/LoginSignup";
 import "scrollbarContainer.css";
 
 
