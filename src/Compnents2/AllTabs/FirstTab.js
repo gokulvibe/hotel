@@ -33,11 +33,11 @@ const FirstTab = () => {
                                                                                                         <form method="post" action="contactform/contactengine.php" class="forms-input">
                                                                                                                                                                                                                     
                                                                                                 
-                                                                                                            <label for="Email" style={{fontFamily:"Roboto condensed,sans-serif",color:"white",fontSize:"2em",textTransform: "none"}}>EMAIL:</label>
+                                                                                                            <label for="Email" style={{fontFamily:"Roboto condensed,sans-serif",color:"white",fontSize:"1.5em",textTransform: "none"}}>EMAIL:</label>
                                                                                                             <input type="email" name="Email" id="Email" />
                                                                                                             <br/> 
                                                                                                             <br/>  
-                                                                                                             <label for="Password" style={{fontFamily:"Roboto condensed,sans-serif",color:"white",fontSize:"2em",textTransform: "none"}}>PASSWORD:</label>
+                                                                                                             <label for="Password" style={{fontFamily:"Roboto condensed,sans-serif",color:"white",fontSize:"1.5em",textTransform: "none"}}>PASSWORD:</label>
                                                                                                              <input type="password" name="Password" id="Password" />
                                                                                                              <a href="#" ><p class="forgot" style={{fontFamily:"Roboto condensed,sans-serif",color:"white",fontSize:"1.25em"}}>FORGOT PASSWORD?</p></a>                                                                                                           
                                                                                                             <input type="submit" name="submit" value="Login" class="submit-button" />
