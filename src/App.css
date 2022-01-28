@@ -73,7 +73,7 @@
 /* Tab Navigation */
 ul.nav2 {
   width: 60%;
-  margin: 0 auto 2rem;
+  margin: 0 auto 0.60rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
