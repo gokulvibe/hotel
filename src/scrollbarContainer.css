@@ -26,6 +26,17 @@
  font-family: "saman";
 }
 
+@font-face {
+ font-family: "arkipelago";
+ src: local("fonts/Arkipelago.otf"),
+ url("fonts/Arkipelago.otf") format("truetype");
+ font-weight: bold;
+}
+
+.font-Arkipelago {
+ font-family: "Arkipelago";
+}
+
 .myDiv {
   border-style: solid;
   border-width: 0 0 2px 0;

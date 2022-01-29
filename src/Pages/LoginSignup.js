@@ -5,6 +5,7 @@ import React from 'react';
 import Tabs from "../Compnents2/Tabs";
 import {useEffect} from "react";
 import "../App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 var rootStyle = {
   backgroundColor : 'black',
@@ -17,9 +18,9 @@ var headStyle = {
 }
 
 function LoginSignup() {
-   useEffect(() => { document.body.style.backgroundColor = 'black' }, []) 
+   
   return(
-     <div style={rootStyle}>
+     <div className="bg-black" style={{maxWidth:"100vw",height:"180vh"}}>
            <div class="header">
              <Header/>
              <MobileMenu/>
