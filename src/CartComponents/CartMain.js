@@ -3,6 +3,7 @@ import CartSection1 from 'CartComponents/CartSection1';
 import CartSection2 from 'CartComponents/CartSection2';
 import Modal from 'CommonComponents/Modal';
 import {useState} from 'react'
+import Tabs from 'Compnents2/Tabs';
 
 function CartMain(props) {
     const [showModal, setshowModal] = useState(false);
@@ -18,7 +19,9 @@ function CartMain(props) {
                                       <div className="elementor-section-wrap">
 
                                       {
-                                          showModal ? <Modal setshowModal={setshowModal}/> : null
+                                          showModal ? <Modal setshowModal={setshowModal}>
+                                              <Tabs/>
+                                          </Modal> : null
                                       }
 
                                             <CartSection1/>

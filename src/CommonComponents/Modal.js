@@ -13,7 +13,7 @@ function Modal(props) {
       }
 
       }>&times;</span>
-      {/* <Tabs/> */}
+      {props.children}
       Some content here
     </div>
   
