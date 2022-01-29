@@ -1,6 +1,6 @@
 /* About Us text - title */
 .custom-css-style .elementor-element.elementor-element-de04247 .elementor-heading-title {
-    color: black;
+    color: #ec8659;
     font-size: 110px;
 }
 
@@ -30,7 +30,14 @@
 
 
 /* THe seperator line */
-.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator {
+/* .elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator {
+    border-top: var(--divider-border-width) var(--divider-border-style) #ec8649;
+} */
+
+.custom-css-style .elementor-element.elementor-element .elementor-divider-separator.about {
+    width: 170px;
+    margin: 0 auto;
+    margin-left: 0;
     border-top: var(--divider-border-width) var(--divider-border-style) #ec8649;
 }
 
@@ -42,11 +49,11 @@
 }
 
 
-.elementor-widget-image .elementor-image img {
+/* .elementor-widget-image .elementor-image img {
     object-fit: fill;
     max-width: none;
     width: 550px;
     height: 650px;
     vertical-align: middle;
     display: inline-block;
-}
+} */

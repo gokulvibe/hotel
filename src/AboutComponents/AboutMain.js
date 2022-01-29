@@ -80,7 +80,7 @@ function AboutMain() {
                                                                 >
                                                                     <div className="elementor-widget-container">
                                                                         <div className="elementor-divider">
-                                                                            <span className="elementor-divider-separator"> </span>
+                                                                            <span className="elementor-divider-separator about"> </span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -167,7 +167,7 @@ function AboutMain() {
                                                                 >
                                                                     <div className="elementor-widget-container">
                                                                         <div className="elementor-divider">
-                                                                            <span className="elementor-divider-separator"> </span>
+                                                                            <span className="elementor-divider-separator about"> </span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -340,7 +340,7 @@ function AboutMain() {
                                                                 >
                                                                     <div className="elementor-widget-container">
                                                                         <div className="elementor-divider">
-                                                                            <span className="elementor-divider-separator"> </span>
+                                                                            <span className="elementor-divider-separator about"> </span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
