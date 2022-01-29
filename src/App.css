@@ -66,18 +66,18 @@
 
 @media only screen and (min-width:1820px){
   .Tabs{
-    padding: 13rem 40rem 10rem 40rem;
+    padding: 13rem 40rem 17rem 40rem;
   }
 }
 
 /* Tab Navigation */
 ul.nav2 {
-  width: 60%;
+  width: 65%;
   margin: 0 auto 0.60rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid whitesmoke;
+  border: 1px solid black;
   border-radius: 2rem;
   @media (max-width: 768px) {
     width: 90%;
@@ -103,7 +103,7 @@ ul.nav2 li:hover {
   background: wheat;
 }
 ul.nav2 li.active {
-  background: orange;
+  background: #ec8649;
 }
 
 /* First and Second Tab Styles */
@@ -175,6 +175,7 @@ label{
 
 .forgot{
   text-align:left;
+  text-decoration: none;
 }
 
 .forgot:hover{
