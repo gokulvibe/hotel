@@ -32,7 +32,7 @@
     width: 60vw;
     height: 50vh;
     min-width: 300px;
-    min-height: 550px;
+    min-height: 480px;
     background-color: black;
     border: 1px solid white;
    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
@@ -56,14 +56,10 @@
 .column2{
     flex: 50%;
     align-items: center;
-    padding-top: 13vh;
+    padding-top: 15vh;
 }
 
-@media screen and (max-width:846px){
-    #profileCard{
-        height: 83vh;
-    }
-}
+
 
 @media screen and (max-width:464px){
     #profileCard{
@@ -85,12 +81,17 @@ mark{
      align-items: center;
 }
 
+@media screen and (max-width:1400px){
+    #profileCard{
+        height: 40vh;
+    }
+}
 
 
 @media screen and (max-width:1263px){
 
     #profileCard{
-       height: 90vh;
+       height: 125vh;
     }
 
     #profileCard a{
@@ -109,7 +110,7 @@ mark{
 @media screen and (max-width:662px){
 
     #profileCard{
-       height: 90vh;
+       height: 130vh;
        width: 70vw;
     }
 
@@ -125,7 +126,11 @@ mark{
     }
 }
 
-
+@media screen and (max-width:500px){
+    #profileCard{
+        height: 160vh;
+    }
+}
 
 
 
@@ -156,7 +161,7 @@ mark{
 @media screen and (max-width:579px){
 
     #profileCard{
-        height:115vh;
+        height:145vh;
     }
 
     .options li{
@@ -278,3 +283,4 @@ mark{
          top: -2px;
          left: -2px;
             }
+
