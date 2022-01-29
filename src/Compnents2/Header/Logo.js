@@ -20,7 +20,7 @@ function Logo() {
                         >
                             <div className="elementor-widget-container">
                                 <div className="elementor-image">
-                                    <a href="index.html">
+                                    <a href="/">
                                         <img
                                             width="150"
                                             height="150"
