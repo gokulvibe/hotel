@@ -1,0 +1,52 @@
+/* About Us text - title */
+.custom-css-style .elementor-element.elementor-element-de04247 .elementor-heading-title {
+    color: black;
+    font-size: 110px;
+}
+
+/* Intro text */
+.custom-css-style .elementor-element.elementor-element-70016a9 .elementor-heading-title {
+    color: #ec8649 ;
+    font-size: 40px;
+}
+
+/* Our Founder text */
+.custom-css-style .elementor-element.elementor-element-7572299 .elementor-heading-title {
+    color: #ec8649;
+    font-size: 40px;
+}
+
+/* Our Missions text */
+.custom-css-style .elementor-element.elementor-element-906e23e .elementor-heading-title {
+    color: #ec8649;
+    font-size: 40px;
+}
+
+/* Menus text */
+.custom-css-style .elementor-element.elementor-element-a43fe18 .elementor-heading-title {
+    color: #ec8649;
+    font-size: 40px;
+}
+
+
+/* THe seperator line */
+.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator {
+    border-top: var(--divider-border-width) var(--divider-border-style) #ec8649;
+}
+
+/* Chefs Image */
+.custom-css-style .elementor-element.elementor-element-3e0162f {
+    width: 900px;
+    height: 600px;
+    bottom: -20%;
+}
+
+
+.elementor-widget-image .elementor-image img {
+    object-fit: fill;
+    max-width: none;
+    width: 550px;
+    height: 650px;
+    vertical-align: middle;
+    display: inline-block;
+}

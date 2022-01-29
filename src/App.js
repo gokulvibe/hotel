@@ -4,6 +4,7 @@ import Home from "Pages/Home";
 import Menu from "Pages/Menu";
 import LoginSignup from "Pages/LoginSignup";
 import "scrollbarContainer.css";
+import About from 'Pages/About';
 
 
 
@@ -17,6 +18,7 @@ function App() {
             <Routes>
               
                 <Route path='/' element={<Home/>} /> 
+                <Route path='/about' element={<About/>}/>
                 <Route path='/menu' element={<Menu/>} /> 
                 <Route path='/cart' element={<Cart/>} /> 
               
