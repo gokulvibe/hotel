@@ -5,7 +5,7 @@ import CartSummary from 'CartComponents/CartSummary';
 import 'CartComponents/CustomCSS/Cart.css';
 
 
-function CartSection2() {
+function CartSection2(props) {
 
     return (
         <div className='menusection4'>
@@ -21,7 +21,7 @@ function CartSection2() {
                         <div className="elementor-row">
                             
                             <CartItems/>
-                            <CartSummary/>
+                            <CartSummary  setshowModal={props.setshowModal}/>
                         </div>
                     </div>
                 </section>

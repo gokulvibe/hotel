@@ -19,7 +19,7 @@ function CartItem(props) {
                         }
                     </div> */}
 
-                    <div className="food-menu-content">
+                    <div className="food-menu-content cart">
                         <div className="food-menu-content-top-holder">
                             <div className="food-menu-content-title-holder">
                                 <h3 className="food-menu-title">{props.item.name}</h3>
