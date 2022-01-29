@@ -38,12 +38,16 @@ function Navbar() {
                                                 </ul> */}
                                             </li>
                                             <li className="menu-item menu-item-has-children">
-                                                <a href="#">About</a>
+                                                <a href="/about">About</a>
                                                
                                             </li>
                                             <li className="menu-item menu-item-has-children">
                                                 <a href="/auth">Login</a>
                                                 
+                                            </li>
+                                            <li className="menu-item menu-item-has-children">
+                                                <a href="/profile">Profile</a>
+                                               
                                             </li>
                                             <li className="menu-item menu-item-has-children">
                                                 <a href="/menu">Menus</a>
