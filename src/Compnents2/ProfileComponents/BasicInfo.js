@@ -23,11 +23,11 @@ function BasicInfo(){
                  <ul className='options'>
                     <li className='oli'><a href="http://allisondskinner.com">Your Orders</a></li>
                    
-                    <li className='oli'><a href="/menu">Give Feedback</a></li>
+                    <li className='oli'><a  href="http://allisondskinner.com">Give Feedback</a></li>
                     
                     <li className='oli'><a href="/cart">Your Cart</a></li>
                     
-                    <li className='oli'><a href="http://allisondskinner.com">Our Menu</a></li>
+                    <li className='oli'><a   href="/cart" href="/menu">Our Menu</a></li>
                  </ul>
                 </div>
               </div>   
