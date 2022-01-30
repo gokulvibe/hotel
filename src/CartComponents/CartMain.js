@@ -2,11 +2,17 @@ import React from 'react';
 import CartSection1 from 'CartComponents/CartSection1';
 import CartSection2 from 'CartComponents/CartSection2';
 import Modal from 'CommonComponents/Modal';
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import Tabs from 'Compnents2/Tabs';
 
 function CartMain(props) {
     const [showModal, setshowModal] = useState(false);
+
+    useEffect(() => {
+      console.log(showModal);
+    
+    }, [showModal]);
+    
     return (
         <div id="menu_main_content">
             <div id="wrapper" className="hasbg transparent" style={{bacgroundColor: "black"}}>
@@ -23,6 +29,7 @@ function CartMain(props) {
                                               <Tabs/>
                                           </Modal> : null
                                       }
+
 
                                             <CartSection1/>
                                           {/* <SearchBar/> */}
