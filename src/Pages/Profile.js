@@ -10,7 +10,7 @@ import "Compnents2/CustomCSS/Profile.css";
 
 function Profile() {
   return(
-     <div className="bg-black profDark" style={{maxWidth:"100vw",height:"180vh"}}>
+     <div className="bg-black profDark" style={{maxWidth:"100vw",height:"220vh"}}>
           <Header/>
           <MobileMenu/>
           <BasicInfo/>
