@@ -91,7 +91,7 @@ mark{
 @media screen and (max-width:1263px){
 
     #profileCard{
-       height: 125vh;
+       height: 140vh;
     }
 
     #profileCard a{
@@ -161,8 +161,10 @@ mark{
 @media screen and (max-width:579px){
 
     #profileCard{
-        height:145vh;
+        height:165vh;
     }
+
+ 
 
     .options li{
         columns: 1;

@@ -5,6 +5,7 @@ import Menu from "Pages/Menu";
 import Profile from "Pages/Profile";
 import LoginSignup from "Pages/LoginSignup";
 import Feedback from "Pages/Feedback";
+import Orders from "Pages/Orders";
 import "scrollbarContainer.css";
 import About from 'Pages/About';
 
@@ -26,6 +27,7 @@ function App() {
                 <Route path='/auth' element={<LoginSignup/>} />              
                 <Route path='/profile' element={<Profile/>} />   
                 <Route path='/feedback' element={<Feedback/>} />    
+                <Route path='/orders' element={<Orders/>} /> 
             </Routes>
 
           

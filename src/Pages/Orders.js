@@ -4,19 +4,18 @@ import MobileMenu from "Compnents2/MobileMenu";
 import React from 'react';
 import {useEffect} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import BasicInfo from "Compnents2/ProfileComponents/BasicInfo";
-import "Compnents2/CustomCSS/Profile.css";
+import OrderBox from "Compnents2/OrderBox";
 
 
-function Profile() {
-  return(
-     <div className="bg-black profDark" style={{maxWidth:"100vw",height:"180vh"}}>
+function Orders(){
+    return(
+        <div className="bg-black" style={{maxWidth:"100vw",height:"180vh"}}>
           <Header/>
           <MobileMenu/>
-          <BasicInfo/>
+          <OrderBox/>
           <Footer/>
-     </div>
-  );
+        </div>
+    )
 }
 
-export default Profile;
+export default Orders;
