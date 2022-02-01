@@ -15,6 +15,7 @@ function BasicInfo(){
                 </div>
                 <br/>
                 <h3>&#128231;-kaushikashok45@gmail.com</h3>
+                <br/>
                 <h3>&#128241;-7358427164</h3>
               </div>
               <div className='column2'>

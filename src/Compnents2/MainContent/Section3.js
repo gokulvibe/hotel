@@ -45,7 +45,7 @@ function Section3() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div>
-                                                                        <h2 className="elementor-heading-title elementor-size-default"><a href="menu.html">Biriyani</a></h2>
+                                                                        <h2 className="elementor-heading-title elementor-size-default" id="itemLabel"><a href="menu.html">Biriyani</a></h2>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -90,7 +90,7 @@ function Section3() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div>
-                                                                        <h2 className="elementor-heading-title elementor-size-default" style={{paddingTop:"70px"}}><a href="menu.html">Indian Breads</a></h2>
+                                                                        <h2 className="elementor-heading-title elementor-size-default" id="itemLabel" style={{paddingTop:"70px"}}><a href="menu.html">Indian Breads</a></h2>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -135,7 +135,7 @@ function Section3() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div>
-                                                                        <h2 className="elementor-heading-title elementor-size-default"><a href="menu.html">Indian Gravies</a></h2>
+                                                                        <h2 className="elementor-heading-title elementor-size-default" id="itemLabel"><a href="menu.html">Indian Gravies</a></h2>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -180,7 +180,7 @@ function Section3() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div>
-                                                                        <h2 className="elementor-heading-title elementor-size-default"  style={{paddingTop:"50px"}}><a href="#">Juices</a></h2>
+                                                                        <h2 className="elementor-heading-title elementor-size-default" id="itemLabel"  style={{paddingTop:"50px"}}><a href="#">Juices</a></h2>
                                                                     </div>
                                                                 </div>
                                                             </div>
