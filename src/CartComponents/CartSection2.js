@@ -3,6 +3,7 @@ import 'MenuComponents/MenuMainComponent/CustomCSS/foodmenu.css'
 import CartItems from 'CartComponents/CartItems';
 import CartSummary from 'CartComponents/CartSummary';
 import 'CartComponents/CustomCSS/Cart.css';
+import Timeline from 'CommonComponents/Timeline';
 
 
 function CartSection2(props) {
@@ -24,6 +25,7 @@ function CartSection2(props) {
                             <CartSummary  setshowModal={props.setshowModal}/>
                         </div>
                     </div>
+                    
                 </section>
         </div>
     )
