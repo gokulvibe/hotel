@@ -9,11 +9,11 @@ import OrderBox from "Compnents2/OrderComponents/OrderBox";
 
 function Orders(){
     return(
-        <div className="bg-black" style={{maxWidth:"100vw",height:"fit-content"}}>
+        <div className="bg-black" style={{maxWidth:"100vw",height:"auto",bottom:"0",minHeight:"100vh"}}>
           <Header/>
           <MobileMenu/>
           <OrderBox/>
-          <Footer/>
+          <div style={{PaddingTop:"20px"}}><Footer/></div>
         </div>
     )
 }

@@ -4,7 +4,7 @@ import Order from "Compnents2/OrderComponents/Order";
 import {useState,useEffect} from 'react';
 
 function Filter(){
-    const [filteredOrders, setfilteredOrders] = useState(FakeOrders.filter(item=>{return item.type==="previous"||item.type==="upcoming"}))
+    const [filteredOrders, setfilteredOrders] = useState(FakeOrders.sort((first,second)=>{return first.id>second.id?-1:1;}).filter(item=>{return item.type==="previous"||item.type==="upcoming"}))
     const [isActive1, setActive1] = useState(true);
     const [isActive2, setActive2] = useState(false);
     const [isActive3, setActive3] = useState(false);
@@ -13,11 +13,11 @@ function Filter(){
         setfilteredOrders(B)
     }
     function filterB(){
-        var B=FakeOrders.filter(item=>{return item.type==="previous"})
+        var B=FakeOrders.sort((first,second)=>{return first.id>second.id?-1:1;}).filter(item=>{return item.type==="previous"})
         setfilteredOrders(B)
     }
     function filterC(){
-        var C=FakeOrders.filter(item=>{return item.type==="upcoming"})
+        var C=FakeOrders.sort((first,second)=>{return first.id>second.id?1:-1;}).filter(item=>{return item.type==="upcoming"})
         setfilteredOrders(C)
     }
     return(
