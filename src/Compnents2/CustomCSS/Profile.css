@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
 
-Footer{
-    bottom: 0;
 
-}
 
 .BasicInfo{
     padding-top: 27vh;
@@ -44,7 +41,7 @@ Footer{
     border-radius: 2em;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+   
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60vh;
@@ -54,13 +51,11 @@ Footer{
 
 .column1{
     flex: 50%;
-    align-items: right;
     padding-top: 5vh;
 }
 
 .column2{
     flex: 50%;
-    align-items: center;
     padding-top: 15vh;
 }
 
@@ -96,8 +91,9 @@ mark{
 @media screen and (max-width:1256px){
 
     #profileCard{
-       height: 150vh;
+       height: fit-content;
        margin-bottom: 40vh;
+       flex-direction: column;
     }
 
     #profileCard a{
@@ -116,7 +112,7 @@ mark{
 @media screen and (max-width:662px){
 
     #profileCard{
-       height: 140vh;
+       height: fit-content;
        width: 70vw;
     }
 
@@ -134,7 +130,7 @@ mark{
 
 @media screen and (max-width:500px){
     #profileCard{
-        height: 160vh;
+        height: fit-content;
     }
 }
 
@@ -167,7 +163,7 @@ mark{
 @media screen and (max-width:579px){
 
     #profileCard{
-        height:175vh;
+        height:fit-content;
         margin-bottom: 18vh;
     }
 

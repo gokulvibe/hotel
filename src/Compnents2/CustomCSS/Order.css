@@ -3,6 +3,7 @@
     flex-direction: row;
     border-radius: 2em;
     margin:30px;
+    overflow-x: hidden;
 }
 
 .container:last-child{
