@@ -5,6 +5,8 @@
     justify-content: center;
     /* height: 500px; */
     background-color: transparent;
+    margin: 10px;
+    margin-bottom: 30px;
   }
   
   .event {
@@ -29,7 +31,7 @@
   .eventTitle {
     z-index: 2;
     font-family: "Arial Black", Gadget, sans-serif;
-    color: #a71930;
+    color: #783108;
     font-size: 11px;
     text-transform: uppercase;
     display: flex;

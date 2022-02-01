@@ -34,7 +34,7 @@ function Timeline() {
             <div className="eventTitle">Confirm Order</div>
         </div>
         <svg height="20" width="20">
-            <circle cx="10" cy="11" r="5" fill="rgb(8, 8, 148)" />
+            <circle cx="10" cy="11" r="5" fill="grey" />
         </svg>
         
         </div>

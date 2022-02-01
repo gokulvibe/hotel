@@ -2,6 +2,7 @@ import React from 'react';
 import 'CommonComponents/CustomCSS/Modal.css'
 import Tabs from 'Compnents2/Tabs';
 import Timeline from 'CommonComponents/Timeline';
+import ConfirmOrder from 'ConfirmOrderComponents/ConfirmOrder';
 
 function Modal(props) {
   return (
@@ -19,7 +20,7 @@ function Modal(props) {
       }>&times;</span>
 
 <Timeline/>
-      {props.children}
+      <ConfirmOrder/>
     </div>
   
   </div>
