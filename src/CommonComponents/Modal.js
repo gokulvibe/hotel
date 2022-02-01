@@ -3,6 +3,7 @@ import 'CommonComponents/CustomCSS/Modal.css'
 import Tabs from 'Compnents2/Tabs';
 import Timeline from 'CommonComponents/Timeline';
 import ConfirmOrder from 'ConfirmOrderComponents/ConfirmOrder';
+import StripeMain from 'StripeComponents/StripeMain';
 
 function Modal(props) {
   return (
@@ -20,7 +21,7 @@ function Modal(props) {
       }>&times;</span>
 
 <Timeline/>
-      <ConfirmOrder/>
+      <StripeMain/>
     </div>
   
   </div>
