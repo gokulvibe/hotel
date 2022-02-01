@@ -21,7 +21,7 @@ function BasicInfo(){
                 <h1 style={{textAlign:"center"}}><mark style={{fontFamily:"Arkipelago",textTransform:"none"}}>Explore</mark></h1>
                 <div className="table">
                  <ul className='options'>
-                    <li className='oli'><a href="http://allisondskinner.com">Your Orders</a></li>
+                    <li className='oli'><a href="/orders">Your Orders</a></li>
                    
                     <li className='oli'><a  href="/feedback">Give Feedback</a></li>
                     

@@ -1,0 +1,55 @@
+.container{
+    display:flex;
+    flex-direction: row;
+    border-radius: 2em;
+    
+}
+
+
+
+.column1{
+    flex:70%;
+    text-align: center;
+}
+
+.column2{
+    flex:30%;
+}
+
+@media screen and (max-width:917px) {
+    .container{
+        flex-direction: column;
+        border-radius: 0em;
+    }
+    .column1{
+        flex:50%;
+    }
+    .column2{
+        flex:50%;
+    }
+    .column2 h3{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:509px) {
+    .container{
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.column2 button{
+    margin: 5px;
+    color: black;
+    min-width: 40px;
+    background-color: white;
+    white-space: nowrap;
+    
+}
+
+.column2 button:hover{
+    scale: 1.02;
+    transition-duration: 0.2s;   
+}

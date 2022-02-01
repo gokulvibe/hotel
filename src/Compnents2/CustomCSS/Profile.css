@@ -35,7 +35,7 @@ Footer{
 #profileCard{
     padding-top: 40px;
     width: 60vw;
-    height: 50vh;
+    height: fit-content;
     min-width: 300px;
     min-height: 460px;
     background-color: black;

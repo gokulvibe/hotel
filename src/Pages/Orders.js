@@ -4,12 +4,12 @@ import MobileMenu from "Compnents2/MobileMenu";
 import React from 'react';
 import {useEffect} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import OrderBox from "Compnents2/OrderBox";
+import OrderBox from "Compnents2/OrderComponents/OrderBox";
 
 
 function Orders(){
     return(
-        <div className="bg-black" style={{maxWidth:"100vw",height:"180vh"}}>
+        <div className="bg-black" style={{maxWidth:"100vw",height:"fit-content"}}>
           <Header/>
           <MobileMenu/>
           <OrderBox/>
