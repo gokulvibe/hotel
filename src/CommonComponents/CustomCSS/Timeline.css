@@ -39,8 +39,19 @@
     align-items: center;
     justify-content: flex-start;
     padding-top: 5px;
+    margin: auto;
     /* margin-left: 12px;
     margin-top: -2px; */
+  }
+
+
+  @media only screen 
+  and (max-device-width: 500px){
+      .eventTitle{
+        font-size: 8px;
+      }
+
+  
   }
   
   
