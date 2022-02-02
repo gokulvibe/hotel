@@ -6,6 +6,16 @@
     margin-right: auto;
 }
 
+.orderHeader{
+    font-size:5em;
+}
+
+@media screen and (max-width:337) {
+    .orderHeader{
+       font-size: 3em;
+    }
+}
+
 @media screen and (max-width:509px){
     .order{
         width: 100vw;

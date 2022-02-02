@@ -1,9 +1,12 @@
 import React from "react";
 import "Compnents2/CustomCSS/Order.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 function Order ({order: {id, date, items,price,type}}) {
   return (
-    <div class="container" style={{border:"5px solid white",padding:"2px"}}>
+    <div class="container square-animation" data-aos="zoom-in-up" >
       <div className="column1" >
         <h2 style={{color:"white"}}>#{id}-{date}</h2>
         {items.map(item=>(
@@ -17,7 +20,7 @@ function Order ({order: {id, date, items,price,type}}) {
       <div className="column2">
           <button>{type==='previous'?'Order Again':'Edit Order'}</button>
           <button>{type==='previous'?'Add to cart':'Cancel Order'}</button>
-          <h3 style={{color:type==='previous'?"green":"#ec8649"}}><span style={{color:"white"}}>Status:</span>{type==='previous'?'Delivered':'Awaiting Pickup'}</h3>
+          <h3 style={{color:type==='previous'?"green":"#ec8649"}}><span style={{color:"white"}}>Order Status:</span>{type==='previous'?'Delivered':'Awaiting Pickup'}</h3>
       </div>
     </div>
   );

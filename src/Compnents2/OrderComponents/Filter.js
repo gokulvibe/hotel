@@ -3,6 +3,7 @@ import FakeOrders from "data/fakeOrders.json";
 import Order from "Compnents2/OrderComponents/Order";
 import {useState,useEffect} from 'react';
 
+
 function Filter(){
     const [filteredOrders, setfilteredOrders] = useState(FakeOrders.sort((first,second)=>{return first.id>second.id?-1:1;}).filter(item=>{return item.type==="previous"||item.type==="upcoming"}))
     const [isActive1, setActive1] = useState(true);
@@ -28,7 +29,7 @@ function Filter(){
                 <button className={isActive2?"active":null} onClick={()=>{filterB();setActive1(false);setActive2(true);setActive3(false)}}>Previous</button>
                 <button className={isActive3?"active":null} onClick={()=>{filterC();setActive1(false);setActive2(false);setActive3(true)}}>Upcoming</button>
             </div>
-            <div style={{color:"white"}}>
+            <div  style={{color:"white"}}>
                 {filteredOrders.map((order) => (
                      <Order order={order} key={order.id} />
                 ))}
