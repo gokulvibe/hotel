@@ -9,6 +9,10 @@ import Orders from "Pages/Orders";
 import "scrollbarContainer.css";
 import About from 'Pages/About';
 import StripeMain from 'StripeComponents/StripeMain';
+// import {Header, MobileMenu, Footer} from 'Compnents2';
+import Header from 'Compnents2/Header';
+import Footer from 'Compnents2/Footer';
+import MobileMenu from 'Compnents2/MobileMenu';
 
 
 
@@ -18,6 +22,8 @@ function App() {
      <div className="App" >
        <div className="body" style={{scrollBehavior: 'smooth'}}>
 
+       <Header/>
+       <MobileMenu/>
        <Router basename="/">
             <Routes>
               
@@ -34,6 +40,8 @@ function App() {
 
           
        </Router>
+
+       <Footer/>
 
        
       </div>

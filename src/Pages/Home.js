@@ -10,10 +10,7 @@ function Home() {
        <div id="home">
 
 
-            <MobileMenu/>
-            <Header/>
             <MainContent/>
-            <Footer/>
 
         </div>
   );

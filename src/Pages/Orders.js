@@ -10,10 +10,8 @@ import OrderBox from "Compnents2/OrderComponents/OrderBox";
 function Orders(){
     return(
         <div className="bg-black" style={{maxWidth:"100vw",height:"auto",bottom:"0",minHeight:"100vh"}}>
-          <Header/>
-          <MobileMenu/>
           <OrderBox/>
-          <div style={{PaddingTop:"20px"}}><Footer/></div>
+          {/* <div style={{PaddingTop:"20px"}}><Footer/></div> */}
         </div>
     )
 }

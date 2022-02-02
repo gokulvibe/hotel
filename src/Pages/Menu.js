@@ -8,10 +8,7 @@ function Menu() {
   return (
 
         <div id="Menu">
-        <MobileMenu/>
-        <Header/>
         <MenuMainContent/>
-        <Footer/>
 
         
         </div>

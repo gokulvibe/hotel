@@ -7,10 +7,7 @@ import MobileMenu from 'Compnents2/MobileMenu';
 function Cart() {
   return (
       <div id="cart">
-        <MobileMenu/>
-        <Header/>
         <CartMain/>
-        <Footer/>
       </div>
   )
 }
