@@ -8,7 +8,7 @@
 }
 
 
-#feed a {
+#feed button {
         /*placement for code pen*/
         
         /*Button Text Style*/
@@ -38,7 +38,7 @@
         margin-bottom:"20vh";
             }
 
-#feed a:after {
+#feed button:after {
         /*Make a:after be as big as button*/
         position: absolute;
         width: 100%;
@@ -59,11 +59,11 @@
       
         
          }
-#feed a:hover {
+#feed button:hover {
           top:2px;
           left:2px;
             }
-#feed  a:hover:after   {
+#feed  button:hover:after   {
          top: -2px;
          left: -2px;
             }

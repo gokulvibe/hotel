@@ -6,6 +6,7 @@ import Profile from "Pages/Profile";
 import LoginSignup from "Pages/LoginSignup";
 import Feedback from "Pages/Feedback";
 import Orders from "Pages/Orders";
+import Success from "Pages/Success";
 import "scrollbarContainer.css";
 import About from 'Pages/About';
 import StripeMain from 'StripeComponents/StripeMain';
@@ -27,7 +28,8 @@ function App() {
                 <Route path='/cart' element={<Cart/>} />  
                 <Route path='/auth' element={<LoginSignup/>} />              
                 <Route path='/profile' element={<Profile/>} />   
-                <Route path='/feedback' element={<Feedback/>} />    
+                <Route path='/feedback' element={<Feedback/>} />  
+                <Route path='/success' element={<Success/>} />   
                 <Route path='/orders' element={<Orders/>} /> 
                 <Route path='/stripe' element={<StripeMain/>} /> 
             </Routes>
