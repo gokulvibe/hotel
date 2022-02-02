@@ -6,6 +6,9 @@ import './CustomCSS/menuitem.css';
 function MenuItem(props) {
 
     const [quantity, setQuantity] = new useState(0);
+    const [clicked, setClicked] = new useState(false)
+
+
 
     if (props.item.tags.length>0){
         return (
@@ -40,7 +43,7 @@ function MenuItem(props) {
                         }
                     </div>
 
-                    <div className="food-menu-content menu-highlight">
+                    <div className={clicked ? "food-menu-content menu-highlight selected" : "food-menu-content menu-highlight"}>
                         <div className="food-menu-content-top-holder">
                             <div className="food-menu-content-title-holder">
                                 <h3 className="food-menu-title">{props.item.name}</h3>
@@ -87,7 +90,10 @@ function MenuItem(props) {
 
                             }}
                             >+</button>
-                            <button className="add_to_cart_button">Add to cart</button>
+                            <button className="add_to_cart_button" onClick={() => {
+                                setClicked(!clicked);
+                            }}
+                            >Add to cart</button>
                             </div>
                         </div>
                     </div>
@@ -128,7 +134,7 @@ function MenuItem(props) {
                         }
                     </div>
 
-                    <div className="food-menu-content">
+                    <div className={clicked ? "food-menu-content selected" : "food-menu-content"}>
                         <div className="food-menu-content-top-holder">
                             <div className="food-menu-content-title-holder">
                                 <h3 className="food-menu-title">{props.item.name}</h3>
@@ -179,7 +185,10 @@ function MenuItem(props) {
                             }}
                             >+</button>
 
-                            <button className="add_to_cart_button">Add to cart</button>
+                            <button className="add_to_cart_button" onClick={() => {
+                                setClicked(!clicked);
+                            }}
+                            >Add to cart</button>
                             </div>
                         </div>
                     </div>
