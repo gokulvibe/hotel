@@ -8,10 +8,11 @@
 /* Title of CART Page */
 .custom-css-style .elementor-element.elementor-element-dcb02db .elementor-heading-title.cart{
     color: #ec8649 ;
-    font-size: 60px;
+    font-size: 50px;
     opacity: 1;
     transform: translate(-300px, 100px);
     font-family: 'arkipelago';
+    padding: 0%;
     margin-top: 10px;
     
 }

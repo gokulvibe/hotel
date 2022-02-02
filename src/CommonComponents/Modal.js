@@ -20,7 +20,7 @@ function Modal(props) {
 
       }>&times;</span>
 
-      <Timeline/>
+      {/* <Timeline/> */}
       {/* <Tabs/> */}
       <ConfirmOrder/>
       {/* <StripeMain/> */}

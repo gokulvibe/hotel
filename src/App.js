@@ -13,6 +13,7 @@ import StripeMain from 'StripeComponents/StripeMain';
 import Header from 'Compnents2/Header';
 import Footer from 'Compnents2/Footer';
 import MobileMenu from 'Compnents2/MobileMenu';
+import Checkout from 'CommonComponents/Checkout';
 
 
 
@@ -36,6 +37,7 @@ function App() {
                 <Route path='/feedback' element={<Feedback/>} />    
                 <Route path='/orders' element={<Orders/>} /> 
                 <Route path='/stripe' element={<StripeMain/>} /> 
+                <Route path='/checkout' element={<Checkout/>}/>
             </Routes>
 
           
