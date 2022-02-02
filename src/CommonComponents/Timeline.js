@@ -17,12 +17,14 @@ function Timeline(props) {
     
         <div className="event login">
         
-        <div className="eventBubble">
+        <div className="eventBubble login-text">
             <div className="eventTitle">Login</div>
         </div>
+        <div>
         <svg height="20" width="20">
             <circle cx="10" cy="11" r="5" fill={ColorCodes[0]} />
         </svg>
+        </div>
         
         </div>
         
@@ -33,7 +35,7 @@ function Timeline(props) {
     
         <div className="event confirm">
         
-        <div className="eventBubble">
+        <div className="eventBubble confirm-order">
             <div className="eventTitle">Confirm Order</div>
         </div>
         <svg height="20" width="20">
@@ -49,7 +51,7 @@ function Timeline(props) {
 
         <div className="event checkout">
         
-        <div className="eventBubble">
+        <div className="eventBubble checkout-text">
             <div className="eventTitle">Checkout</div>
         </div>
         <svg height="20" width="20">

@@ -10,6 +10,15 @@
     font-size: 40px;
 }
 
+/* Intro Image */
+.custom-css-style .elementor-element.elementor-element-824d33d {
+    width: 500px;
+    max-width: 500px;
+    bottom: -30%;
+    left: -10% !important;
+
+}
+
 /* Our Founder text */
 .custom-css-style .elementor-element.elementor-element-7572299 .elementor-heading-title {
     color: #ec8649;
@@ -57,3 +66,12 @@
     vertical-align: middle;
     display: inline-block;
 } */
+
+/* Our Mission Image */
+.custom-css-style .elementor-element.elementor-element-e8ef7c0 {
+    z-index: 0;
+    width: 100%;
+    max-width: 100%;
+    bottom: -10%;
+    left: -5%;
+}

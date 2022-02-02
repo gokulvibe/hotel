@@ -25,5 +25,5 @@ function Order ({order: {id, date, items,price,type}}) {
     </div>
   );
 }
-
+ 
 export default Order;

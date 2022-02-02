@@ -5,8 +5,9 @@
     justify-content: center;
     /* height: 500px; */
     background-color: transparent;
-    margin: 10px;
+    /* margin: 10px; */
     margin-bottom: 30px;
+    max-width: 100%;
   }
   
   .event {
@@ -16,15 +17,32 @@
   .eventBubble {
     position: absolute;
     /* background-color: rgba(158, 158, 158, 0.1); */
-    width: 200px;
-    height: 30px;
+    width: fit-content;
+    height: fit-content;
     top: -20px;
     left: -15px;
+    /* margin-bottom: 10px; */
     /* border-radius: 5px;
     box-shadow: inset 0 0 5px rgba(158, 158, 158, 0.64); */
     justify-content: center;
     align-items: center;
   }
+
+  .eventBubble.confirm-order{
+    width: 200px;
+  }
+
+  @media only screen and (max-width:725px){
+    .eventBubble.login-text{
+      left: 16px;
+    }
+  
+    .eventBubble.checkout-text{
+      left: -50px;
+    }
+    
+  }
+  
   
   
   
@@ -32,7 +50,7 @@
     z-index: 2;
     font-family: "Arial Black", Gadget, sans-serif;
     color: #783108;
-    font-size: 11px;
+    font-size: 10px;
     text-transform: uppercase;
     display: flex;
     flex: 1;
@@ -40,6 +58,8 @@
     justify-content: flex-start;
     padding-top: 5px;
     margin: auto;
+    /* margin-bottom: 100px; */
+    /* margin-bottom: 100px; */
     /* margin-left: 12px;
     margin-top: -2px; */
   }
