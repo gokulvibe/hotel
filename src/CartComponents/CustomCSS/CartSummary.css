@@ -263,13 +263,15 @@ aside {
 .summary {
   background-color: transparent ;
   border: 1px solid #ec8649 ;
-  padding: 1rem;
+  padding: 2rem !important;
   position: relative;
   width: 80%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  border-radius: 30px;
 }
+
 
 .summary-total-items {
   color: #ec8649;
@@ -302,12 +304,12 @@ aside {
     color: white;
 }
 
-.summary-promo {
+/* .summary-promo {
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
   -o-transition: all .3s ease;
   transition: all .3s ease;
-}
+} */
 
 .promo-title {
   float: left;
@@ -338,7 +340,7 @@ aside {
 .summary-checkout {
   display: block;
   background-color: white;
-  color: white ;
+  color: black ;
 }
 
 .checkout-cta {
@@ -362,6 +364,7 @@ aside {
   width: 100%;
 }
 
+/* Checkout button animation */
 .checkout-cta:after {
 
   /*Make a:after be as big as button*/
@@ -388,56 +391,58 @@ aside {
   left: -2px;
   }
 
+  
 
-
-@media screen and (max-width: 640px) {
-  aside,
-  .basket,
-  .summary,
-  .item,
-  .remove {
-    width: 100%;
+  @media screen and (max-width: 671px) {
+    aside,
+    .basket,
+    .summary,
+    .item,
+    .remove {
+      width: 100%;
+    }
+    .basket-labels {
+      display: none;
+    }
+    .basket-module {
+      margin-bottom: 1rem;
+    }
+    .item {
+      margin-bottom: 1rem;
+    }
+    .product-image {
+      width: 40%;
+    }
+    .product-details {
+      width: 60%;
+    }
+    .price,
+    .subtotal {
+      width: 33%;
+    }
+    .quantity {
+      text-align: center;
+      width: 34%;
+    }
+    .quantity-field {
+      float: none;
+    }
+    .remove {
+      bottom: 0;
+      text-align: left;
+      margin-top: 0.75rem;
+      position: relative;
+    }
+    .remove button {
+      padding: 0;
+    }
+    .summary {
+      margin-top: 20%;
+      margin-left: 0%;
+      margin-bottom: 20%;
+      position: relative;
+    }
   }
-  .basket-labels {
-    display: none;
-  }
-  .basket-module {
-    margin-bottom: 1rem;
-  }
-  .item {
-    margin-bottom: 1rem;
-  }
-  .product-image {
-    width: 40%;
-  }
-  .product-details {
-    width: 60%;
-  }
-  .price,
-  .subtotal {
-    width: 33%;
-  }
-  .quantity {
-    text-align: center;
-    width: 34%;
-  }
-  .quantity-field {
-    float: none;
-  }
-  .remove {
-    bottom: 0;
-    text-align: left;
-    margin-top: 0.75rem;
-    position: relative;
-  }
-  .remove button {
-    padding: 0;
-  }
-  .summary {
-    margin-top: 1.25rem;
-    position: relative;
-  }
-}
 
 
 

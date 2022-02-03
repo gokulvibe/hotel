@@ -335,3 +335,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
 
 }
+
+@media screen and (min-width: 671px) and (max-width: 770px){
+  .food-menu-content.cart {
+    width: 100%;
+    margin-top: -5px;
+    box-sizing: border-box;
+    padding: 5px 5px 5px 25%;
+    justify-content: center;
+}
+    
+
+}

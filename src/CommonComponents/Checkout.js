@@ -7,7 +7,7 @@ import Tabs from 'Compnents2/Tabs';
 import StripeMain from 'StripeComponents/StripeMain';
 
 function Checkout(props) {
-  const [Progress, setProgress] = useState(0);
+  const [Progress, setProgress] = useState(1);
   if (Progress == 0){
     return (
       <div id='blank_page' className='blank_page'>
