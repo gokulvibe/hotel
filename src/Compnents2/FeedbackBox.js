@@ -7,6 +7,8 @@ import { useNavigate } from "react-router-dom";
 
 function FeedbackBox(){
 
+    const [user, setUser] = useState(false);
+
     const [submitting, setSubmitting] = useState(false);
     const navigate = useNavigate();
 
@@ -18,6 +20,12 @@ function FeedbackBox(){
      }, 3000)
      navigate("/success");
     }
+
+
+  const handleLogin = e => {
+    e.preventDefault();
+    setUser(true);
+  }
     
     return(
         <div classname="Box" style={{paddingTop:"25vh",paddingBottom:"40vh",width:"fit-content",marginLeft:"auto",marginRight:"auto"}}>

@@ -1,35 +1,40 @@
 import React from 'react';
 import "scrollbarContainer.css";
 import "App.css";
-import { TextareaAutosize } from '@mui/material';
-import {useState} from "react";
 import { useNavigate } from "react-router-dom";
+import "Compnents2/MainContent/CustomCSS/success.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 function SuccessBox(){
 
-    const [submitting, setSubmitting] = useState(false);
     const navigate = useNavigate();
 
-    const handleSubmit = event => {
-     event.preventDefault();
-     setSubmitting(true);
-     setTimeout(() => {
-     setSubmitting(false);
-     }, 3000)
-     navigate("/success");
+    const handleHome = event => {
+     navigate("/");
+    }
+
+    const handleMenu = event => {
+     navigate("/menu");
+    }
+
+    const handleAbout = event => {
+     navigate("/about");
     }
     
     return(
         <div classname="Box" style={{paddingTop:"25vh",paddingBottom:"40vh",width:"fit-content",marginLeft:"auto",marginRight:"auto"}}>
-              <form method="post" action="contactform/contactengine.php" onSubmit={handleSubmit} class="forms-input" id="feed">
-                   <h1 style={{fontFamily:"Arkipelago,sans-serif",color:"#ec8649",fontSize:"5em",textTransform: "none",textAlign:"left"}}>Thank you:</h1>
-                   <h4 style={{color:"white",textAlign:"left"}}>Tell us your thoughts.</h4>
-                   <TextareaAutosize name="feedback" id="feedback" placeholder='Type here...'  style={{display:"block",width:"30vw",height:"40vh",padding:"10px",color:"black",minWidth:"275px",marginLeft:"auto",marginRight:"auto",borderRadius:"1.25em"}} required/>
-                   <button type="submit" value="submit" style={{position:"relative",display:"block",fontSize:"1em",width:"fit-content",marginTop:"20px",marginLeft:"auto",marginRight:"auto"}  }>Submit</button>
-                   {submitting &&
-                     <div style={{color:"white",textAlign:"center"}}>Submtting Form...</div>
-                   }
-              </form>
+                   <div style={{backgroundColor:"green",borderRadius:"50%",width:"10vw",minWidth:"fit-content",marginLeft:"auto",marginRight:"auto"}}><h1 style={{textAlign:"center",fontSize:"120px",fontStyle:"italic",color:"black"  } } data-aos="zoom-in-up" data-aos-duration="1000">&#10004;</h1></div>
+                   <h1 style={{fontFamily:"Arkipelago,sans-serif",color:"#ec8649",fontSize:"5em",textTransform: "none",textAlign:"center"}} data-aos="zoom-in" data-aos-delay="750" data-aos-duration="1000" >Thank you!</h1>
+                   <h4 style={{color:"white",textAlign:"center" }} data-aos="zoom-in" data-aos-delay="750" data-aos-duration="500" >We’re looking forward to making your experience even better in the future.</h4>
+                   <h4 style={{color:"white",textAlign:"center"}} data-aos="zoom-in" data-aos-delay="750" data-aos-duration="500" >In the meanwhile, explore  our website </h4>
+                   <div className="ButtonGroup">
+                       <button onClick={handleHome} data-aos="zoom-in" data-aos-delay="10000" data-aos-duration="1000" >Home</button>
+                       <button onClick={handleMenu} data-aos="zoom-in" data-aos-delay="10000" data-aos-duration="1000">Our menu</button>
+                       <button onClick={handleAbout} data-aos="zoom-in" data-aos-delay="10000" data-aos-duration="1000">About Us</button>
+                   </div>
+
         </div>
     )
 }

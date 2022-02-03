@@ -3,7 +3,7 @@ import Header from "Compnents2/Header";
 import MobileMenu from "Compnents2/MobileMenu";
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import SuccessBox from "Compnents2/FeedbackBox";
+import SuccessBox from "Compnents2/SuccessComponents/SuccessBox";
 import "Compnents2/MainContent/CustomCSS/Feedback.css";
 
 
