@@ -57,3 +57,121 @@
 .custom-css-style .elementor-element.elementor-element-1ef6e22>.elementor-container {
     min-height: 400px;
 }
+
+
+.cart_icon{
+    color: #ec8649;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 80%;
+    left: 90%;
+    z-Index: 1;
+    animation-duration: .3s;
+    animation-name: cart-entrance-pop;
+    animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+}
+.cart_icon .cart_quantity_text{
+    background-color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 1000px;
+    height: 30px;
+    width: 30px;
+    color: green;
+    position: relative;
+    top: 25%;
+    left: 43%;
+    z-Index: 1;
+    font-weight: 700;
+}
+
+.cart_icon.none{
+    top: 100%;
+    animation-duration: .3s;
+    animation-name: cart-exit-pop;
+    animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+    /* display: none; */
+    
+}
+
+.cart-entrance.pop {
+    animation-duration: 1s;
+    animation-name: cart-entrance-pop;
+    animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+  }
+  
+  @keyframes cart-entrance-pop {
+    from {top: 100%;}
+  to {top: 80%;}
+  }
+
+  .cart-exit.pop {
+    animation-duration: 1s;
+    animation-name: cart-exit-pop;
+    animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+  }
+  
+  @keyframes cart-exit-pop {
+    from {top: 80%;}
+  to {top: 100%;}
+  }
+
+
+
+  @media screen and (prefers-reduced-motion: reduce) {
+    .animate { animation: none !important; }
+  }
+
+
+  @media only screen and (min-width:670px) and (max-width: 1024px){
+      .cart_icon{
+          top: 20%;
+          left: 85%;
+      }
+
+      .cart_icon.none{
+        top: 20%;
+        left: 100%
+      }
+
+      @keyframes cart-entrance-pop {
+        from {left: 100%;}
+      to {left: 85%;}
+      }
+
+      @keyframes cart-exit-pop {
+        from {left: 85%;}
+      to {left: 100%;}
+      }
+
+      .custom-css-style .elementor-element.elementor-element-6a605a3 .elementor-heading-title{
+          display: none;
+      }
+  }
+
+
+  @media only screen and (max-width: 670px){
+    .cart_icon{
+        top: 75%;
+        left: 80%;
+    }
+
+    .cart_icon.none{
+      top: 100%
+    }
+
+    @keyframes cart-entrance-pop {
+        from {top: 100%;}
+      to {top: 75%;}
+      }
+      
+      @keyframes cart-exit-pop {
+        from {top: 75%;}
+      to {top: 100%;}
+      }
+
+    .custom-css-style .elementor-element.elementor-element-6a605a3 .elementor-heading-title{
+        display: none;
+    }
+}

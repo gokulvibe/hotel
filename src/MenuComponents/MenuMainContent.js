@@ -3,8 +3,11 @@ import MenuSection1 from 'MenuComponents/MenuMainComponent/MenuSection1';
 import MenuItems from 'MenuComponents/MenuMainComponent/MenuItems';
 import 'MenuComponents/MenuMainComponent/CustomCSS/MainSections.css';
 import SearchBar from 'MenuComponents/MenuMainComponent/SearchBar';
+import CartIcon from 'CommonComponents/CartIcon';
+import {useState} from 'react';
 
 function MenuMainContent() {
+    const [cartActive, setcartActive] = useState(false);
   return (
       <div id="menu_main_content">
           <div id="wrapper" className="hasbg transparent" style={{bacgroundColor: "black"}}>
@@ -19,7 +22,8 @@ function MenuMainContent() {
                                         <MenuSection1/>
                                         <SearchBar/>
                                         
-                                        <MenuItems/>
+                                        <MenuItems cartActive = {cartActive} setcartActive={setcartActive}/>
+                                        <CartIcon cartActive = {cartActive}/>
                                         
                                         
                                         

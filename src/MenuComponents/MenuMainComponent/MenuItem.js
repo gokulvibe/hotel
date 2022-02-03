@@ -4,6 +4,7 @@ import {useState} from 'react';
 import './CustomCSS/menuitem.css';
 
 function MenuItem(props) {
+    console.log(props);
 
     const [quantity, setQuantity] = new useState(0);
     const [clicked, setClicked] = new useState(false)
@@ -92,6 +93,7 @@ function MenuItem(props) {
                             >+</button>
                             <button className="add_to_cart_button" onClick={() => {
                                 setClicked(!clicked);
+                                props.setcartActive(!props.cartActive);
                             }}
                             >Add to cart</button>
                             </div>
@@ -187,6 +189,7 @@ function MenuItem(props) {
 
                             <button className="add_to_cart_button" onClick={() => {
                                 setClicked(!clicked);
+                                props.setcartActive(!props.cartActive);
                             }}
                             >Add to cart</button>
                             </div>
