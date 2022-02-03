@@ -32,7 +32,7 @@ function MenuSection1() {
                                         data-widget_type="heading.default"
                                     >
                                         <div className="elementor-widget-container">
-                                            <h1 className="elementor-heading-title elementor-size-default cart">Your Cart</h1>
+                                            <h1 className="elementor-heading-title elementor-size-default cart" style={{textTransform:"none",fontSize:"5em"}}>Your Cart</h1>
                                         </div>
                                     </div>
                                     

@@ -30,9 +30,9 @@ function SuccessBox(){
                    <h4 style={{color:"white",textAlign:"center" }} data-aos="zoom-in" data-aos-delay="750" data-aos-duration="500" >We’re looking forward to making your experience even better in the future.</h4>
                    <h4 style={{color:"white",textAlign:"center"}} data-aos="zoom-in" data-aos-delay="750" data-aos-duration="500" >In the meanwhile, explore  our website </h4>
                    <div className="ButtonGroup">
-                       <button onClick={handleHome} data-aos="zoom-in" data-aos-delay="10000" data-aos-duration="1000" >Home</button>
-                       <button onClick={handleMenu} data-aos="zoom-in" data-aos-delay="10000" data-aos-duration="1000">Our menu</button>
-                       <button onClick={handleAbout} data-aos="zoom-in" data-aos-delay="10000" data-aos-duration="1000">About Us</button>
+                       <button onClick={handleHome} data-aos="zoom-in" data-aos-delay="100000" data-aos-duration="1000" >Home</button>
+                       <button onClick={handleMenu} data-aos="zoom-in" data-aos-delay="100000" data-aos-duration="1000">Our menu</button>
+                       <button onClick={handleAbout} data-aos="zoom-in" data-aos-delay="100000" data-aos-duration="1000">About Us</button>
                    </div>
 
         </div>
