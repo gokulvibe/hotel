@@ -10,10 +10,7 @@ import "Compnents2/MainContent/CustomCSS/Feedback.css";
 function Feedback() {
   return(
      <div className="bg-black" style={{maxWidth:"100vw",height:"180vh"}}>
-          <Header/>
-          <MobileMenu/>
           <FeedbackBox/>
-          <Footer/>
      </div>
   );
 }

@@ -1,7 +1,7 @@
-
 /* CartSection 1 */
 .custom-css-style .elementor-element.elementor-element-1ef6e22>.elementor-container {
-    min-height: 300px;
+    min-height: 250px;
+    /* margin-bottom: auto; */
 }
 
 
@@ -9,10 +9,12 @@
 .custom-css-style .elementor-element.elementor-element-dcb02db .elementor-heading-title.cart{
     color: #ec8649 ;
     font-size: 50px;
-    opacity: 0.7;
-    margin-bottom: 30px;
-    transform: translate(0, 50px);
-    font-family: 'arikpelago';
+    opacity: 1;
+    transform: translate(-300px, 100px);
+    font-family: 'arkipelago';
+    padding: 0%;
+    margin-top: 10px;
+    
 }
 
 

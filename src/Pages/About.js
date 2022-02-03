@@ -6,11 +6,8 @@ import React from 'react';
 
 function About() {
   return (
-      <div>
-          <MobileMenu/>
-          <Header/>
+      <div id='About'>
           <AboutMain/>
-          <Footer/>
       </div>
   );
 }

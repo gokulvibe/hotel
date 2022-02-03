@@ -22,7 +22,8 @@ function CartSection2(props) {
                         <div className="elementor-row">
                             
                             <CartItems/>
-                            <CartSummary  setshowModal={props.setshowModal}/>
+                            {/* <CartSummary  setshowModal={props.setshowModal}/> */}
+                            <CartSummary/>
                         </div>
                     </div>
                     

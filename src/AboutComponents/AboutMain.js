@@ -47,11 +47,11 @@ function AboutMain() {
                                                                     data-widget_type="image.default"
                                                                 >
                                                                     <div className="elementor-widget-container">
-                                                                        <div className="elementor-image">
+                                                                        <div className="elementor-image intro-image">
                                                                             <img
                                                                                 width="1024"
                                                                                 height="1024"
-                                                                                src="customImages/Logo_Color.png"
+                                                                                src="customImages/clayton-chettinad.jpg"
                                                                                 className="attachment-large size-large"
                                                                                 alt=""
                                                                                 loading="lazy"
@@ -113,26 +113,6 @@ function AboutMain() {
                                                                                 Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon
                                                                                 beard Helvetica.
                                                                             </p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div
-                                                                    className="elementor-element elementor-element-7865358 elementor-absolute elementor-widget elementor-widget-image"
-                                                                    data-id="7865358"
-                                                                    data-element_type="widget"
-                                                                    data-settings='{"_position":"absolute","craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'
-                                                                    data-widget_type="image.default"
-                                                                >
-                                                                    <div className="elementor-widget-container">
-                                                                        <div className="elementor-image">
-                                                                            <img
-                                                                                width="350"
-                                                                                height="333"
-                                                                                src="upload/coffee-bg-4-e1592387391691.png"
-                                                                                className="attachment-full size-full"
-                                                                                alt=""
-                                                                                loading="lazy"
-                                                                            />
                                                                         </div>
                                                                     </div>
                                                                 </div>

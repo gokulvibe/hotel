@@ -22,11 +22,8 @@ function LoginSignup() {
   return(
      <div className="bg-black" style={{maxWidth:"100vw",height:"180vh"}}>
            <div class="header">
-             <Header/>
-             <MobileMenu/>
            </div>     
             <Tabs/>
-            <Footer/>
         </div>
   );
 }

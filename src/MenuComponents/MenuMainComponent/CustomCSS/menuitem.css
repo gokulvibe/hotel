@@ -1,3 +1,39 @@
+/* Nutrition Info */
+.nutrition-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0%;
+}
+
+.food-menu-tooltip-templates-content{
+    max-width: 74%;
+    justify-content: flex-start;
+}
+
+.nutrition-parameter{
+    padding: 0%;
+    margin: 0%;
+}
+
+.food-menu-tooltip-content{
+    justify-content: flex-start;
+}
+
+@media only screen and (max-device-width: 850px){
+    .food-menu-tooltip-templates-content{
+        max-width: 65%;
+        justify-content: flex-start;
+    }
+
+}
+
+.selected {
+    border: 1px solid rgb(4, 79, 4);
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px green;
+}
+
 .menu_highlight h4{
     background-color: #ec8649;
     padding-left: 5px;

@@ -13,7 +13,7 @@ function Orders(){
           <Header/>
           <MobileMenu/>
           <OrderBox/>
-          <div style={{PaddingTop:"20px"}}><Footer/></div>
+          {/* <div style={{PaddingTop:"20px"}}><Footer/></div> */}
         </div>
     )
 }

@@ -362,6 +362,34 @@ aside {
   width: 100%;
 }
 
+.checkout-cta:after {
+
+  /*Make a:after be as big as button*/
+  
+  /*Decide Location of a:after..this gives a bottom right shadow*/
+  left: 4px;
+  top: 4px;
+  /*Place a:after behind button*/
+  z-index: -1;
+  content: '';
+  /*Animation/Transition Speed*/
+  /* -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s; */
+  }
+  
+  .checkout-cta:hover {
+  top:2px;
+  left:2px;
+  }
+  
+  .checkout-cta:hover:after {
+  top: -2px;
+  left: -2px;
+  }
+
+
+
 @media screen and (max-width: 640px) {
   aside,
   .basket,
@@ -410,6 +438,8 @@ aside {
     position: relative;
   }
 }
+
+
 
 
 

@@ -1,8 +1,11 @@
 import React from 'react';
 import 'CommonComponents/CustomCSS/Timeline.css'
+import {useState} from 'react';
 
 
-function Timeline() {
+function Timeline(props) {
+    console.log(props.value)
+    const [ColorCodes, setColorCodes] = useState(props.value);
   return (
       <div id="timeline">
         <div className="Timeline">
@@ -14,43 +17,45 @@ function Timeline() {
     
         <div className="event login">
         
-        <div className="eventBubble">
+        <div className="eventBubble login-text">
             <div className="eventTitle">Login</div>
         </div>
+        <div>
         <svg height="20" width="20">
-            <circle cx="10" cy="11" r="5" fill="green" />
+            <circle cx="10" cy="11" r="5" fill={ColorCodes[0]} />
         </svg>
+        </div>
         
         </div>
         
         <svg height="5" width="300">
-        <line x1="0" y1="0" x2="300" y2="0" style={{stroke:"green", strokeWidth:"5"}} />
+        <line x1="0" y1="0" x2="300" y2="0" style={{stroke:ColorCodes[1], strokeWidth:"5"}} />
         Sorry, your browser does not support inline SVG.
         </svg>
     
         <div className="event confirm">
         
-        <div className="eventBubble">
+        <div className="eventBubble confirm-order">
             <div className="eventTitle">Confirm Order</div>
         </div>
         <svg height="20" width="20">
-            <circle cx="10" cy="11" r="5" fill="grey" />
+            <circle cx="10" cy="11" r="5" fill={ColorCodes[2]} />
         </svg>
         
         </div>
 
         <svg height="5" width="300">
-        <line x1="0" y1="0" x2="300" y2="0" style={{stroke:"grey", strokeWidth:"5"}} />
+        <line x1="0" y1="0" x2="300" y2="0" style={{stroke:ColorCodes[3], strokeWidth:"5"}} />
         Sorry, your browser does not support inline SVG.
         </svg>
 
         <div className="event checkout">
         
-        <div className="eventBubble">
+        <div className="eventBubble checkout-text">
             <div className="eventTitle">Checkout</div>
         </div>
         <svg height="20" width="20">
-            <circle cx="10" cy="11" r="5" fill="grey" />
+            <circle cx="10" cy="11" r="5" fill={ColorCodes[4]} />
         </svg>
         
         </div>

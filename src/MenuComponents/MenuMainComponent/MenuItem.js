@@ -6,6 +6,9 @@ import './CustomCSS/menuitem.css';
 function MenuItem(props) {
 
     const [quantity, setQuantity] = new useState(0);
+    const [clicked, setClicked] = new useState(false)
+
+
 
     if (props.item.tags.length>0){
         return (
@@ -15,14 +18,14 @@ function MenuItem(props) {
                         <div id="tooltip-content-6a86839-1" className="food-menu-tooltip-content">
                             <h5>Nutrition Information</h5>
                             <div className="food-menu-tooltip-templates-content">
-                                <ul>
-                                    <li><strong>Calories</strong> {props.item.nutritionInfo.calories}</li>
-                                    <li><strong>Total Fat</strong> {props.item.nutritionInfo.totalFat}</li>
-                                    <li><strong>Cholesterol</strong> {props.item.nutritionInfo.cholestrol}</li>
-                                    <li><strong>Sodium</strong> {props.item.nutritionInfo.sodium}</li>
-                                    <li><strong>Total Carbohydrates</strong> {props.item.nutritionInfo.totalCarbohydrate}</li>
-                                    <li><strong>Protein</strong> {props.item.nutritionInfo.protein}</li>
-                                    <li><strong>Caffeine</strong> {props.item.nutritionInfo.caffeine}</li>
+                                <ul className='nutrition-list'>
+                                    <li className='nutrition-parameter'><strong>Calories</strong> {props.item.nutritionInfo.calories}</li>
+                                    <li className='nutrition-parameter'><strong>Total Fat</strong> {props.item.nutritionInfo.totalFat}</li>
+                                    <li className='nutrition-parameter'><strong>Cholesterol</strong> {props.item.nutritionInfo.cholestrol}</li>
+                                    <li className='nutrition-parameter'><strong>Sodium</strong> {props.item.nutritionInfo.sodium}</li>
+                                    <li className='nutrition-parameter'><strong>Total Carbohydrates</strong> {props.item.nutritionInfo.totalCarbohydrate}</li>
+                                    <li className='nutrition-parameter'><strong>Protein</strong> {props.item.nutritionInfo.protein}</li>
+                                    <li className='nutrition-parameter'><strong>Caffeine</strong> {props.item.nutritionInfo.caffeine}</li>
                                 </ul>
                                 <p>* 2,000 calories a day is used for general nutrition advice, but calorie needs vary.</p>
                             </div>
@@ -40,7 +43,7 @@ function MenuItem(props) {
                         }
                     </div>
 
-                    <div className="food-menu-content menu-highlight">
+                    <div className={clicked ? "food-menu-content menu-highlight selected" : "food-menu-content menu-highlight"}>
                         <div className="food-menu-content-top-holder">
                             <div className="food-menu-content-title-holder">
                                 <h3 className="food-menu-title">{props.item.name}</h3>
@@ -87,7 +90,10 @@ function MenuItem(props) {
 
                             }}
                             >+</button>
-                            <button className="add_to_cart_button">Add to cart</button>
+                            <button className="add_to_cart_button" onClick={() => {
+                                setClicked(!clicked);
+                            }}
+                            >Add to cart</button>
                             </div>
                         </div>
                     </div>
@@ -106,14 +112,14 @@ function MenuItem(props) {
                         <div id="tooltip-content-6a86839-1" className="food-menu-tooltip-content">
                             <h5>Nutrition Information</h5>
                             <div className="food-menu-tooltip-templates-content">
-                                <ul>
-                                    <li><strong>Calories</strong> {props.item.nutritionInfo.calories}</li>
-                                    <li><strong>Total Fat</strong> {props.item.nutritionInfo.totalFat}</li>
-                                    <li><strong>Cholesterol</strong> {props.item.nutritionInfo.cholestrol}</li>
-                                    <li><strong>Sodium</strong> {props.item.nutritionInfo.sodium}</li>
-                                    <li><strong>Total Carbohydrates</strong> {props.item.nutritionInfo.totalCarbohydrate}</li>
-                                    <li><strong>Protein</strong> {props.item.nutritionInfo.protein}</li>
-                                    <li><strong>Caffeine</strong> {props.item.nutritionInfo.caffeine}</li>
+                                <ul className='nutrition-list'>
+                                    <li className='nutrition-parameter'><strong>Calories</strong> {props.item.nutritionInfo.calories}</li>
+                                    <li className='nutrition-parameter'><strong>Total Fat</strong> {props.item.nutritionInfo.totalFat}</li>
+                                    <li className='nutrition-parameter'><strong>Cholesterol</strong> {props.item.nutritionInfo.cholestrol}</li>
+                                    <li className='nutrition-parameter'><strong>Sodium</strong> {props.item.nutritionInfo.sodium}</li>
+                                    <li className='nutrition-parameter'><strong>Total Carbohydrates</strong> {props.item.nutritionInfo.totalCarbohydrate}</li>
+                                    <li className='nutrition-parameter'><strong>Protein</strong> {props.item.nutritionInfo.protein}</li>
+                                    <li className='nutrition-parameter'><strong>Caffeine</strong> {props.item.nutritionInfo.caffeine}</li>
                                 </ul>
                                 <p>* 2,000 calories a day is used for general nutrition advice, but calorie needs vary.</p>
                             </div>
@@ -128,7 +134,7 @@ function MenuItem(props) {
                         }
                     </div>
 
-                    <div className="food-menu-content">
+                    <div className={clicked ? "food-menu-content selected" : "food-menu-content"}>
                         <div className="food-menu-content-top-holder">
                             <div className="food-menu-content-title-holder">
                                 <h3 className="food-menu-title">{props.item.name}</h3>
@@ -179,7 +185,10 @@ function MenuItem(props) {
                             }}
                             >+</button>
 
-                            <button className="add_to_cart_button">Add to cart</button>
+                            <button className="add_to_cart_button" onClick={() => {
+                                setClicked(!clicked);
+                            }}
+                            >Add to cart</button>
                             </div>
                         </div>
                     </div>

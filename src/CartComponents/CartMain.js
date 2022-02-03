@@ -6,12 +6,12 @@ import {useState, useEffect} from 'react'
 import Tabs from 'Compnents2/Tabs';
 
 function CartMain(props) {
-    const [showModal, setshowModal] = useState(false);
+    // const [showModal, setshowModal] = useState(false);
 
-    useEffect(() => {
-      console.log(showModal);
+    // useEffect(() => {
+    //   console.log(showModal);
     
-    }, [showModal]);
+    // }, [showModal]);
     
     return (
         <div id="menu_main_content">
@@ -24,17 +24,17 @@ function CartMain(props) {
                                   <div className="elementor-inner">
                                       <div className="elementor-section-wrap">
 
-                                      {
+                                      {/* {
                                           showModal ? <Modal setshowModal={setshowModal}>
                                               <Tabs/>
                                           </Modal> : null
-                                      }
+                                      } */}
 
 
                                             <CartSection1/>
                                           {/* <SearchBar/> */}
                                           
-                                          <CartSection2  setshowModal={setshowModal}/>
+                                          <CartSection2 />
                                           
                                           
                                           

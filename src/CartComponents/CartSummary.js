@@ -1,7 +1,8 @@
 import React from 'react';
 import "CartComponents/CustomCSS/CartSummary.css"
 import Modal from 'CommonComponents/Modal';
-import { propTypes } from 'react-bootstrap/esm/Image';
+import { browserHistory } from 'react-router';
+import { Link } from 'react-router-dom';
 function CartSummary(props) {
   return (
       <div className='summary_container'>
@@ -29,12 +30,11 @@ function CartSummary(props) {
                         <div className="total-value final-value" id="basket-total">180.00</div>
                         </div>
                         <div className="summary-checkout">
-                        <button className="checkout-cta" onClick={() => {
-                             console.log("Hi")
-                             props.setshowModal(true);
-
-                        }}
-                        >Go to Secure Checkout</button>
+                        <Link to='/checkout' >
+                            <button className="checkout-cta" onClick={() => {
+                            }}
+                            >Go to Secure Checkout</button>
+                        </Link>
                         </div>
                     </div>
 
