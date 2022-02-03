@@ -10,10 +10,11 @@
     color: #ec8649 ;
     font-size: 50px;
     opacity: 1;
-    transform: translate(-300px, 100px);
     font-family: 'arkipelago';
     padding: 0%;
-    margin-top: 10px;
+    margin-top: 15%;
+    text-align: left;
+    margin-left: 5%;
     
 }
 
@@ -26,6 +27,12 @@
 and (max-device-width: 670px){
     .elementor-row{
         flex-wrap: wrap;
+    }
+
+    .custom-css-style .elementor-element.elementor-element-dcb02db .elementor-heading-title.cart{
+        font-size: 40px;
+        margin-left: 15%;
+        margin-top: 25%;
     }
 
 }

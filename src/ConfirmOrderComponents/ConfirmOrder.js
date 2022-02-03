@@ -5,8 +5,8 @@ import {useState} from 'react'
 function ConfirmOrder(props) {
     const [Items, setItems] = useState(["Chicken 65", "Paneer Butter Masala", "Butter Naan"]);
   return (
-      <div className='summary_container'>
-                    <div className="summary">
+      <div className='summary_container confirm-order'>
+                    <div className="summary confirm-order">
                         <div className="summary-total-items"><span className="total-items"></span> Items in your Bag</div>
                         <div className="summary-subtotal">
                         {

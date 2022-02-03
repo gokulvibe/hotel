@@ -3,7 +3,7 @@ import {useState} from 'react';
 import MenuItem from './MenuItem';
 import './CustomCSS/foodmenu.css'
 
-function MenuItems() {
+function MenuItems(props) {
     const [menu, setMenu] = useState(
         [
             {
@@ -125,7 +125,7 @@ function MenuItems() {
                                             Array.from(Array(2)).map((item,id)=>{
                                                 console.log(id);
                                                 return(
-                                                    <div id="Menu">
+                                                    <div id="Menu" className='menu'>
                                                         <div
                                                             className="elementor-element elementor-element-6cd32de elementor-widget elementor-widget-heading"
                                                             data-id="6cd32de"
@@ -151,7 +151,7 @@ function MenuItems() {
                                                                             menu.map((item) => {
                                                                                 {/* true ? <MenuItem/> : <div></div> */}
                                                                                 if(item.category===categories[id])
-                                                                                    return <MenuItem key={item.id} item={item}/>
+                                                                                    return <MenuItem key={item.id} item={item} cartActive = {props.cartActive} setcartActive={props.setcartActive}/>
                                                                                 return null;
                                                                         })
                                                                         }
@@ -185,7 +185,7 @@ function MenuItems() {
                                             Array.from(Array(2)).map((item,id)=>{
                                                 console.log(id);
                                                 return(
-                                                    <div id="Menu">
+                                                    <div id="Menu" className='menu'>
                                                         <div
                                                             className="elementor-element elementor-element-6cd32de elementor-widget elementor-widget-heading"
                                                             data-id="6cd32de"
@@ -211,7 +211,7 @@ function MenuItems() {
                                                                             menu.map((item) => {
                                                                                 {/* true ? <MenuItem/> : <div></div> */}
                                                                                 if(item.category===categories[id+2])
-                                                                                    return <MenuItem key={item.id} item={item}/>
+                                                                                    return <MenuItem key={item.id} item={item} cartActive = {props.cartActive} setcartActive={props.setcartActive}/>
                                                                                 return null;
                                                                         })
                                                                         }
