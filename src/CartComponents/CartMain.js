@@ -22,7 +22,7 @@ function CartMain(props) {
                           <div className="sidebar-content fullwidth">
                               <div data-elementor-type="wp-page" data-elementor-id="3602" className="elementor custom-css-style" data-elementor-settings="[]">
                                   <div className="elementor-inner">
-                                      <div className="elementor-section-wrap">
+                                      <div className="elementor-section-wrap" >
 
                                       {/* {
                                           showModal ? <Modal setshowModal={setshowModal}>

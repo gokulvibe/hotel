@@ -1,6 +1,6 @@
 import React from 'react'
 import Section1 from './MainContent/Section1';
-import Section2 from './MainContent/Section2';
+import Section3 from './MainContent/Section3';
 
 import Section4 from './MainContent/Section4';
 import Section5 from './MainContent/Section5';
@@ -27,7 +27,7 @@ function MainContent() {
                                     <div className="elementor-section-wrap">
                                         <Link activeClass="active" to="section1" spy={true} smooth={true} duration={1000}>
                                          <Section1 />
-                                        
+                                          <Section3/>  
                                         </Link>
                                         
                                         <Link activeClass="active" to="section4" spy={true} smooth={true} duration={1000}>
