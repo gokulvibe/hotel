@@ -1,5 +1,28 @@
 .custom-css-style .elementor-element.elementor-element-38383f6>.elementor-element-populated {
     padding: 0 200px 0 90px;
-    background-color: #8a3b0d;
+    background-color: #af531d;
+    opacity: .9;
 
+}
+
+.footer-div{
+    margin-top: 10% !important;
+}
+
+.footer-section-wrap{
+    border-top: 1px solid rgb(175,83,29, .5);
+}
+
+.custom-css-style .elementor-element.elementor-element-7e367f8{
+    border: 1px solid rgb(175,83,29, .5);
+
+}
+
+.footer-contact-block{
+    border-right: 1px solid rgb(175,83,29, .7);
+}
+
+
+.custom-css-style .elementor-element.elementor-element-3374de8 {
+    border-top: 1px solid rgb(175,83,29, .7);
 }

@@ -3,12 +3,12 @@ import 'Compnents2/CustomCSS/Footer.css';
 
 function Footer() {
     return (
-        <div id='footer'>
+        <div id='footer' className="footer-div">
             <div id="footer-wrapper">
             <div data-elementor-type="wp-post" data-elementor-id="3725" class="elementor custom-css-style" data-elementor-settings="[]">
                 <div class="elementor-inner">
-                    <div class="elementor-section-wrap">
-                        <section
+                    <div class="elementor-section-wrap footer-section-wrap">
+                        {/* <section
                             class="elementor-section elementor-top-section elementor-element elementor-element-c7d144f elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle"
                             data-id="c7d144f"
                             data-element_type="section"
@@ -107,7 +107,7 @@ function Footer() {
                                     </div>
                                 </div>
                             </div>
-                        </section>
+                        </section> */}
                         <section
                             class="elementor-section elementor-top-section elementor-element elementor-element-9229aee elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                             data-id="9229aee"
@@ -133,7 +133,7 @@ function Footer() {
                                                     <div class="elementor-container elementor-column-gap-default">
                                                         <div class="elementor-row">
                                                             <div
-                                                                class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4d8e803"
+                                                                class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4d8e803 footer-contact-block"
                                                                 data-id="4d8e803"
                                                                 data-element_type="column"
                                                                 data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'
@@ -172,7 +172,7 @@ function Footer() {
                                                                                     <p class="p1">
                                                                                         <span class="s1">
                                                                                             Openning Hours <br />
-                                                                                            11.30AM – 2.30PM
+                                                                                            9:00 AM – 12:00 PM
                                                                                         </span>
                                                                                     </p>
                                                                                 </div>
@@ -182,7 +182,7 @@ function Footer() {
                                                                 </div>
                                                             </div>
                                                             <div
-                                                                class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-8d59401"
+                                                                class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-8d59401 footer-contact-block"
                                                                 data-id="8d59401"
                                                                 data-element_type="column"
                                                                 data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'
@@ -220,8 +220,9 @@ function Footer() {
                                                                                 <div class="elementor-text-editor elementor-clearfix">
                                                                                     <p class="p1">
                                                                                         <span class="s1">
-                                                                                            Location Lake House, 13 Hanway<br />
-                                                                                            Square, London, England
+                                                                                            Location<br />
+                                                                                            143 Carinish Rd, Clayton VIC 3168<br />
+                                                                                            Australia
                                                                                         </span>
                                                                                     </p>
                                                                                 </div>
@@ -304,7 +305,7 @@ function Footer() {
                                                     data-widget_type="heading.default"
                                                 >
                                                     <div class="elementor-widget-container">
-                                                        <h3 class="elementor-heading-title elementor-size-default">© Craft Coffeee HTML Template by Max Themes</h3>
+                                                        <h3 class="elementor-heading-title elementor-size-default">© Clayton Chettinad Australia</h3>
                                                     </div>
                                                 </div>
                                             </div>
