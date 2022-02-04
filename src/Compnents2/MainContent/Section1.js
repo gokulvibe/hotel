@@ -2,7 +2,7 @@ import React from 'react'
 import './CustomCSS/title.css'
 import './CustomCSS/hover.css'
 import '../../scrollbarContainer.css'
-import Section3 from './Section3';
+import Section3 from 'Compnents2/MainContent/Section3';
 import vid from "../../img/video.mp4" 
 
 
@@ -91,7 +91,7 @@ function Section1() {
                                     <br />
                                     <br />
                                     <br />
-                                    <Section3/>  
+                                   
                                       
                                        
                                     </div>

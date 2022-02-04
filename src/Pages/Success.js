@@ -3,16 +3,19 @@ import Header from "Compnents2/Header";
 import MobileMenu from "Compnents2/MobileMenu";
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import FeedbackBox from "Compnents2/FeedbackBox";
+import SuccessBox from "Compnents2/SuccessComponents/SuccessBox";
 import "Compnents2/MainContent/CustomCSS/Feedback.css";
 
 
-function Feedback() {
+function Success() {
   return(
      <div className="bg-black" style={{maxWidth:"100vw",height:"180vh"}}>
-          <FeedbackBox/>
+          <Header/>
+          <MobileMenu/>
+          <SuccessBox/>
+          <Footer/>
      </div>
   );
 }
 
-export default Feedback;
+export default Success;
