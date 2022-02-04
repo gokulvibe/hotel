@@ -4,13 +4,13 @@ import "Compnents2/CustomCSS/MobileMenu.css";
 function MobileMenu() {
     return (
         <div id="mobile-menu">
-            <a id="btn-close-mobile-menu" href="javascript:;"></a>
+            <a id="btn-close-mobile-menu" className='btn-close-mobile-menu' href="javascript:;"></a>
             <div className="mobile-menu-wrapper">
             <div className="mobile-menu-content">
                 <div className="menu-main-menu-container">
                         
                     <ul id="mobile_main_menu" className="mobile-main-nav">
-                        <li className="menu-item current-menu-ancestor current-menu-parent menu-item-has-children">
+                        <li className="menu-item mobile current-menu-ancestor current-menu-parent menu-item-has-children">
                             <a href="/">Home</a>
                             {/* <ul className="sub-menu">
                                 <li className="menu-item menu-item-home current-menu-item page_item page-item-4462 current_page_item">
@@ -26,23 +26,23 @@ function MobileMenu() {
                                 <li className="menu-item"><a href="home-9.html">Home 9</a></li>
                             </ul> */}
                         </li>
-                        <li className="menu-item menu-item-has-children">
+                        <li className="menu-item mobile menu-item-has-children">
                             <a href="/about">About</a>
                             
                         </li>
-                        <li className="menu-item menu-item-has-children">
+                        <li className="menu-item mobile menu-item-has-children">
                             <a href="/auth">Login</a>
                             
                         </li>
-                        <li className="menu-item menu-item-has-children">
+                        <li className="menu-item mobile menu-item-has-children">
                             <a href="/profile">Profile</a>
                             
                         </li>
-                        <li className="menu-item menu-item-has-children">
+                        <li className="menu-item mobile menu-item-has-children">
                             <a href="/menu">Menus</a>
                             
                         </li>
-                        <li className="menu-item menu-item-has-children">
+                        <li className="menu-item mobile menu-item-has-children">
                             <a href="/cart">Cart</a>
                             
                         </li>
