@@ -8,12 +8,12 @@ function MenuItems(props) {
         [
             {
                 "id": 1,
-                "name": "CAFE AMERICANO",
+                "name": "Fried Chicken",
                 "regularPrice": "$9",
                 "sellingPrice": "$7",
                 "description": "Espresso shots topped with hot water",
-                "image": null,
-                "category": "HOT COFFEES",
+                "image": "customImages/chettinad-chicken-900x600.png",
+                "category": "STARTERS",
                 "tags": [],
                 "nutritionInfo": {
                     "calories": 480,
@@ -29,13 +29,13 @@ function MenuItems(props) {
 
             {
                 "id": 2,
-                "name": "ICED COFFEE WITH MILK",
+                "name": "Butter Chicken",
                 "regularPrice": "",
                 "sellingPrice": "$7",
                 "description": "Signature Espresso Roast with rich flavor",
-                "image": null,
-                "category": "LUNCH",
-                "tags": ["wow"],
+                "image": "customImages/butter-chicken.png",
+                "category": "INDIAN MASALAS",
+                "tags": ["Exclusive"],
                 "nutritionInfo": {
                     "calories": 480,
                     "totalFat": "20g",
@@ -50,12 +50,12 @@ function MenuItems(props) {
 
             {
                 "id": 3,
-                "name": "ESPRESSO",
+                "name": "Dosa",
                 "regularPrice": "",
                 "sellingPrice": "$7",
                 "description": "Some random good drink dazfajhbfcmahbcm",
-                "image": null,
-                "category": "BAKERY",
+                "image": "customImages/dosa.jpg",
+                "category": "SOUTH INDIAL CLASSIC",
                 "tags": [],
                 "nutritionInfo": {
                     "calories": 480,
@@ -71,12 +71,12 @@ function MenuItems(props) {
 
             {
                 "id": 2,
-                "name": "ICED COFFEE WITH MILK",
+                "name": "Prawn Biriyani",
                 "regularPrice": "",
                 "sellingPrice": "$7",
                 "description": "Signature Espresso Roast with rich flavor",
-                "image": null,
-                "category": "COLD COFFEES",
+                "image": "customImages/prawnbiryaniPIN1-683x1024.png",
+                "category": "BIRIYANI",
                 "tags": [],
                 "nutritionInfo": {
                     "calories": 480,
@@ -94,7 +94,7 @@ function MenuItems(props) {
         ]
     )
 
-    const categories = ["HOT COFFEES", "COLD COFFEES", "BAKERY", "LUNCH"]
+    const categories = ["BIRIYANI", "INDIAN MASALAS", "SOUTH INDIAL CLASSIC", "STARTERS"]
 
 
     

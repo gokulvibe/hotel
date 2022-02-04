@@ -39,7 +39,7 @@ function MenuItem(props) {
                     <div className="food-menu-img">
                         {
                             props.item.image !== null
-                            ? <img src={props.item.image} alt="FoodImg" />
+                            ? <img className='menu-food-image' src={props.item.image} alt="FoodImg" />
                             : <img src="upload/f12bc8af498d45ed92c5d6f1dac64062_result-150x150.jpg" alt="" />
                         }
                     </div>
@@ -131,7 +131,7 @@ function MenuItem(props) {
                     <div className="food-menu-img">
                         {
                             props.item.image !== null
-                            ? <img src={props.item.image} alt="FoodImg" />
+                            ? <img className='menu-food-image' src={props.item.image} alt="FoodImg" />
                             : <img src="upload/f12bc8af498d45ed92c5d6f1dac64062_result-150x150.jpg" alt="" />
                         }
                     </div>
