@@ -6,11 +6,19 @@
 }
 
 .footer-div{
-    margin-top: 10% !important;
+    margin-top: 20% !important;
+}
+
+
+@media only screen and (max-width: 671px) {
+    .footer-div{
+        margin-top: 40% !important;
+    }
+    
 }
 
 .footer-section-wrap{
-    border-top: 1px solid rgb(175,83,29, .5);
+    border-top: 3px solid rgb(175,83,29, .5);
 }
 
 .custom-css-style .elementor-element.elementor-element-7e367f8{
@@ -24,5 +32,14 @@
 
 
 .custom-css-style .elementor-element.elementor-element-3374de8 {
-    border-top: 1px solid rgb(175,83,29, .7);
+    border-top: 1px solid rgb(175,83,29, .1);
+}
+
+
+.custom-css-style .elementor-element.elementor-element-9229aee:not(.elementor-motion-effects-element-type-background), .custom-css-style .elementor-element.elementor-element-9229aee>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: rgb(236,134,73,0.1);
+}
+
+.custom-css-style .elementor-element.elementor-element-3374de8:not(.elementor-motion-effects-element-type-background), .custom-css-style .elementor-element.elementor-element-3374de8>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: rgb(236,134,73, .4);
 }
