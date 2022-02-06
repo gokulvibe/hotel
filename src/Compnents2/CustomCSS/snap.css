@@ -1,0 +1,131 @@
+ 
+    html,body{
+     
+    
+     scroll-snap-type: y mandatory !important;
+     scroll-behavior: smooth;
+     
+     
+    }
+
+  
+    .Section{
+     height: 100vh;
+     width:100vw;
+     scroll-snap-align: start;
+     overflow-x: hidden;
+    }
+    
+    @media screen and (max-width:767px) {
+        .Section{
+            display: flex;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+    }
+
+    #sigHead{
+        padding-top:60px;
+    }
+
+    
+
+
+@media screen and (min-width:768px){
+     #section1{
+      margin-bottom: 30px;
+    }
+}
+
+
+#sigHead{
+    font-size: 3em;
+}
+
+@media screen and (max-width:385px) {
+    #sigHead{
+        font-size: 2.75em;
+    }
+}
+
+@media screen and (max-width:347px) {
+    #sigHead{
+        font-size: 2.50em;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #section3{
+        padding-top: 50vh;
+    }
+    #snapImg{
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width:670px){
+    #snapImg{
+        margin-right: -20px;
+    }
+    #snapHead{
+        font-size: 2em !important;
+        text-align: left;
+    }
+}
+
+.inner-wrap:hover h2{
+    transform: translateY(-200px);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.35s;
+    color: transparent;
+}
+
+@media screen and (max-width:1156px){
+    .inner-wrap:hover h2{
+        transform: translateY(-30vh);
+    }   
+}
+
+@media screen and (max-width:897px){
+    .inner-wrap:hover h2{
+        transform: translateY(-40vh);
+    }   
+}
+
+
+#section4{
+    
+    padding-top: 20vh;
+    position: relative;
+}
+
+@media screen and (maxHeight:505px){
+    #section4{
+        padding-top: 100px;
+    }
+}
+
+#section5{
+    padding-top: 20vh;
+}
+
+@media screen and (max-height:509px){
+    #section5{
+        padding-top: 5vh;
+    }
+}
+
+
+#section6{
+    padding-top: 40px;
+}
+
+#section7{
+    padding-top: 20vh;
+}
+
+
+
+ .snapFoot{
+  scroll-snap-align: start;
+}

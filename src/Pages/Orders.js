@@ -14,6 +14,7 @@ function Orders(){
           <MobileMenu/>
           <OrderBox/>
           {/* <div style={{PaddingTop:"20px"}}><Footer/></div> */}
+          <Footer/>
         </div>
     )
 }

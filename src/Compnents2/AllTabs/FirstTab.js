@@ -1,10 +1,13 @@
 import React from "react";
 import Login from "../Login";
 import "App.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const FirstTab = () => {
   return (
-    <div className="FirstTab">
+    <div className="FirstTab" data-aos="zoom-in-right">
       <div class="elementor-container elementor-column-gap-default">
                                                                         <div class="elementor-row">
                                                                             <div

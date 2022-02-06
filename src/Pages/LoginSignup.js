@@ -24,6 +24,7 @@ function LoginSignup() {
            <div class="header">
            </div>     
             <Tabs/>
+            <Footer/>
         </div>
   );
 }

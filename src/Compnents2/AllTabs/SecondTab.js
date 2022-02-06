@@ -1,7 +1,10 @@
 import React from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 const SecondTab = () => {
   return (
-    <div className="SecondTab">
+    <div className="SecondTab" data-aos="zoom-in-left">
         <form method="post" action="contactform/contactengine.php" class="forms-input">
                                                                                                                   
           <label for="Name" style={{fontFamily:"Roboto condensed,sans-serif",color:"white",fontSize:"1.5em",textTransform: "none"}}>NAME:</label>

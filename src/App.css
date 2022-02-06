@@ -75,6 +75,7 @@
 /* Tab Navigation */
 ul.nav2 {
   width: 65%;
+  min-width: fit-content;
   margin: 0 auto 0.60rem;
   display: flex;
   align-items: center;
@@ -87,7 +88,7 @@ ul.nav2 {
 }
 ul.nav2 li {
   width: 50%;
-  padding: 1rem;
+  padding: 1.5rem;
   list-style: none;
   text-align: center;
   cursor: pointer;

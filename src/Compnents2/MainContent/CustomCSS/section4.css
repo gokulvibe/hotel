@@ -1,0 +1,44 @@
+.flexContainer{
+    width:800px;
+    height: 600px;
+    max-width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
+}
+
+.column1{
+    flex: 50%;
+    object-fit: contain;
+}
+
+.column1 img{
+    border-radius: 2em;
+    height: 100%;
+    width:100%;
+}
+
+.column2{
+    flex: 50%;
+}
+
+.column2 h4{
+     text-align: right;
+}
+
+@media screen and(max-width:767px){
+    .flexContainer{
+        flex-direction: column;
+    }
+    .column1 img{
+        flex: 100% !important;
+    }
+    .column2{
+        flex: 100% !important;
+    }
+    .column1 img{
+        min-width: 400px;
+    }
+}

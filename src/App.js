@@ -15,7 +15,7 @@ import Header from 'Compnents2/Header';
 import Footer from 'Compnents2/Footer';
 import MobileMenu from 'Compnents2/MobileMenu';
 import Checkout from 'CommonComponents/Checkout';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
@@ -45,7 +45,7 @@ function App() {
           
        </Router>
 
-       <Footer/>
+      
 
        
       </div>

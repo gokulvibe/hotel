@@ -8,6 +8,7 @@ function Cart() {
   return (
       <div id="cart">
         <CartMain/>
+        <Footer/>
       </div>
   )
 }

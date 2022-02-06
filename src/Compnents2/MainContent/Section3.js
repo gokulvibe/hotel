@@ -1,10 +1,14 @@
 import React from 'react'
-import '../../scrollbarContainer.css'
+import '../../scrollbarContainer.css';
+import '../CustomCSS/snap.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 function Section3() {
     return (
-        <div id='section3'>
-            <h2 className="elementor-heading-title myDiv flexHead"  style={{color:"orange",fontFamily: "arkipelagoregular,Sans-serif",fontSize: "3em",textTransform: "none",textAlign:"center"}}>Our Signature Dishes</h2>
+        <div id='section3' data-aos="zoom-in-up" data-aos-delay="1000s">
+            <h2 className="elementor-heading-title myDiv flexHead" id="sigHead" style={{color:"orange",fontFamily: "arkipelagoregular,Sans-serif",textTransform: "none",textAlign:"center",whiteSpace:"no-wrap"}}>Our Signature Dishes</h2>
             <section
                 className="elementor-section elementor-top-section elementor-element elementor-element-2846e8a elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="2846e8a"
@@ -32,12 +36,12 @@ function Section3() {
                                             <div className="service-grid-container">
                                                 <div className="service-grid-content-wrapper layout-craftcoffee-three-cols" data-cols="3" data-offset="-50%">
                                                     <div
-                                                        className="service-grid-wrapper craftcoffee-three-cols service-1 tile scale-anm all smoove disable_tablet fade-in"
+                                                        className="service-grid-wrapper craftcoffee-three-cols service-1 tile scale-anm all smoove disable_tablet fade-in fitter"
                                                         data-delay="150"
                                                         data-minwidth="769"
                                                         data-opacity="0"
                                                         style={{
-                                                            backgroundImage: "url('customImages/butterchicken.jpg')",borderRadius:"2em"
+                                                            backgroundImage: "url('customImages/butterchicken.jpg')",borderRadius:"2em",minHeight:"500px"
                                                         }}
                                                     >
                                                         <div className="inner-wrap">
@@ -61,7 +65,7 @@ function Section3() {
                                                         data-minwidth="769"
                                                         data-opacity="0"
                                                         style={{
-                                                            backgroundImage: "url('customImages/biriyani.jpg')",borderRadius:"2em"
+                                                            backgroundImage: "url('customImages/biriyani.jpg')",borderRadius:"2em",minHeight:"500px"
                                                         }}
                                                     >
                                                         <div className="inner-wrap">
@@ -85,7 +89,7 @@ function Section3() {
                                                         data-minwidth="769"
                                                         data-opacity="0"
                                                         style={{
-                                                            backgroundImage: "url('customImages/dosa.jpg')",borderRadius:"2em"
+                                                            backgroundImage: "url('customImages/dosa.jpg')",borderRadius:"2em",minHeight:"500px"
                                                         }}
                                                     >
                                                         <div className="inner-wrap">
