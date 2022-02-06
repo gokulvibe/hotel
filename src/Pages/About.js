@@ -8,6 +8,7 @@ function About() {
   return (
       <div id='About'>
           <AboutMain/>
+          <Footer/>
       </div>
   );
 }

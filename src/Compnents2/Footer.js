@@ -3,7 +3,7 @@ import 'Compnents2/CustomCSS/Footer.css';
 
 function Footer() {
     return (
-        <div id='footer' className="footer-div">
+        <div id='footer' className="footer-div" >
             <div id="footer-wrapper">
             <div data-elementor-type="wp-post" data-elementor-id="3725" class="elementor custom-css-style" data-elementor-settings="[]">
                 <div class="elementor-inner">
@@ -324,4 +324,4 @@ function Footer() {
     )
 }
 
-export default Footer
+export default Footer;

@@ -6,7 +6,7 @@ import SocialIcons from './Header/SocialIcons'
 
 function Header() {
     return (
-        <div>
+        <div style={{overflowX:"hidden",maxWidth:"100vw"}}>
             <div id="elementor-header" className="main-menu-wrapper">
                 <div data-elementor-type="wp-post" data-elementor-id="3099" className="elementor custom-css-style" data-elementor-settings="[]">
                     <div className="elementor-inner">

@@ -12,6 +12,7 @@ function Profile() {
   return(
      <div className="bg-black profDark" style={{maxWidth:"100vw",height:"220vh"}}>
           <BasicInfo/>
+          <Footer/>
      </div>
   );
 }

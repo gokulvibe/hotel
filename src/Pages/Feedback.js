@@ -11,6 +11,7 @@ function Feedback() {
   return(
      <div className="bg-black" style={{maxWidth:"100vw",height:"180vh"}}>
           <FeedbackBox/>
+          <Footer/>
      </div>
   );
 }
