@@ -24,15 +24,15 @@ function Section6() {
             <h1 className='myDiv' style={{fontFamily:"Arkipelago",textTransform:"none",color:"#ec8649"}}>Gallery</h1>
             <div>
                 <Carousel style={{marginTop:"30px"}} activeIndex={index} onSelect={handleSelect}>
-                    <Carousel.Item style={{border:"1px solid black",borderRadius:"2em"}}>
-                          <img className="d-block mx-auto fluid-image" style={{borderRadius:"2em",maxHeight:"450px"}} src="images/butter-naan.jpg" alt="First slide"/>
+                    <Carousel.Item style={{border:"1px solid black",borderRadius:"2em",overflow:"none"}}>
+                          <img className="d-block mx-auto fluid-image" style={{borderRadius:"2em",minWidth:"300px",minHeight:"300px",maxHeight:"450px"}} src="images/butter-naan.jpg" alt="First slide"/>
                         <Carousel.Caption >
                           <h4 style={{color:"white"}}>Paneer Butter Masala</h4>
                           <p style={{fontWeight:"bold"}}>Feast yourself to this ultimate Punjabi delight.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item style={{border:"1px solid black"}}>
-                        <img className="d-block mx-auto fluid-image" style={{borderRadius:"2em",maxHeight:"450px"}} src="images/variety-indian-food.jpeg"alt="Second slide"/>
+                    <Carousel.Item style={{border:"1px solid black",borderRadius:"2em",overflow:"none"}}>
+                        <img className="d-block mx-auto fluid-image" style={{borderRadius:"2em",minWidth:"300px",minHeight:"300px",maxHeight:"450px"}} src="images/variety-indian-food.jpeg"alt="Second slide"/>
                         <Carousel.Caption >
                           <h4 style={{color:"white"}}>South Indian meals</h4>
                           <p style={{fontWeight:"bold"}}>Lip-smacking pure South-Indian meals.</p>

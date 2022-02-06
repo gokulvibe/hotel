@@ -42,3 +42,11 @@
         min-width: 400px;
     }
 }
+
+@media screen and (max-width:509px){
+    img{
+        width: 100vw;
+        overflow: hidden;
+        border-radius: 2em;
+    }
+}
