@@ -3,11 +3,24 @@ import ContactNumber from './Header/ContactNumber'
 import Logo from './Header/Logo'
 import Navbar from './Header/Navbar'
 import SocialIcons from './Header/SocialIcons'
+import "./CustomCSS/Header.css";
 
 function Header() {
     return (
-        <div style={{overflowX:"hidden",maxWidth:"100vw"}}>
-            <div id="elementor-header" className="main-menu-wrapper">
+       <div id="navi" style={{overflowX:"hidden"}}>
+        
+
+  	<input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
+  	<label for="menu-icon"></label>
+  	<nav class="nav"> 		
+  		<ul class="pt-5">
+  			<li><a href="/" style={{fontFamily:"Arkipelago",textTransform:"none"}}>Home</a></li>
+  			<li><a href="/menu" style={{fontFamily:"Arkipelago",textTransform:"none"}}>Menu</a></li>
+  			<li><a href="/cart" style={{fontFamily:"Arkipelago",textTransform:"none"}}>Cart</a></li>
+  			<li><a href="/about" style={{fontFamily:"Arkipelago",textTransform:"none"}}>Contact</a></li>
+  		</ul>
+  	</nav>
+             {/*<div id="elementor-header" className="main-menu-wrapper">
                 <div data-elementor-type="wp-post" data-elementor-id="3099" className="elementor custom-css-style" data-elementor-settings="[]">
                     <div className="elementor-inner">
                         <div className="elementor-section-wrap">
@@ -66,7 +79,7 @@ function Header() {
                         </div>
                     </div>
                 </div>
-            </div>
+    </div>*/}
         </div>
     )
 }
