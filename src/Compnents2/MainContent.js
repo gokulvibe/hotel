@@ -10,6 +10,7 @@ import Section8 from './MainContent/Section8';
 import './MainContent/CustomCSS/title.css';
 import './CustomCSS/snap.css';
 import "./MainContent/CustomCSS/section4.css";
+import "Compnents2/CustomCSS/HomeMobileView.css";
 
 import { Link } from 'react-scroll';
 import { animateScroll as scroll } from 'react-scroll';

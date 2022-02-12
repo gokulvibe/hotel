@@ -26,16 +26,16 @@ function Section6() {
                 <Carousel style={{marginTop:"30px"}} activeIndex={index} onSelect={handleSelect}>
                     <Carousel.Item style={{border:"1px solid black",borderRadius:"2em",overflow:"none"}}>
                           <img className="d-block mx-auto fluid-image" style={{borderRadius:"2em",minWidth:"300px",minHeight:"300px",maxHeight:"450px"}} src="images/butter-naan.jpg" alt="First slide"/>
-                        <Carousel.Caption >
-                          <h4 style={{color:"white"}}>Paneer Butter Masala</h4>
-                          <p style={{fontWeight:"bold"}}>Feast yourself to this ultimate Punjabi delight.</p>
+                        <Carousel.Caption style={{background: "rgb(220,220,220, .5)", borderRadius:"2em"}}>
+                          <h4 style={{color:"black"}}>Paneer Butter Masala</h4>
+                          <p style={{fontWeight:"bold", color:"black"}}>Feast yourself to this ultimate Punjabi delight.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item style={{border:"1px solid black",borderRadius:"2em",overflow:"none"}}>
                         <img className="d-block mx-auto fluid-image" style={{borderRadius:"2em",minWidth:"300px",minHeight:"300px",maxHeight:"450px"}} src="images/variety-indian-food.jpeg"alt="Second slide"/>
-                        <Carousel.Caption >
-                          <h4 style={{color:"white"}}>South Indian meals</h4>
-                          <p style={{fontWeight:"bold"}}>Lip-smacking pure South-Indian meals.</p>
+                        <Carousel.Caption style={{background: "rgb(220,220,220, .5)", borderRadius:"2em"}}>
+                          <h4 style={{color:"black"}}>South Indian meals</h4>
+                          <p style={{fontWeight:"bold", color:"black"}}>Lip-smacking pure South-Indian meals.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>

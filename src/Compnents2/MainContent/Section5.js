@@ -9,9 +9,9 @@ AOS.init();
 function Section5() {
     return (
         <div id='section5' className='d-block mx-auto' data-aos="zoom-in-up" >
-             <div className='container d-lg-flex flex-lg-row-reverse mx-auto' style={{borderColor:"black"}}>
+             <div className='home-container container d-lg-flex flex-lg-row-reverse mx-auto' style={{borderColor:"black"}}>
                <div className='col' style={{borderRadius:"2em",overflow:"hidden"}}>
-                   <img data-aos="zoom-in-left"  src={dosa}  style={{borderRadius:"2em",minWidth:"300px",minHeight:"300px"}} ></img>
+                   <img className="home-image section5-img" data-aos="zoom-in-left"  src={dosa}  style={{borderRadius:"2em",minWidth:"300px",minHeight:"300px"}} ></img>
                </div>
                <div className='col mx-sm-auto'>
               
