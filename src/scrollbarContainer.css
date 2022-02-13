@@ -50,20 +50,20 @@
   width:100%; position: relative;
   box-sizing: border-box;
   margin: auto;
-  
+
   color:black;
   padding-bottom:4px;
 }
 
 
-  
+
 
 
 
 
 video {
   object-fit: cover;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   position: absolute;
   top: 0;
@@ -81,7 +81,7 @@ video {
   justify-content: center;
   align-content: center;
   padding-top: 42vh;
-  font-size: 2em; 
+  font-size: 2em;
   white-space: nowrap;
 }
 
@@ -101,7 +101,7 @@ video {
 @media screen and (max-width:1800px) {
   .fix{
      text-align: center;
-     
+
   }
 }
 

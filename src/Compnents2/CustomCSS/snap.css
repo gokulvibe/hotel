@@ -1,21 +1,21 @@
- 
+
     html,body{
-     
-    
+
+
      scroll-snap-type: y mandatory !important;
      scroll-behavior: smooth;
-     
-     
+
+
     }
 
-  
+
     .Section{
      height: 100vh;
-     width:100vw;
+     width:100%;
      scroll-snap-align: start;
      overflow-x: hidden;
     }
-    
+
     @media screen and (max-width:767px) {
         .Section{
             display: flex;
@@ -28,7 +28,7 @@
         padding-top:60px;
     }
 
-    
+
 
 
 @media screen and (min-width:768px){
@@ -83,18 +83,18 @@
 @media screen and (max-width:1156px){
     .inner-wrap:hover h2{
         transform: translateY(-30vh);
-    }   
+    }
 }
 
 @media screen and (max-width:897px){
     .inner-wrap:hover h2{
         transform: translateY(-40vh);
-    }   
+    }
 }
 
 
 #section4{
-    
+
     padding-top: 20vh;
     position: relative;
 }

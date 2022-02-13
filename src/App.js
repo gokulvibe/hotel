@@ -20,7 +20,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-   
+
      <div className="App" >
        <div className="body" style={{scrollBehavior: 'smooth'}}>
 
@@ -28,29 +28,29 @@ function App() {
        <MobileMenu/>
        <Router basename="/">
             <Routes>
-              
-                <Route path='/' element={<Home/>} /> 
+
+                <Route path='/' element={<Home/>} />
                 <Route path='/about' element={<About/>}/>
-                <Route path='/menu' element={<Menu/>} /> 
-                <Route path='/cart' element={<Cart/>} />  
-                <Route path='/auth' element={<LoginSignup/>} />              
-                <Route path='/profile' element={<Profile/>} />   
-                <Route path='/feedback' element={<Feedback/>} />  
-                <Route path='/success' element={<Success/>} />   
-                <Route path='/orders' element={<Orders/>} /> 
-                <Route path='/stripe' element={<StripeMain/>} /> 
+                <Route path='/menu' element={<Menu/>} />
+                <Route path='/cart' element={<Cart/>} />
+                <Route path='/auth' element={<LoginSignup/>} />
+                <Route path='/profile' element={<Profile/>} />
+                <Route path='/feedback' element={<Feedback/>} />
+                <Route path='/success' element={<Success/>} />
+                <Route path='/orders' element={<Orders/>} />
+                <Route path='/stripe' element={<StripeMain/>} />
                 <Route path='/checkout' element={<Checkout/>}/>
             </Routes>
 
-          
+
        </Router>
 
-      
 
-       
+
+
       </div>
      </div>
-   
+
   );
 }
 

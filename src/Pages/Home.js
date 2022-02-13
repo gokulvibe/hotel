@@ -8,7 +8,7 @@ import '../Compnents2/CustomCSS/snap.css';
 function Home() {
   return(
 
-       <div id="home" className="home" style={{maxWidth:"100vw",overflow:"none"}}>
+       <div id="home" className="home" style={{maxWidth:"100%",overflow:"none"}}>
 
 
             <MainContent/>
