@@ -13,7 +13,12 @@
      height: 100vh;
      width:100%;
      scroll-snap-align: start;
+
      overflow-x: hidden;
+     -ms-scroll-snap-type: mandatory; /* IE/Edge */
+     -webkit-scroll-snap-type: mandatory; /* Safari */
+     -webkit-scroll-snap-destination: 0% 0%;
+     -webkit-overflow-scrolling: touch; 
     }
 
     @media screen and (max-width:767px) {

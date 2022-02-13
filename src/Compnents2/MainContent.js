@@ -18,16 +18,16 @@ import { animateScroll as scroll } from 'react-scroll';
 function MainContent() {
     return (
         <div className='bg-black cont' style={{height:"max-content"}}>
-            
-                                       
-                                         <div className="Section" ><Section1 /></div>
-                                         <div className="Section"><Section3/></div> 
-                                         <div className="Section"><Section4/></div> 
-                                          <div className="Section"><Section5/></div>
-                                          <div className="Section"><Section6/></div>
-                                          <div className="Section"><Section7/></div>
-                                         
-                                 
+
+
+                                         <div className="Section" style={{scrollSnapStop: "always"}} ><Section1 /></div>
+                                         <div className="Section" style={{scrollSnapStop: "always"}} ><Section3/></div>
+                                         <div className="Section" style={{scrollSnapStop: "always"}} ><Section4/></div>
+                                          <div className="Section" style={{scrollSnapStop: "always"}} ><Section5/></div>
+                                          <div className="Section" style={{scrollSnapStop: "always"}} ><Section6/></div>
+                                          <div className="Section" style={{scrollSnapStop: "always"}} ><Section7/></div>
+
+
         </div>
     )
 }

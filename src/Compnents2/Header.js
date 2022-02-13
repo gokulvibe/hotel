@@ -4,22 +4,27 @@ import Logo from './Header/Logo'
 import Navbar from './Header/Navbar'
 import SocialIcons from './Header/SocialIcons'
 import "./CustomCSS/Header.css";
+import logo from "../img/logo_white.png";
 
 function Header() {
     return (
        <div id="navi" style={{overflowX:"hidden"}}>
-        
+
 
   	<input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
+
   	<label for="menu-icon"></label>
-  	<nav class="nav"> 		
+  	<nav class="nav">
   		<ul class="pt-5">
   			<li><a href="/" style={{fontFamily:"Arkipelago",textTransform:"none"}}>Home</a></li>
   			<li><a href="/menu" style={{fontFamily:"Arkipelago",textTransform:"none"}}>Menu</a></li>
   			<li><a href="/cart" style={{fontFamily:"Arkipelago",textTransform:"none"}}>Cart</a></li>
   			<li><a href="/about" style={{fontFamily:"Arkipelago",textTransform:"none"}}>Contact</a></li>
   		</ul>
+
   	</nav>
+    <div className="log"><img src={logo} alt=""/></div>
+    <h2 className="contact" style={{textAlign:"right"}}>&#9743;-2256789001</h2>
              {/*<div id="elementor-header" className="main-menu-wrapper">
                 <div data-elementor-type="wp-post" data-elementor-id="3099" className="elementor custom-css-style" data-elementor-settings="[]">
                     <div className="elementor-inner">
@@ -37,7 +42,7 @@ function Header() {
                                         <SocialIcons />
                                         <ContactNumber />
 
-                                        
+
                                     </div>
                                 </div>
                             </section>

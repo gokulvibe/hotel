@@ -16,8 +16,6 @@
   height: 100vh;
   width: 100%;
   overflow-y: auto;
-  left: 0px;
-	overflow-x: hidden;
 }
 #navi .section-center{
   position: absolute;
@@ -48,14 +46,13 @@
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked){
   position: absolute;
-  left: 0px;
-	overflow-x: hidden;
+  left: -9999px;
 }
 #navi .menu-icon:checked + label,
 #navi .menu-icon:not(:checked) + label{
   position: fixed;
   top: 63px;
-  right: 75px;
+  right: 93%;
   display: block;
   width: 30px;
   height: 30px;
@@ -125,7 +122,7 @@
 #navi .nav{
   position: fixed;
   top: 33px;
-  right: 50px;
+  right: 91.5%;
   display: block;
   width: 80px;
   height: 80px;
@@ -280,13 +277,13 @@
 @media screen and (max-width: 991px) {
   #navi .menu-icon:checked + label,
   #navi .menu-icon:not(:checked) + label{
-    right: 55px;
+    right: 86%;
   }
   #navi .logo {
     left: 30px;
   }
   #navi .nav{
-    right: 30px;
+    right: 80%;
   }
   #navi h1{
     font-size: 9vw;
@@ -299,4 +296,32 @@
   #navi .nav ul li a{
     font-size: 8vh;
   }
+}
+
+.contact{
+  position: absolute;
+	white-space: nowrap;
+	z-index: 10;
+	color: white;
+	font-weight: bold;
+  right: 25px;
+	top:60px;
+}
+
+.log{
+	width: fit-content;
+	left:45.75%;
+	position: absolute;
+	max-height: 100px;
+	max-width: 200px;
+	z-index: 10;
+	top: 5px;
+	display: block;
+}
+
+@media screen and (max-width:677px) {
+	.log{
+	  display: none;
+		margin-left:2px;
+	}
 }
