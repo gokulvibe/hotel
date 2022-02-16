@@ -61,7 +61,7 @@
 
 @media screen and (max-width:767px) {
     #section3{
-        padding-top: 50vh;
+        padding-top: 10vh;
     }
     #snapImg{
         height: fit-content;
