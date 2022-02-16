@@ -39,6 +39,8 @@
 .custom-css-style .elementor-element.elementor-element-6a86839 .food-menu-desc {
     color: #989898 ;
     opacity: 0.7;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 671px) {

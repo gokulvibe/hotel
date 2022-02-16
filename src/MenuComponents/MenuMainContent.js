@@ -5,6 +5,7 @@ import 'MenuComponents/MenuMainComponent/CustomCSS/MainSections.css';
 import SearchBar from 'MenuComponents/MenuMainComponent/SearchBar';
 import CartIcon from 'CommonComponents/CartIcon';
 import {useState} from 'react';
+import CartIcon2 from 'CommonComponents/CartIcon2';
 
 function MenuMainContent() {
     const [cartActive, setcartActive] = useState(false);
@@ -21,9 +22,8 @@ function MenuMainContent() {
 
                                         <MenuSection1/>
                                         <SearchBar/>
-                                        
                                         <MenuItems cartActive = {cartActive} setcartActive={setcartActive}/>
-                                        <CartIcon cartActive = {cartActive}/>
+                                        <CartIcon2/>
                                         
                                         
                                         

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+
+html {
+    background: #e8e8f3;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .CartIcon2{
+    width: fit-content;
+    position: fixed;
+    top: 20%;
+    left: 95%;
+    z-Index: 1;
+  }
+  .menu_cart_icon {
+    
+    width: 100%;
+    position: relative;
+    top: 40px;
+    padding: 30px;
+    background: url("https://img.icons8.com/material/50/000000/shopping-cart--v1.png") no-repeat 50%/50% #ec8649;;
+    border-radius: 25%;
+    cursor: pointer;
+    box-shadow: 7px 7px 15px rgba(8, 61, 218, 0.15), -1px -1px 20px #ec8649, inset 0px 0px 4px rgba(255, 255, 255, 0.2), inset 7px 7px 15px rgba(55, 84, 170, 0), inset -7px -7px 20px rgba(255, 255, 255, 0), 0px 0px 4px rgba(255, 255, 255, 0);
+  }
+  /* .menu_cart_icon::before, .menu_cart_icon::after {
+    content: "hii";
+    background: #c3c2c7;
+    border-radius: 5px;
+    width: 30px;
+    height: 5px;
+    position: absolute;
+    left: 16px;
+    top: 27px;
+    transition: 0.2s ease;
+    z-index: 1;
+  }
+  .menu_cart_icon::before {
+    transform: rotate(0deg);
+  }
+  .menu_cart_icon::after {
+    transform: rotate(-90deg);
+  } */
+  .menu_cart_icon.open {
+    opacity: 0.9;
+  }
+  .menu_cart_icon.open::before {
+    transform: rotate(45deg);
+  }
+  .menu_cart_icon.open::after {
+    transform: rotate(-45deg);
+  }
+  .menu_cart_icon.open .cart_button {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .menu_cart_icon.open .cart_button:first-of-type {
+    bottom: 75px;
+    right: 25px;
+    /* background: url("https://bassets.github.io/cam.svg") no-repeat 50%/50% #e8e8f3; */
+    /* background: wheat; */
+  }
+  .menu_cart_icon.open .cart_button:nth-of-type(2) {
+    bottom: -75px;
+    right: 25px;
+    /* background: url("https://bassets.github.io/img.svg") no-repeat 50%/50% #e8e8f3; */
+    /* background: wheat; */
+    transition-delay: 0.05s;
+  }
+  .menu_cart_icon.open .cart_button:last-of-type {
+    bottom: 0px;
+    right: 75px;
+    background: url("https://img.icons8.com/material-rounded/100/000000/arrow.png") no-repeat 50% 45%/50% 45% #e8e8f3;
+    /* background: wheat; */
+    transition-delay: 0.1s;
+  }
+  
+  .cart_button {
+    height: 20px;
+    width: 20px;
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    background: #e8e8f3;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: inherit;
+    transition: 0.2s cubic-bezier(0.18, 0.89, 0.32, 1.28), 0.2s ease opacity, 0.2s cubic-bezier(0.08, 0.82, 0.17, 1) transform;
+  }
+  .cart_button:hover {
+    transform: scale(1.1);
+  }
+
+  .cart_button_content{
+    font-family: 'Redressed', cursive;
+    color: black;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+  }
+
+  .cart_button_content.one{
+
+  }
+
+  .cart_button_content.two{
+
+  }
+
+  .cart_button_content.three{
+    font-size: 15px;
+    left: 20%;
+    top: 30%;
+    
+  }
+
+
+

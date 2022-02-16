@@ -1,5 +1,5 @@
 import React from "react";
-import './CustomCSS/searchbar.css';
+import 'MenuComponents/MenuMainComponent/CustomCSS/searchbar.css';
 import FloatingImage from "./FloatingImage";
 
 function SearchBar(){

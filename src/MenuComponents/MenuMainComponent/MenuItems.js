@@ -2,6 +2,7 @@ import React from 'react';
 import {useState} from 'react';
 import MenuItem from './MenuItem';
 import './CustomCSS/foodmenu.css'
+import CartIcon2 from 'CommonComponents/CartIcon2';
 
 function MenuItems(props) {
     const [menu, setMenu] = useState(
@@ -102,7 +103,6 @@ function MenuItems(props) {
 
     return (
         <div className='menusection4'>
-
         
             <section
                     className="elementor-section elementor-top-section elementor-element elementor-element-52dc38a elementor-section-boxed elementor-section-height-default elementor-section-height-default"
