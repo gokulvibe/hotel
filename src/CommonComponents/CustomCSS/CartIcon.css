@@ -123,4 +123,11 @@ html {
   }
 
 
+  @media only screen and (max-width:1024px){
+    .CartIcon2{
+      display: none;
+    }
+  }
+
+
 

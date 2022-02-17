@@ -51,6 +51,48 @@ function MenuItems(props) {
 
             {
                 "id": 3,
+                "name": "Butter Chicken",
+                "regularPrice": "",
+                "sellingPrice": "$7",
+                "description": "Signature Espresso Roast with rich flavor",
+                "image": "customImages/butter-chicken.png",
+                "category": "INDIAN MASALAS",
+                "tags": ["Exclusive"],
+                "nutritionInfo": {
+                    "calories": 480,
+                    "totalFat": "20g",
+                    "cholestrol": "60mg",
+                    "sodium:": "220mg",
+                    "totalCarbohydrate": "71g",
+                    "protein": "5g",
+                    "caffeine": "80mg"
+                }
+
+            },
+
+            {
+                "id": 4,
+                "name": "Dosa",
+                "regularPrice": "",
+                "sellingPrice": "$7",
+                "description": "Some random good drink dazfajhbfcmahbcm",
+                "image": "customImages/dosa.jpg",
+                "category": "SOUTH INDIAL CLASSIC",
+                "tags": ["HOT"],
+                "nutritionInfo": {
+                    "calories": 480,
+                    "totalFat": "20g",
+                    "cholestrol": "60mg",
+                    "sodium:": "220mg",
+                    "totalCarbohydrate": "71g",
+                    "protein": "5g",
+                    "caffeine": "80mg"
+                }
+
+            },
+
+            {
+                "id": 5,
                 "name": "Dosa",
                 "regularPrice": "",
                 "sellingPrice": "$7",
@@ -71,13 +113,55 @@ function MenuItems(props) {
             },
 
             {
-                "id": 2,
+                "id": 6,
+                "name": "Dosa",
+                "regularPrice": "",
+                "sellingPrice": "$7",
+                "description": "Some random good drink dazfajhbfcmahbcm",
+                "image": "customImages/dosa.jpg",
+                "category": "SOUTH INDIAL CLASSIC",
+                "tags": [],
+                "nutritionInfo": {
+                    "calories": 480,
+                    "totalFat": "20g",
+                    "cholestrol": "60mg",
+                    "sodium:": "220mg",
+                    "totalCarbohydrate": "71g",
+                    "protein": "5g",
+                    "caffeine": "80mg"
+                }
+
+            },
+
+            {
+                "id": 7,
                 "name": "Prawn Biriyani",
                 "regularPrice": "",
                 "sellingPrice": "$7",
                 "description": "Signature Espresso Roast with rich flavor",
                 "image": "customImages/prawnbiryaniPIN1-683x1024.png",
                 "category": "BIRIYANI",
+                "tags": [],
+                "nutritionInfo": {
+                    "calories": 480,
+                    "totalFat": "20g",
+                    "cholestrol": "60mg",
+                    "sodium:": "220mg",
+                    "totalCarbohydrate": "71g",
+                    "protein": "5g",
+                    "caffeine": "80mg"
+                }
+
+            },
+
+            {
+                "id": 8,
+                "name": "Butter Chicken",
+                "regularPrice": "",
+                "sellingPrice": "$7",
+                "description": "Signature Espresso Roast with rich flavor",
+                "image": "customImages/butter-chicken.png",
+                "category": "INDIAN MASALAS",
                 "tags": [],
                 "nutritionInfo": {
                     "calories": 480,

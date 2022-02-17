@@ -33,9 +33,7 @@ function MenuItem(props) {
                         </div>
                     </div>
     
-                    <div className="food-menu-content-highlight-holder menu_highlight">
-                        <h4>{props.item.tags[0]}</h4>
-                    </div>
+                    
                     <div className="food-menu-img">
                         {
                             props.item.image !== null
@@ -45,6 +43,7 @@ function MenuItem(props) {
                     </div>
 
                     <div className={clicked ? "food-menu-content menu-highlight selected" : "food-menu-content menu-highlight"}>
+                    
                         <div className="food-menu-content-top-holder">
                             <div className="food-menu-content-title-holder">
                                 <h3 className="food-menu-title">{props.item.name}</h3>
@@ -71,6 +70,11 @@ function MenuItem(props) {
                                 }
                                 
                             </div>
+                            <p class="ribbon">
+                                <span class="text"><strong class="bold">{props.item.tags[0]}</strong></span>
+                            </p>
+                            
+                            
                         </div>
 
                         <div className="food-menu-desc">{props.item.description}</div>

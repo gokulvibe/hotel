@@ -1,9 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
+
 /* Nutrition Info */
 .nutrition-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     padding: 0%;
+}
+
+.food-menu-img {
+    float: left;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.food-menu-content {
+    border: 1px solid;
+    /* margin: 10px; */
+    width: 100%;
+}
+
+.food-menu-content.menu-highlight {
+    border: .5px solid rgb(255,165,0,.5);
+
 }
 
 .food-menu-tooltip-templates-content{
@@ -29,16 +48,86 @@
 }
 
 .selected {
-    border: 1.5px solid rgb(8, 110, 8);
-    border-radius: 20px;
+    border: 1.5px solid rgb(8, 110, 8) !important;
     /* box-shadow: 1px 1px 1px 1px green; */
 }
 
-.menu_highlight h4{
-    background-color: #ec8649;
-    padding-left: 5px;
-    color: black;
+.menu_highlight {
+    font-size: 1px;
+    font-size: smaller;
+    /* transform: rotate(90deg); */
+    left: 50%;
+    width: 10%;
+    top: 50%;
+    float: right;
 }
+
+
+
+.menu_highlight h4 {
+    font-size: small;
+    font-family: 'Annie Use Your Telescope', cursive;
+    text-shadow: 1px 1px #ff2613;
+    background-color: black;
+    text-decoration: underline;
+    color: black;
+    color: #ec8649 !important;
+}
+
+
+/* Tag Ribbon */
+.ribbon{
+    color: white;
+    font-size: smaller;
+    position:absolute;
+    left: 1%;
+    top: 20%;
+    text-align:center;
+  }
+  .text{
+    display:inline-block;
+    padding:0.5em 1em;
+    line-height:1.2em;
+    background: #e22d00;
+    position:relative;
+  }
+  .ribbon:after,.ribbon:before,
+  .text:before,.text:after,
+  .bold:before{
+    content:'';
+    position:absolute;
+    border-style:solid;
+  }
+  .ribbon:before{
+    top:0.3em; left:0.2em;
+    width:100%; height:100%;
+    border:none;
+    background:#EBECED;
+    z-index:-2;
+  }
+  .text:before{
+    bottom:100%; left:0;
+    border-width: .5em .7em 0 0;
+    border-color: transparent #ff3b0a transparent transparent;
+  }
+  .text:after{
+    top:100%; right:0;
+    border-width: .5em 2em 0 0;
+    border-color: #ff3b0a transparent transparent transparent;
+  }
+  .ribbon:after, .bold:before{
+    top:0.5em;right:-2em;
+    border-width: 1.1em 1em 1.1em 3em;
+    border-color: #ff3b0a transparent #ff3b0a #ff3b0a;
+    z-index:-1;
+  }
+  .bold:before{
+    border-color: #EBECED transparent #EBECED #EBECED;
+    top:0.7em;
+    right:-2.3em;
+  }
+
+
 
 
 .quantity-manage{
@@ -122,7 +211,7 @@
 
 .food-menu-img img {
     max-width: 80px !important;
-    height: auto;
+    height: 80px !important;
     border-radius: 100%;
     vertical-align: middle;
     height: 80px;
@@ -131,11 +220,57 @@
 
 
 /* IPAD View */
+@media only screen and (max-width:1024px) {
+    .food-menu-content{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .food-menu-content{
+        margin: 10px;
+        width: 90%;
+    }
+
+    .food-menu-img {
+        float: left;
+        width: 100px;
+        height: 100px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .ribbon{
+        left: 3%;
+        top: 20%;
+      }
+
+    .custom-css-style .elementor-element.elementor-element-6cd32de>.elementor-widget-container {
+        margin: 0 20px 30px 20px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .food-menu-content{
+        width: 90%;
+    }
+
+    .food-menu-img {
+        float: left;
+        width: 100px;
+        height: 100px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+}
 @media only screen 
   and (min-device-width: 480px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
 
+    .food-menu-content{
+        width: 90%;
+    }
     .quantity_button{
         border-radius: 5px 5px 5px 5px;
         background-color: transparent;
