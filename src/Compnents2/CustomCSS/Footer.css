@@ -11,6 +11,23 @@
 
 
 @media only screen and (max-width: 671px) {
+    .custom-css-style .elementor-element.elementor-element-9229aee {
+        padding: 0 0 0 0;
+    }
+    .custom-css-style .elementor-element.elementor-element-4d8e803>.elementor-element-populated {
+        padding: 20px 40px 20px 40px;
+    }
+    .custom-css-style .elementor-element.elementor-element-8d59401>.elementor-element-populated {
+        padding: 20px 40px 20px 40px;
+    }
+    .custom-css-style .elementor-element.elementor-element-06fc5ca>.elementor-element-populated {
+        padding: 20px 40px 20px 40px;
+    }
+    .custom-css-style .elementor-element.elementor-element-3374de8 {
+        padding: 5px 0 5px 0;
+    }
+
+
     .footer-div{
         margin-top: 40% !important;
     }
