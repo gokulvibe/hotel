@@ -1,5 +1,6 @@
 .custom-css-style .elementor-element.elementor-element-38383f6>.elementor-element-populated {
     padding: 0 200px 0 90px;
+    
     background-color: #af531d;
     opacity: .9;
 
@@ -7,6 +8,7 @@
 
 .footer-div{
     margin-top: 20% !important;
+
 }
 
 
@@ -14,7 +16,7 @@
     .footer-div{
         margin-top: 40% !important;
     }
-    
+
 }
 
 .footer-section-wrap{
