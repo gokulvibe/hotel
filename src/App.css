@@ -3,7 +3,7 @@
 
 body.gallery-horizontal #wrapper, body.elementor-page #wrapper {
   overflow-x: hidden;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
 }
 
 * {
