@@ -19,7 +19,7 @@ function Header() {
   			<li><a href="/" style={{fontFamily:"Arkipelago",textTransform:"none"}}>Home</a></li>
   			<li><a href="/menu" style={{fontFamily:"Arkipelago",textTransform:"none"}}>Menu</a></li>
   			<li><a href="/cart" style={{fontFamily:"Arkipelago",textTransform:"none"}}>Cart</a></li>
-  			<li><a href="/about" style={{fontFamily:"Arkipelago",textTransform:"none"}}>Contact</a></li>
+  			<li><a href="/about" style={{fontFamily:"Arkipelago",textTransform:"none"}}>About Us</a></li>
   		</ul>
 
   	</nav>
