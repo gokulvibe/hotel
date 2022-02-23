@@ -20,7 +20,7 @@
     text-align: center;
     font-style: arkipelagoregular,Sans-serif;
     color: orange;
-    
+
 }
 
 
@@ -33,15 +33,15 @@
     padding-top: 40px;
     width: 60vw;
     height: fit-content;
+    padding-bottom: 40px;
     min-width: 300px;
     min-height: 460px;
     background-color: black;
-    border: 1px solid white;
-   box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    border: 5px solid orange;
     border-radius: 2em;
     display: flex;
     flex-direction: row;
-   
+
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60vh;
@@ -75,7 +75,7 @@ mark{
 
 
 .options ul{
-    
+
      white-space: nowrap;
      justify-content: space-between;
      align-items: center;
@@ -167,7 +167,7 @@ mark{
         margin-bottom: 18vh;
     }
 
- 
+
 
     .options li{
         columns: 1;
@@ -176,12 +176,12 @@ mark{
        width: 100%;
     }
 
-   
+
 }
 
 #profileCard a {
         /*placement for code pen*/
-        
+
         /*Button Text Style*/
         font-family:'Inconsolata', 'Helvetica', 'Arial',         sans-serif;
         font-size: inherit;
@@ -211,7 +211,7 @@ mark{
         width: 27vw;
     }
 }
-              
+
 
 @media screen and (max-width:579px){
 
@@ -254,12 +254,12 @@ mark{
         width: 65vw;
     }
 }
-  
-  
-  
 
-  
-    
+
+
+
+
+
 #profileCard a:after {
         /*Make a:after be as big as button*/
         position: absolute;
@@ -278,8 +278,8 @@ mark{
         -webkit-transition: all 0.5s;
         -moz-transition: all 0.5s;
         -o-transition: all 0.5s;
-      
-        
+
+
          }
 #profileCard a:hover {
           top:2px;
@@ -289,4 +289,3 @@ mark{
          top: -2px;
          left: -2px;
             }
-
