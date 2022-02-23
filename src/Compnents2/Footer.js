@@ -1,13 +1,14 @@
 import React from 'react'
 import 'Compnents2/CustomCSS/Footer.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Footer() {
     return (
-        <div id='footer' className="footer-div" >
-            <div id="footer-wrapper">
-            <div data-elementor-type="wp-post" data-elementor-id="3725" class="elementor custom-css-style" data-elementor-settings="[]">
-                <div class="elementor-inner">
-                    <div class="elementor-section-wrap footer-section-wrap">
+        <div id='footer' className="footer-div" style={{display:"block",width:"100%"}} >
+            <div >
+            <div data-elementor-type="wp-post" data-elementor-id="3725" class="elementor custom-css-style w-100" data-elementor-settings="[]">
+                <div >
+                    <div id="footspread" >
                         {/* <section
                             class="elementor-section elementor-top-section elementor-element elementor-element-c7d144f elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle"
                             data-id="c7d144f"
@@ -109,13 +110,13 @@ function Footer() {
                             </div>
                         </section> */}
                         <section
-                            class="elementor-section elementor-top-section elementor-element elementor-element-9229aee elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            class="elementor-section elementor-top-section elementor-element elementor-element-9229aee elementor-section-boxed elementor-section-height-default elementor-section-height-default "
                             data-id="9229aee"
                             data-element_type="section"
                             data-settings='{"background_background":"classic","craftcoffee_ext_is_background_parallax":"false"}'
                         >
                             <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-row">
+                                <div class="elementor-row" >
                                     <div
                                         class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2cba03a"
                                         data-id="2cba03a"

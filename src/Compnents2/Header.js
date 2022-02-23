@@ -20,6 +20,7 @@ function Header() {
   			<li><a href="/menu" style={{fontFamily:"Arkipelago",textTransform:"none"}}>Menu</a></li>
   			<li><a href="/cart" style={{fontFamily:"Arkipelago",textTransform:"none"}}>Cart</a></li>
   			<li><a href="/about" style={{fontFamily:"Arkipelago",textTransform:"none"}}>About Us</a></li>
+        <li><a href="/profile" style={{fontFamily:"Arkipelago",textTransform:"none"}}>Your Account</a></li>
   		</ul>
 
   	</nav>

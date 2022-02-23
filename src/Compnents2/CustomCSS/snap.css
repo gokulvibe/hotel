@@ -18,7 +18,7 @@
      -ms-scroll-snap-type: mandatory; /* IE/Edge */
      -webkit-scroll-snap-type: mandatory; /* Safari */
      -webkit-scroll-snap-destination: 0% 0%;
-     -webkit-overflow-scrolling: touch; 
+     -webkit-overflow-scrolling: touch;
     }
 
     @media screen and (max-width:767px) {
@@ -133,4 +133,13 @@
 
  .snapFoot{
   scroll-snap-align: start;
+
+
+}
+
+#footspread{
+  min-width: 90vw;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
