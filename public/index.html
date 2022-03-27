@@ -6,6 +6,7 @@
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="theme-color" content="#000000">
 
 
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="all" />
@@ -35,10 +36,14 @@
     <link rel="stylesheet" href="css/custom-css.min.css" type="text/css" media="all" />
 
 
-    <link rel="icon" href="upload/cropped-TG-Thumb-32x32.png" sizes="32x32" />
-    <link rel="icon" href="upload/cropped-TG-Thumb-192x192.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="upload/cropped-TG-Thumb-180x180.png" />
-    <meta name="msapplication-TileImage" content="upload/cropped-TG-Thumb-270x270.png" />
+    <link rel="icon" href="images/FavIcons_Logo/favicon.ico" />
+    <link rel="shortcut icon" href="images/FavIcons_Logo/favicon.ico" />
+    <!-- <link rel="icon" href="images/FavIcons_Logo/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="images/FavIcons_Logo/android-chrome-192x192.png" sizes="192x192" /> -->
+    <link rel="apple-touch-icon" href="images/FavIcons_Logo/apple-touch-icon.png" />
+    <!-- <meta name="msapplication-TileImage" content="images/FavIcons_Logo/android-chrome-192x192.png" /> -->
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
 
 
@@ -50,6 +55,22 @@
     style="background-color: black;"
 >
     <div id="root"></div>
+
+    <!-- <script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', function() {
+            navigator.serviceWorker.register('worker.js').then(function(registration) {
+              console.log('Worker registration successful', registration.scope);
+            }, function(err) {
+              console.log('Worker registration failed', err);
+            }).catch(function(err) {
+              console.log(err);
+            });
+          });
+        } else {
+          console.log('Service Worker is not supported by browser.');
+        }
+      </script> -->
     
     <div id="loftloader-wrapper" class="pl-imgloading" data-show-close-time="15000" data-max-load-time="0">
         <div class="loader-inner">
