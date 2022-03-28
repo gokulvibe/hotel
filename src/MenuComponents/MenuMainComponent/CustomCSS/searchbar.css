@@ -83,6 +83,10 @@ body{
 @media only screen 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
+    .wrap{
+      margin: auto;
+      width: 90%;
+    }
     .search {
       width: 100%;
       position: relative;
