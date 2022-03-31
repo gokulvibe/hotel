@@ -19,7 +19,53 @@ clientsClaim();
 // Their URLs are injected into the manifest variable below.
 // This variable must be present somewhere in your service worker file,
 // even if you decide not to use precaching. See https://cra.link/PWA
-precacheAndRoute(self.__WB_MANIFEST);
+// precacheAndRoute(self.__WB_MANIFEST);
+
+
+// New pre-caching
+// default static file URLs generated during the build process
+const staticBuildFiles = self.__WB_MANIFEST;
+
+// extra file URLs you want to be precached
+const extraPrecachedFiles = [
+  "/css/demo.css",
+  "/css/custom-css.min.css",
+  "/css/font-awesome.min.css",
+  "/css/left-align-menu.css",
+  "/css/modulobox.css",
+  "/css/reset.css",
+  "/css/responsive.css",
+  "/css/section1.css",
+  "/css/style.css",
+  "/css/themify-icons.css",
+  "/css/tooltipster.css",
+  "/css/wordpress.css",
+  "/css/imagesloaded.min.js",
+  "/css/jquery.js",
+  "/css/masonry.min.js",
+  "js/plugins/loftloader/assets/css/loftloader.min.css",
+  "js/plugins/elementor/assets/lib/animations/animations.min.css",
+  "js/plugins/elementor/assets/css/frontend-legacy.min.css",
+  "js/plugins/elementor/assets/css/frontend.min.css",
+  "js/plugins/craftcoffee-elementor/assets/css/swiper.css",
+  "js/plugins/craftcoffee-elementor/assets/css/justifiedGallery.css",
+  "js/plugins/craftcoffee-elementor/assets/css/flickity.css",
+  "js/plugins/craftcoffee-elementor/assets/css/owl.theme.default.min.css",
+  "js/plugins/craftcoffee-elementor/assets/css/switchery.css",
+  "js/plugins/craftcoffee-elementor/assets/css/craftcoffee-elementor.css",
+  "js/plugins/craftcoffee-elementor/assets/css/craftcoffee-elementor-responsive.css",
+  "js/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css",
+  "js/plugins/elementor/assets/lib/font-awesome/css/brands.min.css",
+  "js/plugins/elementor/assets/lib/font-awesome/css/solid.min.css",
+  "images/chefs.jpg"
+
+];
+
+// register all assets to be precached by the service worker
+precacheAndRoute([
+  ...staticBuildFiles,
+  ...extraPrecachedFiles.map((url) => ({ url, revision: "waaw" }))
+]);
 
 // Set up App Shell-style routing, so that all navigation requests
 // are fulfilled with your index.html shell. Learn more at
