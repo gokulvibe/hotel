@@ -1,8 +1,5 @@
 import Footer from "../Compnents2/Footer";
-import Header from "../Compnents2/Header";
 import MainContent from "../Compnents2/MainContent";
-import MobileMenu from "../Compnents2/MobileMenu";
-import React from 'react';
 import '../Compnents2/CustomCSS/snap.css';
 import "../Compnents2/CustomCSS/scroll.css";
 

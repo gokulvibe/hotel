@@ -57,14 +57,54 @@ const extraPrecachedFiles = [
   "js/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css",
   "js/plugins/elementor/assets/lib/font-awesome/css/brands.min.css",
   "js/plugins/elementor/assets/lib/font-awesome/css/solid.min.css",
-  "images/chefs.jpg"
+  "images/chefs.jpg",
+  "js/ui/core.min.js",
+  "js/ui/datepicker.min.js",
+  "js/imagesloaded.min.js",
+  "js/masonry.min.js",
+  "js/plugins/craftcoffee-elementor/assets/js/jquery.lazy.js",
+  "js/plugins/craftcoffee-elementor/assets/js/modulobox.js",
+  "js/plugins/craftcoffee-elementor/assets/js/jquery.parallax-scroll.js",
+  "js/plugins/craftcoffee-elementor/assets/js/jquery.smoove.js",
+  "js/plugins/craftcoffee-elementor/assets/js/parallax.js",
+  "js/plugins/craftcoffee-elementor/assets/js/jquery.sticky-kit.min.js",
+  "js/plugins/craftcoffee-elementor/assets/js/craftcoffee-elementor.js",
+  "js/ui/effect.min.js",
+  "js/plugins/craftcoffee-elementor/assets/js/tweenmax.min.js",
+  "js/plugins/waypoints.min.js",
+  "js/plugins/jquery-stellar.js",
+  "js/plugins/craftcoffee-elementor/assets/js/owl.carousel.min.js?ver=5.5.3",
+  "js/plugins/craftcoffee-plugins.js",
+  "js/plugins/craftcoffee-custom.js",
+  "js/plugins/jquery-tooltipster.js",
+  "js/plugins/loftloader/assets/js/loftloader.min.js",
+  "js/plugins/webfont.js",
+  "js/plugins/craftcoffee-elementor/assets/js/flickity.pkgd.js",
+  "js/plugins/elementor/assets/js/frontend-modules.min.js",
+  "js/ui/position.min.js",
+  "js/plugins/elementor/assets/lib/dialog/dialog.min.js",
+  "js/plugins/elementor/assets/lib/waypoints/waypoints.min.js",
+  "js/plugins/elementor/assets/lib/swiper/swiper.min.js",
+  "js/plugins/elementor/assets/js/frontend.min.js",
+  "images/FavIcons_Logo/favicon.ico",
+  "images/FavIcons_Logo/apple-touch-icon.png",
+  "customImages/logo_white.png",
+  "images/butter-naan.jpg",
+  "images/variety-indian-food.jpeg",
+  "images/event2.webp",
+  "images/event1.jpg",
+  "upload/icon_vintage_phone.png",
+  "upload/icon_vintage_compass.png",
+  "customImages/butterchicken.jpg",
+  "customImages/biriyani.jpg",
+  "customImages/dosa.jpg",
 
 ];
 
 // register all assets to be precached by the service worker
 precacheAndRoute([
   ...staticBuildFiles,
-  ...extraPrecachedFiles.map((url) => ({ url, revision: "waaw" }))
+  ...extraPrecachedFiles.map((url) => ({ url, revision: "hey1234" }))
 ]);
 
 // Set up App Shell-style routing, so that all navigation requests
