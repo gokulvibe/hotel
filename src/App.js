@@ -16,6 +16,7 @@ import Footer from 'Compnents2/Footer';
 import MobileMenu from 'Compnents2/MobileMenu';
 import Checkout from 'CommonComponents/Checkout';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import POS from 'Pages/POS';
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
                 <Route path='/orders' element={<Orders/>} />
                 <Route path='/stripe' element={<StripeMain/>} />
                 <Route path='/checkout' element={<Checkout/>}/>
+                <Route path='/pos' element={<POS/>}/>
             </Routes>
 
 

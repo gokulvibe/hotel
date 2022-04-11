@@ -1,0 +1,127 @@
+.POS{
+    width: fit-content;
+    width: 100%;
+    height: 50vh;   /* This height can be modified to fit it in the respective container */
+    
+}
+
+.POSBilling{
+    width: 100%;
+    height: 100%;
+    scrollbar-width: 0;
+    
+
+}
+
+.POSBilling_Inner{
+    
+}
+
+.POSBilling_Table_Row{
+    
+}
+.POSBilling_Header_in{
+    background-color: #122e57;
+    padding: 5px;
+    border-bottom: 100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    
+}
+
+.POSBilling_Header{
+    position: static;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+.POSBilling_Table_status{
+    margin: 15%;
+}
+
+table tr td{
+    border-spacing: 10px;
+    border-color: transparent !important;
+
+}
+
+.POSBilling_Table{
+    margin: 0;
+    background-color: #051539;
+    font-size: small;
+    border-color: transparent !important;
+}
+
+.POSBilling_Table_div{
+    height: 100%;
+    overflow-y: scroll;
+
+}
+
+.POSBillingSubItem{
+    margin: 0 100px;
+    width: 100%;
+}
+
+.POSBilling_Table_SubRow{
+    color: white;
+    opacity: .5;
+    text-align: right;
+    width: 100px;
+
+}
+
+
+
+.POSBilling_Table_Row{
+    width: 100px;
+    text-align: right;
+}
+
+.spacer{
+    height: 10px;
+}
+
+/* width */
+.POSBilling_Table_div::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  .POSBilling_Table_div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  .POSBilling_Table_div::-webkit-scrollbar-thumb {
+    background: #122e57;
+    border-radius: 10px;
+  }
+
+
+
+  /* Bottom Summary */
+
+  .bill_summary{
+      /* margin-top: 20px; */
+      padding: 10px;
+      background-color: #051539;
+  }
+
+  .bill_summary .value{
+  }
+
+  .bill_summary_inner{
+      display: flex;
+  }
+
+  .bill_summary_inner .title{
+      width: 50%;
+  }
+
+  .bill_summary_inner .value{
+      align-content: right;
+      text-align: right;
+    width: 50%;
+}
