@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import * as serviceWorker from './serviceWorker';
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 
+import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>

@@ -15,8 +15,12 @@ import Header from 'Compnents2/Header';
 import Footer from 'Compnents2/Footer';
 import MobileMenu from 'Compnents2/MobileMenu';
 import Checkout from 'CommonComponents/Checkout';
+import Main from "POS/Main";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import POS from 'Pages/POS';
+
+
+
 
 
 function App() {
@@ -42,6 +46,7 @@ function App() {
                 <Route path='/stripe' element={<StripeMain/>} />
                 <Route path='/checkout' element={<Checkout/>}/>
                 <Route path='/pos' element={<POS/>}/>
+                <Route path='/admin' element={<Main/>}/>
             </Routes>
 
 
